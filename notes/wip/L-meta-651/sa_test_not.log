@@ -1,0 +1,7 @@
+restart 1 best 13 best_ever 13 total_iters 20000000 time 6
+restart 2 best 1 best_ever 1 total_iters 40000000 time 12
+restart 3 best 3 best_ever 1 total_iters 60000000 time 17
+restart 4 best 3 best_ever 1 total_iters 80000000 time 23
+restart 5 best 3 best_ever 1 total_iters 100000000 time 29
+restart 6 best 2 best_ever 1 total_iters 120000000 time 35
+restart 7 best 5 best_ever 1 total_iters 140000000 time 41

@@ -1,0 +1,137 @@
+NEAR 3
+u2 3 4 5
+u2 3 6 4
+u2 7 5 6
+u2 7 1 7
+u2 1 1 10
+u2 5 6 10
+u2 1 7 11
+u2 3 3 13
+u2 6 15 14
+u2 3 3 12
+u2 7 18 17
+u2 3 20 19
+u2 3 9 21
+u2 6 8 19
+u2 2 2 17
+u2 5 14 0
+u2 3 22 16
+u2 1 26 23
+u2 2 27 24
+u2 4 28 25
+restart 1 found 0 best 3 best_ever 3 total_iters 20000000 time 6
+NEAR 4
+u2 7 5 4
+u2 7 9 1
+u2 7 10 1
+u2 3 5 9
+u2 4 12 0
+u2 3 11 8
+u2 7 4 8
+u2 1 15 6
+u2 2 12 15
+u2 1 2 13
+u2 1 15 13
+u2 2 18 19
+u2 1 19 7
+u2 3 21 3
+u2 4 18 3
+u2 3 22 17
+u2 3 2 16
+u2 7 23 26
+u2 4 14 27
+u2 5 28 25
+restart 2 found 0 best 4 best_ever 3 total_iters 40000000 time 12
+NEAR 4
+u2 3 3 1
+u2 5 7 10
+u2 3 0 8
+u2 7 9 0
+u2 6 12 7
+u2 7 10 12
+u2 7 1 8
+u2 3 9 16
+u2 4 9 14
+u2 3 15 4
+u2 1 2 18
+u2 3 3 13
+u2 3 6 19
+u2 4 5 14
+u2 1 21 4
+u2 7 22 17
+u2 4 25 23
+u2 1 20 11
+u2 7 24 26
+u2 7 28 27
+restart 3 found 0 best 4 best_ever 3 total_iters 60000000 time 18
+NEAR 3
+u2 7 3 5
+u2 3 5 1
+u2 3 7 4
+u2 3 3 1
+u2 7 10 6
+u2 1 6 12
+u2 1 4 11
+u2 2 9 15
+u2 5 11 14
+u2 3 16 15
+u2 6 18 10
+u2 4 14 8
+u2 1 16 0
+u2 0 20 19
+u2 7 2 23
+u2 5 22 21
+u2 3 25 17
+u2 2 13 7
+u2 5 27 24
+u2 4 26 28
+restart 4 found 0 best 3 best_ever 3 total_iters 80000000 time 24
+NEAR 1
+u2 7 9 0
+u2 7 9 5
+u2 7 3 10
+u2 0 2 3
+u2 7 0 6
+u2 7 5 6
+u2 3 11 2
+u2 7 2 14
+u2 0 15 14
+u2 7 3 15
+u2 7 13 1
+u2 0 18 11
+u2 5 16 7
+u2 3 4 21
+u2 1 23 12
+u2 4 17 20
+u2 4 19 8
+u2 6 22 24
+u2 4 26 25
+u2 7 28 27
+restart 5 found 0 best 1 best_ever 1 total_iters 100000000 time 30
+restart 6 found 0 best 13 best_ever 1 total_iters 120000000 time 36
+restart 7 found 0 best 8 best_ever 1 total_iters 140000000 time 41
+restart 8 found 0 best 13 best_ever 1 total_iters 160000000 time 47
+restart 9 found 0 best 8 best_ever 1 total_iters 180000000 time 53
+restart 10 found 0 best 11 best_ever 1 total_iters 200000000 time 58
+NEAR 3
+u2 7 7 6
+u2 7 10 4
+u2 3 7 1
+u2 3 10 3
+u2 3 4 1
+u2 5 3 12
+u2 5 5 14
+u2 0 16 11
+u2 7 6 5
+u2 7 18 3
+u2 0 15 2
+u2 4 16 0
+u2 6 15 13
+u2 0 9 11
+u2 2 17 22
+u2 7 8 24
+u2 4 19 25
+u2 3 20 23
+u2 4 27 26
+u2 5 28 21
+restart 11 found 0 best 3 best_ever 1 total_iters 220000000 time 64

@@ -1,0 +1,74 @@
+restart 1 found 0 best 1 best_ever 1 total_iters 20000000 time 5
+FOUND S=20 seed=5 restart=2 it=12700425
+or 9 5
+or 2 8
+or 0 8
+or 9 8
+or 0 3
+or 2 0
+and 15 1
+or 13 1
+and 11 3
+and 5 12
+or 10 2
+or 9 14
+and 6 17
+and 21 4
+or 7 19
+or 22 18
+or 23 16
+and 24 20
+or 27 26
+or 25 28
+restart 2 found 1 best 0 best_ever 0 total_iters 32700425 time 8
+restart 3 found 1 best 3 best_ever 0 total_iters 52700425 time 12
+restart 4 found 1 best 3 best_ever 0 total_iters 72700425 time 17
+restart 5 found 1 best 3 best_ever 0 total_iters 92700425 time 22
+restart 6 found 1 best 2 best_ever 0 total_iters 112700425 time 26
+restart 7 found 1 best 3 best_ever 0 total_iters 132700425 time 31
+restart 8 found 1 best 3 best_ever 0 total_iters 152700425 time 35
+FOUND S=20 seed=5 restart=9 it=6386028
+or 3 1
+or 7 10
+or 0 6
+or 6 5
+or 13 3
+or 9 0
+and 11 2
+or 15 3
+and 1 12
+and 4 17
+and 12 13
+or 5 9
+and 15 20
+or 22 7
+and 23 21
+and 14 8
+or 19 24
+or 16 26
+or 27 18
+or 25 28
+restart 9 found 2 best 0 best_ever 0 total_iters 159086453 time 37
+FOUND S=20 seed=5 restart=10 it=8910226
+or 4 2
+or 3 6
+or 5 11
+or 2 5
+or 5 4
+and 14 0
+or 2 6
+or 13 9
+or 4 6
+or 16 0
+and 3 10
+and 7 17
+and 9 18
+and 19 1
+and 12 8
+or 21 15
+or 23 22
+or 26 25
+or 27 24
+or 20 28
+restart 10 found 3 best 0 best_ever 0 total_iters 167996679 time 39
+restart 11 found 3 best 2 best_ever 0 total_iters 187996679 time 43

@@ -1,0 +1,108 @@
+restart 1 found 0 best 3 best_ever 3 total_iters 20000000 time 4
+FOUND S=20 seed=777 restart=2 it=11571404
+or 9 0
+or 5 6
+or 1 7
+or 3 10
+and 12 10
+and 4 13
+or 7 0
+and 16 14
+or 1 9
+or 6 17
+or 3 12
+and 18 19
+and 2 20
+or 3 11
+and 8 23
+and 16 5
+or 22 21
+or 26 25
+or 15 24
+or 27 28
+restart 2 found 1 best 0 best_ever 0 total_iters 31571404 time 7
+restart 3 found 1 best 2 best_ever 0 total_iters 51571404 time 11
+restart 4 found 1 best 3 best_ever 0 total_iters 71571404 time 16
+restart 5 found 1 best 5 best_ever 0 total_iters 91571404 time 20
+restart 6 found 1 best 3 best_ever 0 total_iters 111571404 time 25
+restart 7 found 1 best 1 best_ever 0 total_iters 131571404 time 29
+restart 8 found 1 best 4 best_ever 0 total_iters 151571404 time 34
+FOUND S=20 seed=777 restart=9 it=10749304
+or 9 8
+or 4 8
+or 1 10
+or 9 5
+and 12 6
+or 5 4
+and 13 15
+or 7 3
+or 1 15
+and 13 7
+or 17 1
+and 2 20
+and 10 16
+and 0 18
+or 22 3
+and 11 24
+or 19 23
+or 14 26
+or 25 27
+or 28 21
+restart 9 found 2 best 0 best_ever 0 total_iters 162320708 time 36
+restart 10 found 2 best 1 best_ever 0 total_iters 182320708 time 41
+restart 11 found 2 best 3 best_ever 0 total_iters 202320708 time 45
+restart 12 found 2 best 2 best_ever 0 total_iters 222320708 time 50
+restart 13 found 2 best 3 best_ever 0 total_iters 242320708 time 54
+restart 14 found 2 best 2 best_ever 0 total_iters 262320708 time 59
+restart 15 found 2 best 7 best_ever 0 total_iters 282320708 time 64
+restart 16 found 2 best 3 best_ever 0 total_iters 302320708 time 69
+restart 17 found 2 best 3 best_ever 0 total_iters 322320708 time 74
+FOUND S=20 seed=777 restart=18 it=7709559
+or 7 3
+or 8 9
+or 7 8
+or 9 3
+and 13 12
+and 2 10
+or 0 13
+or 0 12
+and 10 14
+and 17 5
+or 1 15
+and 4 16
+or 18 6
+or 0 6
+and 11 22
+or 2 23
+or 21 24
+and 25 20
+or 27 26
+or 28 19
+restart 18 found 3 best 0 best_ever 0 total_iters 330030267 time 75
+FOUND S=20 seed=777 restart=19 it=4876510
+or 5 1
+or 9 0
+or 5 3
+or 1 7
+or 5 9
+and 0 10
+or 3 11
+or 9 1
+and 4 16
+or 3 13
+or 12 6
+and 14 7
+and 6 17
+and 20 8
+or 2 21
+or 23 22
+and 24 19
+or 15 25
+or 27 18
+or 28 26
+restart 19 found 4 best 0 best_ever 0 total_iters 334906777 time 76
+restart 20 found 4 best 2 best_ever 0 total_iters 354906777 time 81
+restart 21 found 4 best 1 best_ever 0 total_iters 374906777 time 86
+restart 22 found 4 best 2 best_ever 0 total_iters 394906777 time 91
+restart 23 found 4 best 3 best_ever 0 total_iters 414906777 time 96
+restart 24 found 4 best 3 best_ever 0 total_iters 434906777 time 101

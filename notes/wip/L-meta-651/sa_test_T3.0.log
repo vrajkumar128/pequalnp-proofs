@@ -1,0 +1,23 @@
+restart 1 best 5 best_ever 5 total_iters 20000000 time 5
+restart 2 best 1 best_ever 1 total_iters 40000000 time 10
+FOUND S=20 seed=7 restart=3 it=16157652
+or 6 5
+or 7 3
+and 11 2
+or 4 6
+or 2 0
+or 0 7
+or 3 10
+or 7 13
+and 8 16
+and 5 15
+or 3 0
+and 20 4
+or 6 14
+and 9 17
+or 23 19
+or 24 18
+or 25 21
+or 1 12
+and 27 22
+or 26 28

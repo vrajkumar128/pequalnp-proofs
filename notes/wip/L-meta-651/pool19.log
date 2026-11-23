@@ -1,0 +1,812 @@
+restart 1 found 0 best 9 best_ever 9 total_iters 5000000 time 1
+restart 2 found 0 best 13 best_ever 9 total_iters 10000000 time 3
+restart 3 found 0 best 9 best_ever 9 total_iters 15000000 time 5
+restart 4 found 0 best 13 best_ever 9 total_iters 20000000 time 6
+restart 5 found 0 best 9 best_ever 9 total_iters 25000000 time 7
+restart 6 found 0 best 11 best_ever 9 total_iters 30000000 time 9
+NEAR 4
+or 9 8
+or 10 1
+or 7 3
+or 0 9
+or 0 7
+or 3 13
+or 2 15
+or 14 8
+or 12 1
+and 18 16
+and 19 17
+or 6 20
+and 4 15
+and 2 19
+and 21 11
+or 22 24
+or 25 23
+and 17 5
+or 27 26
+restart 7 found 0 best 4 best_ever 4 total_iters 35000000 time 10
+restart 8 found 0 best 9 best_ever 4 total_iters 40000000 time 12
+restart 9 found 0 best 5 best_ever 4 total_iters 45000000 time 13
+restart 10 found 0 best 18 best_ever 4 total_iters 50000000 time 15
+restart 11 found 0 best 5 best_ever 4 total_iters 55000000 time 16
+restart 12 found 0 best 9 best_ever 4 total_iters 60000000 time 17
+restart 13 found 0 best 9 best_ever 4 total_iters 65000000 time 19
+restart 14 found 0 best 9 best_ever 4 total_iters 70000000 time 20
+restart 15 found 0 best 5 best_ever 4 total_iters 75000000 time 22
+restart 16 found 0 best 13 best_ever 4 total_iters 80000000 time 23
+NEAR 4
+or 6 4
+or 2 6
+or 10 7
+or 8 4
+or 7 0
+or 8 14
+and 9 12
+and 12 15
+or 13 2
+and 17 18
+or 1 19
+and 15 5
+or 0 11
+or 21 16
+and 18 3
+and 22 20
+and 22 17
+or 23 25
+or 27 24
+restart 17 found 0 best 4 best_ever 4 total_iters 85000000 time 25
+restart 18 found 0 best 9 best_ever 4 total_iters 90000000 time 26
+restart 19 found 0 best 9 best_ever 4 total_iters 95000000 time 27
+restart 20 found 0 best 9 best_ever 4 total_iters 100000000 time 29
+restart 21 found 0 best 5 best_ever 4 total_iters 105000000 time 30
+restart 22 found 0 best 5 best_ever 4 total_iters 110000000 time 32
+restart 23 found 0 best 13 best_ever 4 total_iters 115000000 time 33
+restart 24 found 0 best 7 best_ever 4 total_iters 120000000 time 35
+restart 25 found 0 best 7 best_ever 4 total_iters 125000000 time 36
+restart 26 found 0 best 5 best_ever 4 total_iters 130000000 time 38
+restart 27 found 0 best 9 best_ever 4 total_iters 135000000 time 39
+restart 28 found 0 best 9 best_ever 4 total_iters 140000000 time 41
+restart 29 found 0 best 9 best_ever 4 total_iters 145000000 time 42
+restart 30 found 0 best 8 best_ever 4 total_iters 150000000 time 44
+restart 31 found 0 best 8 best_ever 4 total_iters 155000000 time 45
+restart 32 found 0 best 9 best_ever 4 total_iters 160000000 time 47
+restart 33 found 0 best 6 best_ever 4 total_iters 165000000 time 48
+restart 34 found 0 best 5 best_ever 4 total_iters 170000000 time 50
+restart 35 found 0 best 8 best_ever 4 total_iters 175000000 time 51
+restart 36 found 0 best 9 best_ever 4 total_iters 180000000 time 53
+NEAR 4
+or 3 9
+or 1 3
+or 11 7
+or 9 1
+or 8 0
+or 10 0
+and 12 15
+and 15 4
+or 14 7
+or 8 13
+and 16 18
+or 6 20
+and 12 2
+and 19 21
+or 17 23
+and 5 18
+and 8 11
+or 22 25
+or 27 24
+restart 37 found 0 best 4 best_ever 4 total_iters 185000000 time 54
+restart 38 found 0 best 9 best_ever 4 total_iters 190000000 time 55
+restart 39 found 0 best 5 best_ever 4 total_iters 195000000 time 57
+restart 40 found 0 best 5 best_ever 4 total_iters 200000000 time 58
+restart 41 found 0 best 5 best_ever 4 total_iters 205000000 time 60
+restart 42 found 0 best 5 best_ever 4 total_iters 210000000 time 61
+restart 43 found 0 best 10 best_ever 4 total_iters 215000000 time 63
+restart 44 found 0 best 5 best_ever 4 total_iters 220000000 time 64
+restart 45 found 0 best 9 best_ever 4 total_iters 225000000 time 66
+restart 46 found 0 best 9 best_ever 4 total_iters 230000000 time 67
+restart 47 found 0 best 9 best_ever 4 total_iters 235000000 time 68
+restart 48 found 0 best 9 best_ever 4 total_iters 240000000 time 70
+restart 49 found 0 best 5 best_ever 4 total_iters 245000000 time 71
+restart 50 found 0 best 13 best_ever 4 total_iters 250000000 time 73
+restart 51 found 0 best 5 best_ever 4 total_iters 255000000 time 74
+restart 52 found 0 best 8 best_ever 4 total_iters 260000000 time 76
+restart 53 found 0 best 8 best_ever 4 total_iters 265000000 time 77
+restart 54 found 0 best 9 best_ever 4 total_iters 270000000 time 79
+restart 55 found 0 best 18 best_ever 4 total_iters 275000000 time 80
+restart 56 found 0 best 18 best_ever 4 total_iters 280000000 time 81
+restart 57 found 0 best 5 best_ever 4 total_iters 285000000 time 83
+restart 58 found 0 best 9 best_ever 4 total_iters 290000000 time 84
+restart 59 found 0 best 13 best_ever 4 total_iters 295000000 time 86
+restart 60 found 0 best 8 best_ever 4 total_iters 300000000 time 87
+restart 61 found 0 best 6 best_ever 4 total_iters 305000000 time 89
+restart 62 found 0 best 6 best_ever 4 total_iters 310000000 time 90
+restart 63 found 0 best 11 best_ever 4 total_iters 315000000 time 91
+restart 64 found 0 best 5 best_ever 4 total_iters 320000000 time 93
+restart 65 found 0 best 8 best_ever 4 total_iters 325000000 time 94
+restart 66 found 0 best 5 best_ever 4 total_iters 330000000 time 96
+restart 67 found 0 best 11 best_ever 4 total_iters 335000000 time 97
+restart 68 found 0 best 5 best_ever 4 total_iters 340000000 time 99
+restart 69 found 0 best 9 best_ever 4 total_iters 345000000 time 100
+restart 70 found 0 best 5 best_ever 4 total_iters 350000000 time 102
+restart 71 found 0 best 18 best_ever 4 total_iters 355000000 time 103
+restart 72 found 0 best 5 best_ever 4 total_iters 360000000 time 105
+restart 73 found 0 best 5 best_ever 4 total_iters 365000000 time 106
+restart 74 found 0 best 11 best_ever 4 total_iters 370000000 time 107
+restart 75 found 0 best 9 best_ever 4 total_iters 375000000 time 109
+restart 76 found 0 best 5 best_ever 4 total_iters 380000000 time 111
+NEAR 4
+or 2 4
+or 10 8
+or 9 2
+or 4 1
+or 13 5
+or 1 8
+or 15 9
+and 16 14
+or 5 12
+and 17 18
+and 18 7
+and 16 6
+and 0 14
+or 19 3
+and 11 23
+or 22 20
+or 3 6
+or 25 21
+or 27 24
+restart 77 found 0 best 4 best_ever 4 total_iters 385000000 time 112
+restart 78 found 0 best 6 best_ever 4 total_iters 390000000 time 114
+restart 79 found 0 best 5 best_ever 4 total_iters 395000000 time 115
+restart 80 found 0 best 9 best_ever 4 total_iters 400000000 time 117
+restart 81 found 0 best 6 best_ever 4 total_iters 405000000 time 118
+restart 82 found 0 best 9 best_ever 4 total_iters 410000000 time 120
+restart 83 found 0 best 5 best_ever 4 total_iters 415000000 time 121
+restart 84 found 0 best 11 best_ever 4 total_iters 420000000 time 123
+restart 85 found 0 best 6 best_ever 4 total_iters 425000000 time 124
+restart 86 found 0 best 6 best_ever 4 total_iters 430000000 time 126
+restart 87 found 0 best 8 best_ever 4 total_iters 435000000 time 127
+restart 88 found 0 best 13 best_ever 4 total_iters 440000000 time 129
+restart 89 found 0 best 5 best_ever 4 total_iters 445000000 time 130
+restart 90 found 0 best 5 best_ever 4 total_iters 450000000 time 131
+restart 91 found 0 best 5 best_ever 4 total_iters 455000000 time 133
+restart 92 found 0 best 15 best_ever 4 total_iters 460000000 time 134
+restart 93 found 0 best 9 best_ever 4 total_iters 465000000 time 136
+restart 94 found 0 best 9 best_ever 4 total_iters 470000000 time 137
+restart 95 found 0 best 9 best_ever 4 total_iters 475000000 time 138
+restart 96 found 0 best 12 best_ever 4 total_iters 480000000 time 140
+restart 97 found 0 best 6 best_ever 4 total_iters 485000000 time 141
+restart 98 found 0 best 9 best_ever 4 total_iters 490000000 time 143
+restart 99 found 0 best 9 best_ever 4 total_iters 495000000 time 144
+restart 100 found 0 best 9 best_ever 4 total_iters 500000000 time 146
+restart 101 found 0 best 10 best_ever 4 total_iters 505000000 time 147
+restart 102 found 0 best 18 best_ever 4 total_iters 510000000 time 149
+restart 103 found 0 best 14 best_ever 4 total_iters 515000000 time 150
+restart 104 found 0 best 18 best_ever 4 total_iters 520000000 time 151
+restart 105 found 0 best 13 best_ever 4 total_iters 525000000 time 153
+restart 106 found 0 best 9 best_ever 4 total_iters 530000000 time 154
+restart 107 found 0 best 12 best_ever 4 total_iters 535000000 time 156
+restart 108 found 0 best 5 best_ever 4 total_iters 540000000 time 157
+NEAR 4
+or 8 2
+or 2 6
+or 10 4
+or 0 8
+or 13 7
+or 6 4
+or 15 7
+and 14 12
+and 16 17
+or 12 18
+or 18 1
+and 19 3
+or 11 0
+and 14 5
+and 20 22
+or 21 23
+and 9 16
+or 26 25
+or 24 27
+restart 109 found 0 best 4 best_ever 4 total_iters 545000000 time 158
+restart 110 found 0 best 13 best_ever 4 total_iters 550000000 time 160
+restart 111 found 0 best 7 best_ever 4 total_iters 555000000 time 161
+restart 112 found 0 best 9 best_ever 4 total_iters 560000000 time 163
+restart 113 found 0 best 9 best_ever 4 total_iters 565000000 time 164
+restart 114 found 0 best 5 best_ever 4 total_iters 570000000 time 165
+restart 115 found 0 best 5 best_ever 4 total_iters 575000000 time 167
+restart 116 found 0 best 9 best_ever 4 total_iters 580000000 time 168
+restart 117 found 0 best 5 best_ever 4 total_iters 585000000 time 170
+restart 118 found 0 best 5 best_ever 4 total_iters 590000000 time 171
+restart 119 found 0 best 9 best_ever 4 total_iters 595000000 time 173
+restart 120 found 0 best 13 best_ever 4 total_iters 600000000 time 174
+restart 121 found 0 best 8 best_ever 4 total_iters 605000000 time 176
+restart 122 found 0 best 9 best_ever 4 total_iters 610000000 time 177
+restart 123 found 0 best 9 best_ever 4 total_iters 615000000 time 178
+restart 124 found 0 best 7 best_ever 4 total_iters 620000000 time 180
+restart 125 found 0 best 5 best_ever 4 total_iters 625000000 time 181
+restart 126 found 0 best 5 best_ever 4 total_iters 630000000 time 183
+restart 127 found 0 best 6 best_ever 4 total_iters 635000000 time 184
+restart 128 found 0 best 18 best_ever 4 total_iters 640000000 time 186
+restart 129 found 0 best 9 best_ever 4 total_iters 645000000 time 187
+restart 130 found 0 best 9 best_ever 4 total_iters 650000000 time 188
+restart 131 found 0 best 18 best_ever 4 total_iters 655000000 time 190
+restart 132 found 0 best 10 best_ever 4 total_iters 660000000 time 191
+restart 133 found 0 best 18 best_ever 4 total_iters 665000000 time 193
+restart 134 found 0 best 9 best_ever 4 total_iters 670000000 time 194
+restart 135 found 0 best 9 best_ever 4 total_iters 675000000 time 196
+NEAR 4
+or 0 9
+or 1 8
+or 1 7
+or 12 3
+or 8 7
+or 0 14
+not 3 7
+and 15 5
+or 9 11
+or 3 10
+and 6 18
+and 15 18
+and 13 2
+or 20 22
+and 13 21
+or 4 24
+and 19 25
+or 17 26
+or 23 27
+restart 136 found 0 best 4 best_ever 4 total_iters 680000000 time 197
+restart 137 found 0 best 9 best_ever 4 total_iters 685000000 time 198
+restart 138 found 0 best 18 best_ever 4 total_iters 690000000 time 200
+restart 139 found 0 best 9 best_ever 4 total_iters 695000000 time 201
+NEAR 4
+or 8 2
+or 1 4
+or 8 9
+or 11 5
+or 5 2
+or 4 10
+or 12 1
+or 9 14
+and 17 15
+and 13 18
+and 3 15
+or 13 1
+or 19 6
+and 0 21
+and 22 16
+and 7 17
+or 24 25
+or 26 23
+or 27 20
+restart 140 found 0 best 4 best_ever 4 total_iters 700000000 time 203
+restart 141 found 0 best 5 best_ever 4 total_iters 705000000 time 204
+restart 142 found 0 best 5 best_ever 4 total_iters 710000000 time 206
+restart 143 found 0 best 9 best_ever 4 total_iters 715000000 time 207
+restart 144 found 0 best 9 best_ever 4 total_iters 720000000 time 208
+restart 145 found 0 best 11 best_ever 4 total_iters 725000000 time 210
+restart 146 found 0 best 5 best_ever 4 total_iters 730000000 time 211
+restart 147 found 0 best 6 best_ever 4 total_iters 735000000 time 213
+restart 148 found 0 best 9 best_ever 4 total_iters 740000000 time 214
+restart 149 found 0 best 18 best_ever 4 total_iters 745000000 time 216
+restart 150 found 0 best 9 best_ever 4 total_iters 750000000 time 217
+restart 151 found 0 best 9 best_ever 4 total_iters 755000000 time 219
+restart 152 found 0 best 9 best_ever 4 total_iters 760000000 time 220
+restart 153 found 0 best 9 best_ever 4 total_iters 765000000 time 222
+restart 154 found 0 best 5 best_ever 4 total_iters 770000000 time 223
+restart 155 found 0 best 8 best_ever 4 total_iters 775000000 time 225
+restart 156 found 0 best 6 best_ever 4 total_iters 780000000 time 226
+restart 157 found 0 best 5 best_ever 4 total_iters 785000000 time 228
+restart 158 found 0 best 8 best_ever 4 total_iters 790000000 time 229
+restart 159 found 0 best 8 best_ever 4 total_iters 795000000 time 231
+restart 160 found 0 best 11 best_ever 4 total_iters 800000000 time 232
+restart 161 found 0 best 5 best_ever 4 total_iters 805000000 time 233
+restart 162 found 0 best 11 best_ever 4 total_iters 810000000 time 235
+restart 163 found 0 best 9 best_ever 4 total_iters 815000000 time 236
+restart 164 found 0 best 9 best_ever 4 total_iters 820000000 time 238
+restart 165 found 0 best 9 best_ever 4 total_iters 825000000 time 239
+restart 166 found 0 best 18 best_ever 4 total_iters 830000000 time 241
+restart 167 found 0 best 5 best_ever 4 total_iters 835000000 time 242
+restart 168 found 0 best 9 best_ever 4 total_iters 840000000 time 244
+restart 169 found 0 best 18 best_ever 4 total_iters 845000000 time 245
+restart 170 found 0 best 9 best_ever 4 total_iters 850000000 time 246
+restart 171 found 0 best 9 best_ever 4 total_iters 855000000 time 248
+restart 172 found 0 best 5 best_ever 4 total_iters 860000000 time 249
+restart 173 found 0 best 9 best_ever 4 total_iters 865000000 time 251
+restart 174 found 0 best 5 best_ever 4 total_iters 870000000 time 252
+restart 175 found 0 best 5 best_ever 4 total_iters 875000000 time 253
+restart 176 found 0 best 5 best_ever 4 total_iters 880000000 time 255
+restart 177 found 0 best 7 best_ever 4 total_iters 885000000 time 256
+restart 178 found 0 best 5 best_ever 4 total_iters 890000000 time 258
+restart 179 found 0 best 9 best_ever 4 total_iters 895000000 time 259
+restart 180 found 0 best 18 best_ever 4 total_iters 900000000 time 261
+restart 181 found 0 best 9 best_ever 4 total_iters 905000000 time 262
+restart 182 found 0 best 9 best_ever 4 total_iters 910000000 time 264
+restart 183 found 0 best 9 best_ever 4 total_iters 915000000 time 265
+restart 184 found 0 best 9 best_ever 4 total_iters 920000000 time 267
+restart 185 found 0 best 8 best_ever 4 total_iters 925000000 time 268
+restart 186 found 0 best 9 best_ever 4 total_iters 930000000 time 269
+restart 187 found 0 best 5 best_ever 4 total_iters 935000000 time 271
+restart 188 found 0 best 9 best_ever 4 total_iters 940000000 time 272
+NEAR 4
+or 0 9
+or 3 10
+or 5 6
+and 4 11
+or 0 2
+or 14 6
+and 15 1
+or 3 12
+and 8 17
+and 15 17
+or 9 2
+or 5 20
+and 21 7
+and 21 11
+or 13 22
+and 19 23
+or 16 24
+or 18 25
+or 26 27
+restart 189 found 0 best 4 best_ever 4 total_iters 945000000 time 274
+restart 190 found 0 best 9 best_ever 4 total_iters 950000000 time 275
+restart 191 found 0 best 9 best_ever 4 total_iters 955000000 time 277
+restart 192 found 0 best 6 best_ever 4 total_iters 960000000 time 278
+restart 193 found 0 best 6 best_ever 4 total_iters 965000000 time 280
+restart 194 found 0 best 9 best_ever 4 total_iters 970000000 time 281
+restart 195 found 0 best 9 best_ever 4 total_iters 975000000 time 283
+NEAR 4
+or 9 0
+or 7 3
+or 10 3
+or 11 1
+or 8 0
+or 8 1
+and 12 13
+or 7 14
+and 16 17
+and 17 5
+or 15 9
+and 4 12
+or 0 15
+and 2 13
+or 18 6
+or 21 23
+and 24 20
+or 26 25
+or 27 19
+restart 196 found 0 best 4 best_ever 4 total_iters 980000000 time 284
+NEAR 4
+or 3 6
+or 6 2
+or 11 0
+or 0 9
+or 13 3
+or 5 10
+and 14 12
+or 5 2
+and 15 16
+or 12 0
+and 8 15
+and 14 4
+and 19 1
+or 7 18
+or 17 9
+and 24 23
+or 20 25
+or 21 22
+or 27 26
+restart 197 found 0 best 4 best_ever 4 total_iters 985000000 time 285
+restart 198 found 0 best 18 best_ever 4 total_iters 990000000 time 287
+restart 199 found 0 best 14 best_ever 4 total_iters 995000000 time 289
+restart 200 found 0 best 5 best_ever 4 total_iters 1000000000 time 290
+restart 201 found 0 best 9 best_ever 4 total_iters 1005000000 time 292
+restart 202 found 0 best 9 best_ever 4 total_iters 1010000000 time 293
+restart 203 found 0 best 6 best_ever 4 total_iters 1015000000 time 295
+restart 204 found 0 best 10 best_ever 4 total_iters 1020000000 time 296
+restart 205 found 0 best 9 best_ever 4 total_iters 1025000000 time 297
+restart 206 found 0 best 7 best_ever 4 total_iters 1030000000 time 299
+restart 207 found 0 best 9 best_ever 4 total_iters 1035000000 time 300
+restart 208 found 0 best 9 best_ever 4 total_iters 1040000000 time 302
+restart 209 found 0 best 6 best_ever 4 total_iters 1045000000 time 303
+restart 210 found 0 best 9 best_ever 4 total_iters 1050000000 time 305
+restart 211 found 0 best 13 best_ever 4 total_iters 1055000000 time 306
+restart 212 found 0 best 5 best_ever 4 total_iters 1060000000 time 307
+restart 213 found 0 best 9 best_ever 4 total_iters 1065000000 time 309
+restart 214 found 0 best 9 best_ever 4 total_iters 1070000000 time 311
+restart 215 found 0 best 9 best_ever 4 total_iters 1075000000 time 312
+restart 216 found 0 best 11 best_ever 4 total_iters 1080000000 time 313
+restart 217 found 0 best 18 best_ever 4 total_iters 1085000000 time 315
+restart 218 found 0 best 9 best_ever 4 total_iters 1090000000 time 316
+restart 219 found 0 best 9 best_ever 4 total_iters 1095000000 time 318
+restart 220 found 0 best 9 best_ever 4 total_iters 1100000000 time 319
+restart 221 found 0 best 7 best_ever 4 total_iters 1105000000 time 320
+restart 222 found 0 best 5 best_ever 4 total_iters 1110000000 time 322
+restart 223 found 0 best 18 best_ever 4 total_iters 1115000000 time 323
+restart 224 found 0 best 11 best_ever 4 total_iters 1120000000 time 325
+restart 225 found 0 best 5 best_ever 4 total_iters 1125000000 time 326
+NEAR 4
+or 7 3
+or 8 9
+or 11 1
+or 9 3
+or 10 1
+or 0 13
+and 15 12
+and 16 14
+or 8 0
+and 15 4
+or 7 18
+or 17 5
+and 2 14
+and 20 21
+or 8 12
+and 24 6
+or 19 25
+or 22 26
+or 23 27
+restart 226 found 0 best 4 best_ever 4 total_iters 1130000000 time 328
+restart 227 found 0 best 9 best_ever 4 total_iters 1135000000 time 329
+restart 228 found 0 best 18 best_ever 4 total_iters 1140000000 time 330
+restart 229 found 0 best 9 best_ever 4 total_iters 1145000000 time 332
+restart 230 found 0 best 11 best_ever 4 total_iters 1150000000 time 333
+restart 231 found 0 best 14 best_ever 4 total_iters 1155000000 time 335
+restart 232 found 0 best 6 best_ever 4 total_iters 1160000000 time 336
+restart 233 found 0 best 5 best_ever 4 total_iters 1165000000 time 338
+restart 234 found 0 best 8 best_ever 4 total_iters 1170000000 time 339
+restart 235 found 0 best 9 best_ever 4 total_iters 1175000000 time 341
+restart 236 found 0 best 5 best_ever 4 total_iters 1180000000 time 342
+restart 237 found 0 best 18 best_ever 4 total_iters 1185000000 time 343
+restart 238 found 0 best 5 best_ever 4 total_iters 1190000000 time 345
+restart 239 found 0 best 6 best_ever 4 total_iters 1195000000 time 346
+restart 240 found 0 best 9 best_ever 4 total_iters 1200000000 time 348
+restart 241 found 0 best 9 best_ever 4 total_iters 1205000000 time 349
+restart 242 found 0 best 8 best_ever 4 total_iters 1210000000 time 351
+restart 243 found 0 best 13 best_ever 4 total_iters 1215000000 time 352
+restart 244 found 0 best 9 best_ever 4 total_iters 1220000000 time 354
+restart 245 found 0 best 9 best_ever 4 total_iters 1225000000 time 355
+restart 246 found 0 best 9 best_ever 4 total_iters 1230000000 time 356
+restart 247 found 0 best 5 best_ever 4 total_iters 1235000000 time 358
+restart 248 found 0 best 5 best_ever 4 total_iters 1240000000 time 360
+restart 249 found 0 best 6 best_ever 4 total_iters 1245000000 time 361
+restart 250 found 0 best 13 best_ever 4 total_iters 1250000000 time 363
+restart 251 found 0 best 9 best_ever 4 total_iters 1255000000 time 364
+restart 252 found 0 best 13 best_ever 4 total_iters 1260000000 time 366
+restart 253 found 0 best 9 best_ever 4 total_iters 1265000000 time 367
+restart 254 found 0 best 10 best_ever 4 total_iters 1270000000 time 368
+restart 255 found 0 best 9 best_ever 4 total_iters 1275000000 time 370
+restart 256 found 0 best 18 best_ever 4 total_iters 1280000000 time 371
+restart 257 found 0 best 5 best_ever 4 total_iters 1285000000 time 373
+restart 258 found 0 best 9 best_ever 4 total_iters 1290000000 time 374
+restart 259 found 0 best 5 best_ever 4 total_iters 1295000000 time 376
+restart 260 found 0 best 8 best_ever 4 total_iters 1300000000 time 377
+restart 261 found 0 best 11 best_ever 4 total_iters 1305000000 time 378
+restart 262 found 0 best 5 best_ever 4 total_iters 1310000000 time 380
+restart 263 found 0 best 6 best_ever 4 total_iters 1315000000 time 381
+restart 264 found 0 best 9 best_ever 4 total_iters 1320000000 time 383
+restart 265 found 0 best 8 best_ever 4 total_iters 1325000000 time 385
+NEAR 4
+or 6 3
+or 9 0
+or 3 11
+or 2 9
+or 0 6
+or 5 13
+and 7 15
+or 10 5
+or 2 14
+and 15 12
+and 17 19
+or 1 20
+or 10 5
+and 4 12
+and 18 21
+or 23 16
+or 24 25
+and 8 22
+or 26 27
+restart 266 found 0 best 4 best_ever 4 total_iters 1330000000 time 386
+restart 267 found 0 best 18 best_ever 4 total_iters 1335000000 time 388
+restart 268 found 0 best 9 best_ever 4 total_iters 1340000000 time 389
+restart 269 found 0 best 5 best_ever 4 total_iters 1345000000 time 391
+restart 270 found 0 best 14 best_ever 4 total_iters 1350000000 time 392
+restart 271 found 0 best 18 best_ever 4 total_iters 1355000000 time 394
+restart 272 found 0 best 5 best_ever 4 total_iters 1360000000 time 395
+restart 273 found 0 best 9 best_ever 4 total_iters 1365000000 time 397
+restart 274 found 0 best 13 best_ever 4 total_iters 1370000000 time 398
+restart 275 found 0 best 6 best_ever 4 total_iters 1375000000 time 399
+restart 276 found 0 best 11 best_ever 4 total_iters 1380000000 time 401
+restart 277 found 0 best 9 best_ever 4 total_iters 1385000000 time 402
+restart 278 found 0 best 9 best_ever 4 total_iters 1390000000 time 404
+restart 279 found 0 best 9 best_ever 4 total_iters 1395000000 time 405
+restart 280 found 0 best 11 best_ever 4 total_iters 1400000000 time 407
+restart 281 found 0 best 9 best_ever 4 total_iters 1405000000 time 408
+restart 282 found 0 best 8 best_ever 4 total_iters 1410000000 time 409
+restart 283 found 0 best 7 best_ever 4 total_iters 1415000000 time 411
+restart 284 found 0 best 9 best_ever 4 total_iters 1420000000 time 412
+restart 285 found 0 best 9 best_ever 4 total_iters 1425000000 time 414
+restart 286 found 0 best 8 best_ever 4 total_iters 1430000000 time 415
+restart 287 found 0 best 6 best_ever 4 total_iters 1435000000 time 417
+NEAR 4
+or 3 9
+or 9 2
+or 11 5
+or 6 3
+or 13 5
+and 12 14
+and 12 7
+or 6 2
+or 0 10
+and 15 18
+and 14 8
+or 1 19
+or 0 17
+or 4 10
+or 16 20
+and 22 21
+and 18 4
+or 24 26
+or 27 25
+restart 288 found 0 best 4 best_ever 4 total_iters 1440000000 time 418
+restart 289 found 0 best 5 best_ever 4 total_iters 1445000000 time 419
+restart 290 found 0 best 5 best_ever 4 total_iters 1450000000 time 421
+restart 291 found 0 best 9 best_ever 4 total_iters 1455000000 time 422
+restart 292 found 0 best 7 best_ever 4 total_iters 1460000000 time 424
+restart 293 found 0 best 5 best_ever 4 total_iters 1465000000 time 425
+restart 294 found 0 best 10 best_ever 4 total_iters 1470000000 time 427
+NEAR 4
+or 9 2
+or 0 9
+or 6 5
+or 3 11
+or 13 3
+or 3 12
+or 6 0
+or 16 2
+and 17 14
+or 10 5
+and 1 17
+and 15 18
+or 21 7
+and 22 19
+and 15 8
+and 4 13
+or 24 25
+or 20 26
+or 27 23
+restart 295 found 0 best 4 best_ever 4 total_iters 1475000000 time 429
+restart 296 found 0 best 5 best_ever 4 total_iters 1480000000 time 430
+restart 297 found 0 best 7 best_ever 4 total_iters 1485000000 time 432
+restart 298 found 0 best 6 best_ever 4 total_iters 1490000000 time 433
+restart 299 found 0 best 9 best_ever 4 total_iters 1495000000 time 435
+restart 300 found 0 best 5 best_ever 4 total_iters 1500000000 time 436
+restart 301 found 0 best 9 best_ever 4 total_iters 1505000000 time 438
+restart 302 found 0 best 5 best_ever 4 total_iters 1510000000 time 439
+restart 303 found 0 best 9 best_ever 4 total_iters 1515000000 time 440
+restart 304 found 0 best 5 best_ever 4 total_iters 1520000000 time 442
+NEAR 4
+or 0 2
+or 8 4
+or 8 7
+or 6 7
+or 10 6
+and 1 14
+or 0 12
+or 2 11
+and 5 16
+and 14 16
+and 19 17
+or 20 9
+or 2 11
+or 13 4
+and 3 22
+and 21 23
+or 25 24
+or 18 15
+or 26 27
+restart 305 found 0 best 4 best_ever 4 total_iters 1525000000 time 443
+restart 306 found 0 best 10 best_ever 4 total_iters 1530000000 time 445
+restart 307 found 0 best 18 best_ever 4 total_iters 1535000000 time 446
+restart 308 found 0 best 18 best_ever 4 total_iters 1540000000 time 448
+restart 309 found 0 best 11 best_ever 4 total_iters 1545000000 time 449
+restart 310 found 0 best 5 best_ever 4 total_iters 1550000000 time 451
+restart 311 found 0 best 5 best_ever 4 total_iters 1555000000 time 452
+restart 312 found 0 best 9 best_ever 4 total_iters 1560000000 time 454
+restart 313 found 0 best 5 best_ever 4 total_iters 1565000000 time 455
+restart 314 found 0 best 9 best_ever 4 total_iters 1570000000 time 457
+restart 315 found 0 best 12 best_ever 4 total_iters 1575000000 time 458
+restart 316 found 0 best 9 best_ever 4 total_iters 1580000000 time 460
+restart 317 found 0 best 5 best_ever 4 total_iters 1585000000 time 461
+restart 318 found 0 best 6 best_ever 4 total_iters 1590000000 time 463
+restart 319 found 0 best 18 best_ever 4 total_iters 1595000000 time 464
+restart 320 found 0 best 11 best_ever 4 total_iters 1600000000 time 466
+restart 321 found 0 best 7 best_ever 4 total_iters 1605000000 time 467
+restart 322 found 0 best 5 best_ever 4 total_iters 1610000000 time 469
+restart 323 found 0 best 5 best_ever 4 total_iters 1615000000 time 470
+restart 324 found 0 best 5 best_ever 4 total_iters 1620000000 time 472
+restart 325 found 0 best 9 best_ever 4 total_iters 1625000000 time 473
+restart 326 found 0 best 11 best_ever 4 total_iters 1630000000 time 475
+restart 327 found 0 best 5 best_ever 4 total_iters 1635000000 time 476
+restart 328 found 0 best 5 best_ever 4 total_iters 1640000000 time 478
+NEAR 4
+or 6 0
+or 3 9
+or 5 9
+or 6 3
+or 5 13
+or 11 0
+and 4 15
+or 2 10
+and 14 15
+and 14 8
+and 18 17
+and 1 17
+or 20 7
+or 12 2
+or 16 20
+and 23 22
+or 25 16
+or 21 19
+or 27 26
+restart 329 found 0 best 4 best_ever 4 total_iters 1645000000 time 479
+restart 330 found 0 best 18 best_ever 4 total_iters 1650000000 time 481
+restart 331 found 0 best 6 best_ever 4 total_iters 1655000000 time 482
+restart 332 found 0 best 18 best_ever 4 total_iters 1660000000 time 484
+restart 333 found 0 best 5 best_ever 4 total_iters 1665000000 time 485
+restart 334 found 0 best 5 best_ever 4 total_iters 1670000000 time 487
+restart 335 found 0 best 6 best_ever 4 total_iters 1675000000 time 488
+restart 336 found 0 best 9 best_ever 4 total_iters 1680000000 time 490
+restart 337 found 0 best 9 best_ever 4 total_iters 1685000000 time 491
+restart 338 found 0 best 18 best_ever 4 total_iters 1690000000 time 492
+restart 339 found 0 best 5 best_ever 4 total_iters 1695000000 time 494
+restart 340 found 0 best 8 best_ever 4 total_iters 1700000000 time 495
+NEAR 4
+or 9 8
+or 3 0
+or 7 0
+or 7 1
+or 10 1
+or 12 8
+and 14 6
+and 14 15
+or 9 11
+and 15 5
+and 17 18
+or 19 4
+or 20 2
+and 18 4
+or 23 19
+or 3 13
+and 25 22
+or 24 16
+or 26 27
+restart 341 found 0 best 4 best_ever 4 total_iters 1705000000 time 497
+restart 342 found 0 best 6 best_ever 4 total_iters 1710000000 time 498
+restart 343 found 0 best 9 best_ever 4 total_iters 1715000000 time 500
+restart 344 found 0 best 9 best_ever 4 total_iters 1720000000 time 501
+restart 345 found 0 best 5 best_ever 4 total_iters 1725000000 time 503
+restart 346 found 0 best 5 best_ever 4 total_iters 1730000000 time 504
+restart 347 found 0 best 6 best_ever 4 total_iters 1735000000 time 506
+NEAR 4
+or 2 0
+or 6 10
+or 2 9
+and 12 11
+or 5 3
+or 3 0
+or 9 15
+or 5 12
+and 4 16
+and 11 16
+and 1 11
+or 6 14
+and 21 19
+or 22 7
+and 21 8
+and 17 23
+or 18 24
+or 20 25
+or 27 26
+restart 348 found 0 best 4 best_ever 4 total_iters 1740000000 time 507
+restart 349 found 0 best 5 best_ever 4 total_iters 1745000000 time 509
+restart 350 found 0 best 9 best_ever 4 total_iters 1750000000 time 510
+restart 351 found 0 best 18 best_ever 4 total_iters 1755000000 time 512
+restart 352 found 0 best 5 best_ever 4 total_iters 1760000000 time 513
+restart 353 found 0 best 5 best_ever 4 total_iters 1765000000 time 515
+restart 354 found 0 best 11 best_ever 4 total_iters 1770000000 time 516
+restart 355 found 0 best 8 best_ever 4 total_iters 1775000000 time 518
+restart 356 found 0 best 5 best_ever 4 total_iters 1780000000 time 519
+restart 357 found 0 best 10 best_ever 4 total_iters 1785000000 time 521
+restart 358 found 0 best 8 best_ever 4 total_iters 1790000000 time 522
+restart 359 found 0 best 13 best_ever 4 total_iters 1795000000 time 523
+restart 360 found 0 best 6 best_ever 4 total_iters 1800000000 time 525
+restart 361 found 0 best 5 best_ever 4 total_iters 1805000000 time 526
+restart 362 found 0 best 6 best_ever 4 total_iters 1810000000 time 528
+restart 363 found 0 best 9 best_ever 4 total_iters 1815000000 time 529
+restart 364 found 0 best 9 best_ever 4 total_iters 1820000000 time 531
+restart 365 found 0 best 7 best_ever 4 total_iters 1825000000 time 532
+restart 366 found 0 best 8 best_ever 4 total_iters 1830000000 time 534
+restart 367 found 0 best 14 best_ever 4 total_iters 1835000000 time 535
+restart 368 found 0 best 9 best_ever 4 total_iters 1840000000 time 537
+restart 369 found 0 best 9 best_ever 4 total_iters 1845000000 time 538
+NEAR 4
+or 2 9
+or 0 2
+or 3 0
+or 10 5
+or 9 12
+and 14 4
+or 3 6
+and 13 7
+or 6 11
+and 13 14
+or 5 16
+and 19 18
+not 16 18
+or 8 21
+and 1 18
+and 23 20
+or 15 17
+or 26 24
+or 27 25
+restart 370 found 0 best 4 best_ever 4 total_iters 1850000000 time 539
+restart 371 found 0 best 5 best_ever 4 total_iters 1855000000 time 541
+restart 372 found 0 best 7 best_ever 4 total_iters 1860000000 time 542
+restart 373 found 0 best 9 best_ever 4 total_iters 1865000000 time 544
+restart 374 found 0 best 9 best_ever 4 total_iters 1870000000 time 545
+restart 375 found 0 best 5 best_ever 4 total_iters 1875000000 time 547
+restart 376 found 0 best 5 best_ever 4 total_iters 1880000000 time 548
+restart 377 found 0 best 5 best_ever 4 total_iters 1885000000 time 549
+restart 378 found 0 best 9 best_ever 4 total_iters 1890000000 time 551
+restart 379 found 0 best 5 best_ever 4 total_iters 1895000000 time 552
+NEAR 4
+or 3 1
+or 1 8
+or 9 11
+or 0 9
+or 10 7
+or 3 13
+or 0 7
+or 8 16
+and 17 15
+and 14 18
+or 19 6
+and 14 2
+and 17 5
+and 15 4
+and 12 20
+or 23 22
+and 0 19
+or 24 25
+or 27 21
+restart 380 found 0 best 4 best_ever 4 total_iters 1900000000 time 554
+restart 381 found 0 best 13 best_ever 4 total_iters 1905000000 time 555
+restart 382 found 0 best 6 best_ever 4 total_iters 1910000000 time 557
+restart 383 found 0 best 7 best_ever 4 total_iters 1915000000 time 558
+restart 384 found 0 best 6 best_ever 4 total_iters 1920000000 time 560
+restart 385 found 0 best 9 best_ever 4 total_iters 1925000000 time 561
+restart 386 found 0 best 5 best_ever 4 total_iters 1930000000 time 562
+restart 387 found 0 best 9 best_ever 4 total_iters 1935000000 time 564
+restart 388 found 0 best 18 best_ever 4 total_iters 1940000000 time 565
+restart 389 found 0 best 11 best_ever 4 total_iters 1945000000 time 567
+restart 390 found 0 best 6 best_ever 4 total_iters 1950000000 time 568
+restart 391 found 0 best 9 best_ever 4 total_iters 1955000000 time 570
+restart 392 found 0 best 9 best_ever 4 total_iters 1960000000 time 571
+restart 393 found 0 best 18 best_ever 4 total_iters 1965000000 time 572
+restart 394 found 0 best 9 best_ever 4 total_iters 1970000000 time 574
+restart 395 found 0 best 9 best_ever 4 total_iters 1975000000 time 576
+restart 396 found 0 best 18 best_ever 4 total_iters 1980000000 time 577
+restart 397 found 0 best 18 best_ever 4 total_iters 1985000000 time 579
+restart 398 found 0 best 14 best_ever 4 total_iters 1990000000 time 580
+restart 399 found 0 best 5 best_ever 4 total_iters 1995000000 time 581
+restart 400 found 0 best 5 best_ever 4 total_iters 2000000000 time 583
+restart 401 found 0 best 5 best_ever 4 total_iters 2005000000 time 584
+restart 402 found 0 best 10 best_ever 4 total_iters 2010000000 time 586
+restart 403 found 0 best 9 best_ever 4 total_iters 2015000000 time 587
+restart 404 found 0 best 9 best_ever 4 total_iters 2020000000 time 589
+restart 405 found 0 best 9 best_ever 4 total_iters 2025000000 time 590
+restart 406 found 0 best 9 best_ever 4 total_iters 2030000000 time 591
+restart 407 found 0 best 9 best_ever 4 total_iters 2035000000 time 593
+restart 408 found 0 best 13 best_ever 4 total_iters 2040000000 time 594
+restart 409 found 0 best 5 best_ever 4 total_iters 2045000000 time 596
+restart 410 found 0 best 8 best_ever 4 total_iters 2050000000 time 597
+restart 411 found 0 best 9 best_ever 4 total_iters 2055000000 time 599
+restart 412 found 0 best 8 best_ever 4 total_iters 2060000000 time 600

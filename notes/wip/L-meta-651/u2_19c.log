@@ -1,0 +1,960 @@
+restart 1 found 0 best 7 best_ever 7 total_iters 40000000 time 12
+restart 2 found 0 best 10 best_ever 7 total_iters 80000000 time 24
+NEAR 4
+u2 7 8 7
+u2 3 6 2
+u2 7 4 2
+u2 3 12 8
+u2 7 7 6
+u2 2 11 0
+u2 7 0 10
+u2 5 15 16
+u2 7 13 17
+u2 1 9 18
+u2 3 0 10
+u2 3 14 4
+u2 2 1 15
+u2 6 3 13
+u2 3 19 21
+u2 1 22 23
+u2 2 25 24
+u2 2 5 20
+u2 6 26 27
+restart 3 found 0 best 4 best_ever 4 total_iters 120000000 time 36
+NEAR 4
+u2 7 5 2
+u2 3 9 1
+u2 7 4 1
+u2 3 4 2
+u2 6 13 8
+u2 3 10 9
+u2 7 12 5
+u2 6 11 8
+u2 5 15 14
+u2 4 3 14
+u2 6 16 18
+u2 1 6 20
+u2 5 15 7
+u2 2 17 21
+u2 1 23 22
+u2 7 5 12
+u2 4 25 0
+u2 4 19 26
+u2 5 27 24
+restart 4 found 0 best 4 best_ever 4 total_iters 160000000 time 48
+restart 5 found 0 best 6 best_ever 4 total_iters 200000000 time 60
+restart 6 found 0 best 7 best_ever 4 total_iters 240000000 time 72
+restart 7 found 0 best 8 best_ever 4 total_iters 280000000 time 85
+NEAR 4
+u2 3 0 6
+u2 7 7 4
+u2 7 8 4
+u2 7 6 11
+u2 3 2 12
+u2 1 2 10
+u2 7 8 7
+u2 7 0 16
+u2 1 15 17
+u2 2 18 14
+u2 7 19 9
+u2 2 3 14
+u2 4 5 17
+u2 1 2 10
+u2 0 13 20
+u2 1 23 1
+u2 5 21 22
+u2 3 26 24
+u2 5 25 27
+restart 8 found 0 best 4 best_ever 4 total_iters 320000000 time 98
+NEAR 4
+u2 7 8 7
+u2 3 1 9
+u2 7 0 10
+u2 7 3 7
+u2 3 1 13
+u2 2 12 14
+u2 0 12 5
+u2 7 0 9
+u2 6 2 14
+u2 3 17 3
+u2 6 11 8
+u2 0 15 20
+u2 7 4 21
+u2 0 20 6
+u2 6 22 19
+u2 7 22 0
+u2 4 24 18
+u2 7 16 26
+u2 7 23 27
+restart 9 found 0 best 4 best_ever 4 total_iters 360000000 time 109
+restart 10 found 0 best 5 best_ever 4 total_iters 400000000 time 122
+NEAR 4
+u2 3 4 2
+u2 3 8 1
+u2 6 10 8
+u2 3 9 2
+u2 2 11 9
+u2 6 13 5
+u2 6 15 14
+u2 2 12 16
+u2 5 5 13
+u2 7 17 0
+u2 3 1 5
+u2 5 14 6
+u2 1 4 20
+u2 5 22 19
+u2 0 12 3
+u2 5 24 21
+u2 4 7 18
+u2 0 23 26
+u2 5 25 27
+restart 11 found 0 best 4 best_ever 4 total_iters 440000000 time 134
+restart 12 found 0 best 10 best_ever 4 total_iters 480000000 time 146
+restart 13 found 0 best 13 best_ever 4 total_iters 520000000 time 158
+restart 14 found 0 best 11 best_ever 4 total_iters 560000000 time 171
+NEAR 4
+u2 7 3 1
+u2 3 9 8
+u2 1 1 11
+u2 5 5 10
+u2 7 0 7
+u2 2 6 12
+u2 3 7 10
+u2 2 2 16
+u2 3 14 8
+u2 7 3 9
+u2 5 18 5
+u2 7 18 16
+u2 7 12 21
+u2 6 22 4
+u2 3 15 17
+u2 3 0 19
+u2 5 25 23
+u2 4 20 24
+u2 5 27 26
+restart 15 found 0 best 4 best_ever 4 total_iters 600000000 time 183
+restart 16 found 0 best 13 best_ever 4 total_iters 640000000 time 195
+restart 17 found 0 best 6 best_ever 4 total_iters 680000000 time 207
+restart 18 found 0 best 6 best_ever 4 total_iters 720000000 time 219
+NEAR 4
+u2 7 3 7
+u2 7 8 9
+u2 7 11 1
+u2 7 1 10
+u2 0 13 2
+u2 7 0 8
+u2 7 15 7
+u2 4 5 16
+u2 7 4 7
+u2 7 3 0
+u2 0 12 13
+u2 7 19 9
+u2 0 16 20
+u2 3 4 22
+u2 4 12 6
+u2 2 21 23
+u2 7 25 14
+u2 2 17 26
+u2 4 24 27
+restart 19 found 0 best 4 best_ever 4 total_iters 760000000 time 232
+NEAR 4
+u2 7 4 8
+u2 3 8 1
+u2 6 11 9
+u2 4 12 6
+u2 3 5 1
+u2 5 4 14
+u2 4 12 15
+u2 7 2 9
+u2 3 5 17
+u2 3 18 16
+u2 7 19 3
+u2 3 2 10
+u2 2 18 9
+u2 6 20 21
+u2 0 0 15
+u2 5 22 7
+u2 2 13 24
+u2 0 26 23
+u2 4 25 27
+restart 20 found 0 best 4 best_ever 4 total_iters 800000000 time 244
+NEAR 4
+u2 7 7 1
+u2 3 7 0
+u2 3 10 3
+u2 7 0 3
+u2 6 12 4
+u2 3 8 1
+u2 5 8 11
+u2 3 9 13
+u2 2 15 9
+u2 4 16 14
+u2 7 18 19
+u2 1 18 6
+u2 2 20 4
+u2 2 2 12
+u2 7 17 22
+u2 0 16 5
+u2 3 25 23
+u2 2 26 21
+u2 4 24 27
+restart 21 found 0 best 4 best_ever 4 total_iters 840000000 time 256
+NEAR 4
+u2 3 1 5
+u2 2 10 4
+u2 7 4 6
+u2 7 7 12
+u2 3 5 6
+u2 1 3 14
+u2 4 9 13
+u2 3 3 1
+u2 7 11 15
+u2 2 13 18
+u2 5 15 8
+u2 6 10 4
+u2 0 21 0
+u2 7 19 2
+u2 2 20 22
+u2 2 17 7
+u2 1 25 23
+u2 5 26 24
+u2 5 27 16
+restart 22 found 0 best 4 best_ever 4 total_iters 880000000 time 268
+restart 23 found 0 best 11 best_ever 4 total_iters 920000000 time 281
+restart 24 found 0 best 5 best_ever 4 total_iters 960000000 time 293
+restart 25 found 0 best 11 best_ever 4 total_iters 1000000000 time 305
+NEAR 4
+u2 7 5 9
+u2 7 3 6
+u2 7 6 0
+u2 3 3 0
+u2 3 5 11
+u2 6 14 5
+u2 7 12 2
+u2 3 2 10
+u2 2 8 14
+u2 4 15 16
+u2 2 13 9
+u2 7 17 19
+u2 2 21 4
+u2 3 20 22
+u2 5 17 7
+u2 4 1 16
+u2 3 18 23
+u2 4 25 26
+u2 6 24 27
+restart 26 found 0 best 4 best_ever 4 total_iters 1040000000 time 317
+restart 27 found 0 best 11 best_ever 4 total_iters 1080000000 time 329
+NEAR 4
+u2 7 5 6
+u2 3 2 10
+u2 7 6 7
+u2 7 2 8
+u2 7 1 7
+u2 7 5 1
+u2 3 15 4
+u2 2 0 16
+u2 7 12 4
+u2 6 14 11
+u2 0 18 9
+u2 1 16 18
+u2 7 17 20
+u2 4 10 8
+u2 1 3 19
+u2 7 13 21
+u2 0 23 24
+u2 2 25 26
+u2 7 27 22
+restart 28 found 0 best 4 best_ever 4 total_iters 1120000000 time 341
+NEAR 4
+u2 3 7 8
+u2 7 8 2
+u2 3 4 6
+u2 2 10 0
+u2 7 13 1
+u2 3 2 0
+u2 3 11 4
+u2 7 14 16
+u2 1 6 15
+u2 2 1 18
+u2 1 13 5
+u2 2 12 7
+u2 7 19 20
+u2 3 18 17
+u2 7 23 9
+u2 1 16 3
+u2 2 24 21
+u2 7 26 22
+u2 7 25 27
+restart 29 found 0 best 4 best_ever 4 total_iters 1160000000 time 353
+NEAR 4
+u2 7 9 0
+u2 3 0 7
+u2 7 3 7
+u2 7 10 3
+u2 7 12 1
+u2 7 8 9
+u2 7 1 15
+u2 0 14 16
+u2 4 17 13
+u2 0 13 4
+u2 0 18 17
+u2 5 8 11
+u2 1 5 18
+u2 4 2 14
+u2 0 16 6
+u2 1 22 21
+u2 6 23 24
+u2 7 19 26
+u2 7 27 25
+restart 30 found 0 best 4 best_ever 4 total_iters 1200000000 time 365
+NEAR 4
+u2 3 6 2
+u2 1 0 10
+u2 3 2 8
+u2 7 6 4
+u2 6 12 4
+u2 1 11 14
+u2 3 13 7
+u2 1 16 15
+u2 3 5 17
+u2 0 14 3
+u2 3 0 7
+u2 5 13 11
+u2 1 8 20
+u2 3 18 22
+u2 1 16 9
+u2 2 1 11
+u2 7 25 19
+u2 3 26 23
+u2 6 27 24
+restart 31 found 0 best 4 best_ever 4 total_iters 1240000000 time 377
+restart 32 found 0 best 6 best_ever 4 total_iters 1280000000 time 388
+restart 33 found 0 best 8 best_ever 4 total_iters 1320000000 time 401
+restart 34 found 0 best 7 best_ever 4 total_iters 1360000000 time 413
+restart 35 found 0 best 7 best_ever 4 total_iters 1400000000 time 426
+restart 36 found 0 best 8 best_ever 4 total_iters 1440000000 time 439
+restart 37 found 0 best 5 best_ever 4 total_iters 1480000000 time 451
+NEAR 4
+u2 3 7 8
+u2 7 6 2
+u2 7 8 2
+u2 7 4 6
+u2 3 13 7
+u2 7 12 4
+u2 7 0 11
+u2 6 10 0
+u2 2 15 14
+u2 3 0 16
+u2 0 18 16
+u2 6 9 14
+u2 2 1 19
+u2 3 5 20
+u2 4 3 15
+u2 6 17 23
+u2 5 22 24
+u2 5 26 25
+u2 5 27 21
+restart 38 found 0 best 4 best_ever 4 total_iters 1520000000 time 464
+NEAR 4
+u2 3 4 7
+u2 7 1 3
+u2 7 5 1
+u2 1 6 10
+u2 3 3 5
+u2 7 12 4
+u2 6 14 6
+u2 7 11 7
+u2 4 0 15
+u2 0 17 15
+u2 4 13 2
+u2 5 13 19
+u2 2 9 13
+u2 1 8 21
+u2 2 16 23
+u2 0 17 2
+u2 5 24 18
+u2 7 22 25
+u2 7 27 26
+restart 39 found 0 best 4 best_ever 4 total_iters 1560000000 time 476
+NEAR 4
+u2 3 2 9
+u2 7 8 2
+u2 3 8 1
+u2 7 11 4
+u2 2 10 5
+u2 6 12 9
+u2 0 15 13
+u2 5 14 16
+u2 7 11 13
+u2 1 0 17
+u2 3 5 4
+u2 1 1 20
+u2 0 3 18
+u2 7 19 21
+u2 5 14 7
+u2 4 6 15
+u2 0 24 23
+u2 2 26 22
+u2 4 27 25
+restart 40 found 0 best 4 best_ever 4 total_iters 1600000000 time 488
+restart 41 found 0 best 5 best_ever 4 total_iters 1640000000 time 501
+restart 42 found 0 best 11 best_ever 4 total_iters 1680000000 time 513
+restart 43 found 0 best 13 best_ever 4 total_iters 1720000000 time 526
+NEAR 4
+u2 3 3 5
+u2 2 10 6
+u2 7 7 1
+u2 7 3 12
+u2 2 13 11
+u2 7 4 7
+u2 7 1 5
+u2 2 8 11
+u2 3 15 6
+u2 1 18 14
+u2 3 12 13
+u2 1 18 9
+u2 1 20 2
+u2 3 0 19
+u2 3 4 16
+u2 3 24 23
+u2 3 25 22
+u2 1 21 26
+u2 6 27 17
+restart 44 found 0 best 4 best_ever 4 total_iters 1760000000 time 538
+NEAR 4
+u2 3 6 4
+u2 1 7 10
+u2 7 2 8
+u2 3 4 12
+u2 7 0 2
+u2 3 6 14
+u2 7 15 13
+u2 3 11 16
+u2 3 8 7
+u2 5 8 13
+u2 5 11 9
+u2 5 0 18
+u2 7 17 5
+u2 4 19 3
+u2 2 1 15
+u2 2 20 24
+u2 0 21 22
+u2 2 23 26
+u2 4 27 25
+restart 45 found 0 best 4 best_ever 4 total_iters 1800000000 time 550
+restart 46 found 0 best 5 best_ever 4 total_iters 1840000000 time 562
+NEAR 4
+u2 3 7 3
+u2 7 4 5
+u2 3 1 11
+u2 1 1 10
+u2 3 4 7
+u2 7 11 1
+u2 2 2 13
+u2 7 6 3
+u2 6 14 6
+u2 7 5 17
+u2 4 18 9
+u2 6 20 16
+u2 6 15 13
+u2 1 12 0
+u2 1 22 18
+u2 3 8 24
+u2 2 19 25
+u2 7 23 26
+u2 7 27 21
+restart 47 found 0 best 4 best_ever 4 total_iters 1880000000 time 575
+restart 48 found 0 best 9 best_ever 4 total_iters 1920000000 time 587
+NEAR 4
+u2 3 7 6
+u2 3 0 7
+u2 1 8 11
+u2 1 4 10
+u2 3 2 4
+u2 7 2 6
+u2 2 14 8
+u2 7 15 0
+u2 2 17 16
+u2 6 3 16
+u2 3 15 0
+u2 2 5 12
+u2 2 1 20
+u2 1 12 18
+u2 7 9 23
+u2 1 21 19
+u2 5 22 25
+u2 2 24 13
+u2 7 27 26
+restart 49 found 0 best 4 best_ever 4 total_iters 1960000000 time 598
+restart 50 found 0 best 13 best_ever 4 total_iters 2000000000 time 610
+restart 51 found 0 best 7 best_ever 4 total_iters 2040000000 time 622
+NEAR 4
+u2 7 2 4
+u2 7 7 0
+u2 7 0 2
+u2 7 10 8
+u2 7 12 6
+u2 3 4 6
+u2 0 1 14
+u2 0 3 13
+u2 0 14 13
+u2 7 8 11
+u2 5 7 15
+u2 0 18 19
+u2 4 5 19
+u2 3 21 9
+u2 2 22 16
+u2 3 13 20
+u2 2 20 23
+u2 3 17 26
+u2 4 24 27
+restart 52 found 0 best 4 best_ever 4 total_iters 2080000000 time 634
+NEAR 4
+u2 7 4 8
+u2 3 8 0
+u2 1 7 11
+u2 7 4 6
+u2 3 0 2
+u2 7 2 10
+u2 5 12 5
+u2 2 14 6
+u2 2 15 12
+u2 3 7 13
+u2 1 19 18
+u2 3 2 10
+u2 3 20 1
+u2 1 19 9
+u2 7 17 22
+u2 2 3 21
+u2 2 24 23
+u2 2 16 25
+u2 4 26 27
+restart 53 found 0 best 4 best_ever 4 total_iters 2120000000 time 646
+NEAR 4
+u2 7 4 1
+u2 3 5 10
+u2 7 8 4
+u2 7 5 2
+u2 7 13 9
+u2 7 2 12
+u2 7 1 9
+u2 7 16 8
+u2 0 17 6
+u2 4 14 15
+u2 6 19 18
+u2 4 3 15
+u2 4 14 7
+u2 4 20 17
+u2 5 0 23
+u2 6 11 18
+u2 0 25 24
+u2 6 21 26
+u2 6 22 27
+restart 54 found 0 best 4 best_ever 4 total_iters 2160000000 time 659
+restart 55 found 0 best 8 best_ever 4 total_iters 2200000000 time 671
+restart 56 found 0 best 9 best_ever 4 total_iters 2240000000 time 683
+NEAR 4
+u2 3 2 4
+u2 7 9 5
+u2 7 5 1
+u2 7 9 1
+u2 7 11 2
+u2 2 10 8
+u2 2 3 15
+u2 3 12 4
+u2 2 0 17
+u2 1 17 3
+u2 7 15 17
+u2 3 13 8
+u2 1 21 6
+u2 7 22 16
+u2 3 20 21
+u2 3 24 7
+u2 2 14 25
+u2 7 18 23
+u2 7 26 27
+restart 57 found 0 best 4 best_ever 4 total_iters 2280000000 time 695
+NEAR 4
+u2 7 8 2
+u2 7 7 0
+u2 7 7 6
+u2 7 4 10
+u2 3 13 4
+u2 7 12 4
+u2 6 15 14
+u2 7 8 11
+u2 5 16 17
+u2 3 6 2
+u2 1 1 18
+u2 1 0 19
+u2 4 17 5
+u2 0 3 13
+u2 4 9 15
+u2 3 21 20
+u2 1 23 22
+u2 6 26 25
+u2 6 24 27
+restart 58 found 0 best 4 best_ever 4 total_iters 2320000000 time 707
+NEAR 4
+u2 7 3 6
+u2 3 9 0
+u2 7 5 10
+u2 5 3 11
+u2 3 9 5
+u2 3 6 2
+u2 0 12 13
+u2 2 15 0
+u2 5 2 14
+u2 6 16 17
+u2 1 7 19
+u2 7 10 5
+u2 6 18 20
+u2 4 4 13
+u2 4 23 22
+u2 0 8 21
+u2 3 24 25
+u2 6 1 17
+u2 4 27 26
+restart 59 found 0 best 4 best_ever 4 total_iters 2360000000 time 719
+NEAR 4
+u2 7 7 6
+u2 7 0 6
+u2 7 10 4
+u2 3 11 2
+u2 0 12 9
+u2 7 2 8
+u2 7 4 15
+u2 7 7 0
+u2 3 6 12
+u2 3 8 17
+u2 5 13 16
+u2 4 16 3
+u2 5 13 1
+u2 7 20 18
+u2 6 23 5
+u2 2 24 19
+u2 6 22 25
+u2 7 14 26
+u2 5 27 21
+restart 60 found 0 best 4 best_ever 4 total_iters 2400000000 time 731
+restart 61 found 0 best 11 best_ever 4 total_iters 2440000000 time 743
+restart 62 found 0 best 6 best_ever 4 total_iters 2480000000 time 755
+restart 63 found 0 best 5 best_ever 4 total_iters 2520000000 time 767
+NEAR 4
+u2 7 9 1
+u2 7 0 7
+u2 7 3 0
+u2 7 1 7
+u2 3 10 8
+u2 3 3 13
+u2 3 15 14
+u2 7 9 12
+u2 0 17 16
+u2 3 5 18
+u2 7 11 8
+u2 1 8 14
+u2 2 20 19
+u2 5 15 2
+u2 4 4 17
+u2 2 6 21
+u2 7 22 25
+u2 0 23 24
+u2 6 27 26
+restart 64 found 0 best 4 best_ever 4 total_iters 2560000000 time 779
+NEAR 4
+u2 3 8 1
+u2 7 9 5
+u2 3 5 4
+u2 3 2 11
+u2 1 1 12
+u2 1 9 10
+u2 2 14 3
+u2 2 7 13
+u2 2 6 15
+u2 3 8 2
+u2 1 14 0
+u2 7 15 13
+u2 1 3 21
+u2 7 20 17
+u2 5 4 19
+u2 1 22 24
+u2 1 16 25
+u2 7 23 18
+u2 7 27 26
+restart 65 found 0 best 4 best_ever 4 total_iters 2600000000 time 791
+restart 66 found 0 best 5 best_ever 4 total_iters 2640000000 time 803
+restart 67 found 0 best 13 best_ever 4 total_iters 2680000000 time 814
+restart 68 found 0 best 10 best_ever 4 total_iters 2720000000 time 827
+NEAR 4
+u2 7 7 8
+u2 7 0 10
+u2 7 4 8
+u2 7 7 6
+u2 7 13 4
+u2 7 2 6
+u2 3 0 15
+u2 2 1 16
+u2 0 14 11
+u2 5 16 18
+u2 3 8 11
+u2 6 19 3
+u2 4 9 14
+u2 3 12 2
+u2 5 23 21
+u2 1 20 5
+u2 1 17 24
+u2 4 26 22
+u2 7 25 27
+restart 69 found 0 best 4 best_ever 4 total_iters 2760000000 time 838
+restart 70 found 0 best 10 best_ever 4 total_iters 2800000000 time 850
+restart 71 found 0 best 11 best_ever 4 total_iters 2840000000 time 862
+NEAR 4
+u2 3 8 2
+u2 7 2 0
+u2 7 7 6
+u2 7 4 12
+u2 1 4 10
+u2 2 13 14
+u2 3 6 11
+u2 3 7 0
+u2 1 16 15
+u2 6 1 16
+u2 3 7 13
+u2 7 18 5
+u2 5 20 9
+u2 2 17 8
+u2 1 23 21
+u2 6 3 14
+u2 4 22 25
+u2 6 19 24
+u2 7 27 26
+restart 72 found 0 best 4 best_ever 4 total_iters 2880000000 time 873
+restart 73 found 0 best 7 best_ever 4 total_iters 2920000000 time 885
+restart 74 found 0 best 16 best_ever 4 total_iters 2960000000 time 897
+restart 75 found 0 best 6 best_ever 4 total_iters 3000000000 time 909
+restart 76 found 0 best 12 best_ever 4 total_iters 3040000000 time 922
+restart 77 found 0 best 13 best_ever 4 total_iters 3080000000 time 934
+restart 78 found 0 best 7 best_ever 4 total_iters 3120000000 time 946
+NEAR 4
+u2 7 3 7
+u2 7 1 4
+u2 7 1 10
+u2 4 2 12
+u2 7 11 5
+u2 0 12 14
+u2 6 15 8
+u2 7 6 5
+u2 0 0 14
+u2 3 17 3
+u2 7 16 19
+u2 2 20 9
+u2 7 7 6
+u2 1 19 8
+u2 3 23 18
+u2 7 4 22
+u2 1 21 25
+u2 0 24 13
+u2 5 26 27
+restart 79 found 0 best 4 best_ever 4 total_iters 3160000000 time 957
+NEAR 4
+u2 3 1 3
+u2 2 10 7
+u2 3 9 0
+u2 7 12 11
+u2 3 1 8
+u2 2 14 9
+u2 1 3 13
+u2 7 8 0
+u2 7 17 7
+u2 2 18 16
+u2 5 3 12
+u2 1 11 2
+u2 7 6 19
+u2 4 4 20
+u2 5 15 22
+u2 4 5 18
+u2 5 21 23
+u2 5 26 25
+u2 6 24 27
+restart 80 found 0 best 4 best_ever 4 total_iters 3200000000 time 969
+restart 81 found 0 best 11 best_ever 4 total_iters 3240000000 time 981
+restart 82 found 0 best 7 best_ever 4 total_iters 3280000000 time 992
+NEAR 4
+u2 7 3 6
+u2 7 4 5
+u2 3 7 4
+u2 7 11 1
+u2 3 1 3
+u2 6 14 7
+u2 7 5 10
+u2 4 16 15
+u2 2 13 17
+u2 0 0 13
+u2 4 15 2
+u2 5 6 12
+u2 7 16 10
+u2 4 8 22
+u2 5 19 23
+u2 7 18 9
+u2 4 21 25
+u2 4 20 26
+u2 7 27 24
+restart 83 found 0 best 4 best_ever 4 total_iters 3320000000 time 1004
+restart 84 found 0 best 10 best_ever 4 total_iters 3360000000 time 1016
+NEAR 4
+u2 3 1 5
+u2 1 4 10
+u2 7 1 8
+u2 6 0 11
+u2 7 5 9
+u2 3 12 9
+u2 3 2 14
+u2 7 11 16
+u2 7 4 2
+u2 7 17 15
+u2 6 7 16
+u2 2 19 3
+u2 1 8 15
+u2 1 22 6
+u2 7 18 8
+u2 4 13 20
+u2 3 23 25
+u2 5 21 24
+u2 4 27 26
+restart 85 found 0 best 4 best_ever 4 total_iters 3400000000 time 1028
+restart 86 found 0 best 11 best_ever 4 total_iters 3440000000 time 1040
+NEAR 4
+u2 7 7 3
+u2 3 1 9
+u2 7 3 9
+u2 3 0 12
+u2 1 13 10
+u2 6 4 13
+u2 2 11 8
+u2 3 1 10
+u2 3 13 17
+u2 1 16 18
+u2 7 19 5
+u2 3 0 8
+u2 6 2 17
+u2 5 7 21
+u2 0 20 23
+u2 2 6 16
+u2 1 24 15
+u2 5 25 26
+u2 5 27 22
+restart 87 found 0 best 4 best_ever 4 total_iters 3480000000 time 1051
+NEAR 4
+u2 7 4 7
+u2 7 2 8
+u2 3 0 2
+u2 6 12 6
+u2 3 6 10
+u2 7 4 11
+u2 3 9 14
+u2 0 16 15
+u2 3 0 8
+u2 7 14 16
+u2 1 7 18
+u2 5 20 17
+u2 6 5 20
+u2 0 3 15
+u2 2 21 1
+u2 2 13 24
+u2 3 23 25
+u2 0 26 19
+u2 4 27 22
+restart 88 found 0 best 4 best_ever 4 total_iters 3520000000 time 1064
+restart 89 found 0 best 5 best_ever 4 total_iters 3560000000 time 1076
+restart 90 found 0 best 5 best_ever 4 total_iters 3600000000 time 1088
+restart 91 found 0 best 6 best_ever 4 total_iters 3640000000 time 1099
+NEAR 4
+u2 3 8 0
+u2 1 7 10
+u2 3 9 8
+u2 7 7 1
+u2 3 3 9
+u2 1 0 14
+u2 7 3 13
+u2 6 16 15
+u2 3 11 17
+u2 2 12 1
+u2 3 16 3
+u2 2 4 15
+u2 3 18 6
+u2 3 19 22
+u2 2 5 11
+u2 5 20 2
+u2 2 25 21
+u2 2 26 23
+u2 5 24 27
+restart 92 found 0 best 4 best_ever 4 total_iters 3680000000 time 1111
+restart 93 found 0 best 13 best_ever 4 total_iters 3720000000 time 1123
+restart 94 found 0 best 6 best_ever 4 total_iters 3760000000 time 1134
+NEAR 4
+u2 7 9 8
+u2 3 2 9
+u2 7 8 2
+u2 7 12 4
+u2 2 11 5
+u2 7 4 5
+u2 7 1 15
+u2 0 13 3
+u2 0 16 0
+u2 6 16 14
+u2 2 13 19
+u2 7 17 18
+u2 3 14 2
+u2 7 1 10
+u2 7 20 6
+u2 5 14 7
+u2 0 24 23
+u2 1 26 25
+u2 6 27 21
+restart 95 found 0 best 4 best_ever 4 total_iters 3800000000 time 1146
+restart 96 found 0 best 9 best_ever 4 total_iters 3840000000 time 1158
+NEAR 4
+u2 7 5 4
+u2 7 9 1
+u2 7 10 1
+u2 7 11 8
+u2 0 12 0
+u2 4 13 6
+u2 3 4 2
+u2 3 9 2
+u2 6 12 17
+u2 5 14 15
+u2 2 18 5
+u2 2 16 8
+u2 5 5 17
+u2 1 20 13
+u2 0 7 22
+u2 3 3 23
+u2 3 19 24
+u2 3 21 25
+u2 6 26 27
+restart 97 found 0 best 4 best_ever 4 total_iters 3880000000 time 1170
+restart 98 found 0 best 5 best_ever 4 total_iters 3920000000 time 1183
+NEAR 4
+u2 3 3 5
+u2 7 2 6
+u2 3 5 2
+u2 3 11 0
+u2 2 12 9
+u2 3 0 9
+u2 2 10 6
+u2 2 7 14
+u2 7 16 14
+u2 7 13 18
+u2 2 19 4
+u2 6 13 11
+u2 4 21 1
+u2 6 8 16
+u2 1 3 15
+u2 2 23 17
+u2 3 24 20
+u2 5 26 22
+u2 5 27 25
+restart 99 found 0 best 4 best_ever 4 total_iters 3960000000 time 1195
+restart 100 found 0 best 11 best_ever 4 total_iters 4000000000 time 1207

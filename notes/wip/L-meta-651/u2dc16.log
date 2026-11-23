@@ -1,0 +1,12 @@
+restart 1 found 0 best 16 best_ever 16 total_iters 40000000 time 10
+restart 2 found 0 best 19 best_ever 16 total_iters 80000000 time 20
+restart 3 found 0 best 16 best_ever 16 total_iters 120000000 time 30
+restart 4 found 0 best 16 best_ever 16 total_iters 160000000 time 40
+restart 5 found 0 best 17 best_ever 16 total_iters 200000000 time 49
+restart 6 found 0 best 17 best_ever 16 total_iters 240000000 time 59
+restart 7 found 0 best 14 best_ever 14 total_iters 280000000 time 69
+restart 8 found 0 best 14 best_ever 14 total_iters 320000000 time 79
+restart 9 found 0 best 17 best_ever 14 total_iters 360000000 time 90
+restart 10 found 0 best 13 best_ever 13 total_iters 400000000 time 100
+restart 11 found 0 best 16 best_ever 13 total_iters 440000000 time 110
+restart 12 found 0 best 14 best_ever 13 total_iters 480000000 time 120

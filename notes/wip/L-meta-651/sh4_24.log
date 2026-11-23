@@ -1,0 +1,702 @@
+restart 1 found 0 best 3 best_ever 3 total_iters 20000000 time 4
+restart 2 found 0 best 1 best_ever 1 total_iters 40000000 time 9
+restart 3 found 0 best 3 best_ever 1 total_iters 60000000 time 13
+restart 4 found 0 best 1 best_ever 1 total_iters 80000000 time 17
+restart 5 found 0 best 3 best_ever 1 total_iters 100000000 time 21
+restart 6 found 0 best 2 best_ever 1 total_iters 120000000 time 25
+restart 7 found 0 best 3 best_ever 1 total_iters 140000000 time 30
+restart 8 found 0 best 3 best_ever 1 total_iters 160000000 time 34
+restart 9 found 0 best 1 best_ever 1 total_iters 180000000 time 38
+restart 10 found 0 best 1 best_ever 1 total_iters 200000000 time 43
+restart 11 found 0 best 2 best_ever 1 total_iters 220000000 time 47
+FOUND S=24 seed=4124 restart=12 it=8506410
+and 2 0
+or 10 0
+or 2 11
+and 1 12
+or 9 13
+or 13 4
+or 0 14
+or 8 11
+or 15 8
+or 14 8
+and 15 16
+or 7 17
+or 1 19
+or 20 3
+and 5 21
+or 2 18
+and 22 6
+or 2 14
+and 25 23
+and 27 7
+and 12 25
+or 28 24
+or 29 26
+or 31 32
+restart 12 found 1 best 0 best_ever 0 total_iters 228506410 time 49
+restart 13 found 1 best 2 best_ever 0 total_iters 248506410 time 53
+restart 14 found 1 best 2 best_ever 0 total_iters 268506410 time 58
+restart 15 found 1 best 3 best_ever 0 total_iters 288506410 time 63
+restart 16 found 1 best 1 best_ever 0 total_iters 308506410 time 67
+FOUND S=24 seed=4124 restart=17 it=12584719
+and 2 0
+or 0 10
+or 2 11
+or 11 7
+and 6 6
+or 14 5
+and 5 13
+or 16 3
+or 12 6
+and 1 18
+or 11 17
+or 7 14
+and 21 9
+or 17 7
+or 9 20
+or 15 3
+and 25 8
+and 24 4
+or 2 16
+and 23 28
+or 29 26
+or 19 27
+or 22 31
+or 30 32
+restart 17 found 2 best 0 best_ever 0 total_iters 321091129 time 70
+FOUND S=24 seed=4124 restart=18 it=7655967
+and 2 0
+or 2 10
+and 11 3
+or 12 8
+or 0 13
+or 9 13
+and 11 7
+or 1 15
+or 7 14
+or 16 9
+and 6 17
+and 19 7
+or 21 5
+or 19 3
+or 23 0
+and 4 24
+and 18 22
+and 13 3
+or 26 25
+or 0 11
+and 29 1
+or 20 30
+or 28 27
+or 31 32
+restart 18 found 3 best 0 best_ever 0 total_iters 328747096 time 72
+FOUND S=24 seed=4124 restart=19 it=10804753
+and 0 2
+and 9 9
+or 3 11
+and 12 4
+or 7 13
+or 14 8
+or 8 11
+and 14 9
+or 5 17
+and 3 16
+or 16 1
+or 18 1
+or 18 19
+or 21 4
+or 14 3
+and 6 20
+or 13 2
+and 15 22
+or 24 1
+and 28 26
+and 23 0
+or 27 25
+or 30 31
+or 29 32
+restart 19 found 4 best 0 best_ever 0 total_iters 339551849 time 74
+restart 20 found 4 best 3 best_ever 0 total_iters 359551849 time 79
+FOUND S=24 seed=4124 restart=21 it=8598075
+and 2 0
+and 9 9
+or 0 11
+or 11 1
+or 3 12
+and 6 13
+or 15 7
+or 5 15
+or 16 1
+or 16 0
+and 12 18
+or 17 3
+or 6 21
+and 13 20
+and 19 23
+or 4 24
+and 22 8
+and 14 25
+and 17 19
+or 18 3
+and 29 2
+or 30 28
+or 31 27
+or 32 26
+restart 21 found 5 best 0 best_ever 0 total_iters 368149924 time 81
+FOUND S=24 seed=4124 restart=22 it=11905858
+and 0 2
+or 10 9
+and 8 8
+or 12 1
+and 11 7
+or 12 2
+or 0 11
+or 13 9
+or 14 5
+and 17 6
+or 18 2
+or 1 18
+or 3 16
+and 15 20
+and 4 22
+and 7 20
+or 24 19
+and 23 13
+or 0 27
+and 15 3
+or 25 26
+and 28 21
+or 30 31
+or 29 32
+restart 22 found 6 best 0 best_ever 0 total_iters 380055782 time 83
+restart 23 found 6 best 3 best_ever 0 total_iters 400055782 time 88
+restart 24 found 6 best 2 best_ever 0 total_iters 420055782 time 92
+FOUND S=24 seed=4124 restart=25 it=9920642
+and 2 0
+or 10 2
+or 11 9
+and 6 6
+or 13 5
+or 5 12
+or 3 14
+or 2 13
+or 11 4
+and 1 17
+and 18 3
+or 19 20
+and 7 15
+or 22 4
+and 16 8
+or 21 24
+or 23 5
+or 26 1
+or 6 23
+and 0 27
+and 9 28
+or 25 22
+or 29 30
+or 32 31
+restart 25 found 7 best 0 best_ever 0 total_iters 429976424 time 94
+restart 26 found 7 best 2 best_ever 0 total_iters 449976424 time 98
+restart 27 found 7 best 3 best_ever 0 total_iters 469976424 time 102
+restart 28 found 7 best 1 best_ever 0 total_iters 489976424 time 107
+restart 29 found 7 best 3 best_ever 0 total_iters 509976424 time 112
+FOUND S=24 seed=4124 restart=30 it=18570327
+and 0 2
+or 10 0
+or 11 9
+or 11 8
+or 7 13
+and 12 4
+or 6 15
+or 16 2
+or 16 7
+or 11 17
+or 15 8
+and 1 19
+or 7 20
+and 17 22
+or 20 2
+or 24 4
+and 25 3
+and 5 14
+and 23 24
+or 28 9
+and 29 18
+or 26 30
+or 21 27
+or 31 32
+restart 30 found 8 best 0 best_ever 0 total_iters 528546751 time 116
+FOUND S=24 seed=4124 restart=31 it=15688337
+and 0 2
+or 0 10
+and 7 7
+or 12 6
+or 6 11
+or 12 1
+or 3 11
+or 4 13
+or 3 15
+and 14 1
+and 18 2
+and 17 9
+and 16 4
+or 22 3
+or 23 6
+or 22 8
+or 7 11
+and 25 24
+or 21 19
+or 8 26
+and 29 5
+or 28 20
+or 27 31
+or 30 32
+restart 31 found 9 best 0 best_ever 0 total_iters 544235088 time 120
+restart 32 found 9 best 1 best_ever 0 total_iters 564235088 time 125
+FOUND S=24 seed=4124 restart=33 it=10574012
+and 0 2
+and 4 4
+or 11 6
+or 11 8
+and 3 13
+or 14 0
+or 7 14
+or 12 16
+or 3 12
+or 8 15
+or 3 16
+or 20 1
+or 19 7
+or 15 6
+and 19 18
+and 22 5
+and 13 24
+and 17 9
+and 21 2
+or 1 26
+or 27 28
+and 29 23
+or 25 31
+or 32 30
+restart 33 found 10 best 0 best_ever 0 total_iters 574809100 time 127
+restart 34 found 10 best 4 best_ever 0 total_iters 594809100 time 132
+restart 35 found 10 best 3 best_ever 0 total_iters 614809100 time 137
+FOUND S=24 seed=4124 restart=36 it=14532715
+and 2 0
+and 6 6
+or 11 5
+and 11 9
+or 10 9
+and 12 8
+or 13 4
+or 5 16
+or 16 2
+or 8 18
+and 9 16
+or 0 20
+or 11 2
+or 22 0
+or 3 15
+and 19 24
+or 14 5
+and 17 21
+and 23 1
+or 2 26
+and 7 29
+or 27 25
+or 30 28
+or 32 31
+restart 36 found 11 best 0 best_ever 0 total_iters 629341815 time 140
+restart 37 found 11 best 3 best_ever 0 total_iters 649341815 time 145
+restart 38 found 11 best 18 best_ever 0 total_iters 669341815 time 150
+restart 39 found 11 best 1 best_ever 0 total_iters 689341815 time 155
+FOUND S=24 seed=4124 restart=40 it=12971776
+and 0 2
+and 1 1
+or 11 4
+or 3 11
+or 12 5
+and 2 13
+and 12 13
+or 9 15
+or 17 16
+or 6 15
+or 5 17
+or 19 3
+or 19 4
+and 22 18
+or 20 2
+and 0 14
+or 21 5
+and 26 8
+or 27 25
+or 17 21
+and 24 7
+and 29 23
+or 30 31
+or 28 32
+restart 40 found 12 best 0 best_ever 0 total_iters 702313591 time 158
+FOUND S=24 seed=4124 restart=41 it=17193670
+and 2 0
+and 8 8
+or 11 9
+and 12 6
+or 13 3
+or 9 14
+or 11 7
+or 16 6
+or 0 13
+or 7 14
+or 18 16
+or 6 18
+or 2 21
+and 17 12
+and 23 15
+or 24 2
+and 22 1
+and 25 19
+or 0 15
+and 4 28
+and 20 5
+or 26 27
+or 31 29
+or 32 30
+restart 41 found 13 best 0 best_ever 0 total_iters 719507261 time 162
+restart 42 found 13 best 1 best_ever 0 total_iters 739507261 time 167
+restart 43 found 13 best 2 best_ever 0 total_iters 759507261 time 172
+restart 44 found 13 best 2 best_ever 0 total_iters 779507261 time 177
+restart 45 found 13 best 3 best_ever 0 total_iters 799507261 time 181
+restart 46 found 13 best 5 best_ever 0 total_iters 819507261 time 186
+FOUND S=24 seed=4124 restart=47 it=15048119
+and 0 2
+and 8 8
+or 0 11
+and 1 1
+or 11 4
+or 13 4
+and 14 4
+or 7 16
+or 3 13
+or 17 6
+and 14 3
+or 7 18
+or 13 11
+and 0 15
+and 21 2
+and 19 9
+or 7 12
+and 5 26
+and 6 22
+or 27 25
+or 23 20
+or 29 28
+or 30 31
+or 24 32
+restart 47 found 14 best 0 best_ever 0 total_iters 834555380 time 189
+FOUND S=24 seed=4124 restart=48 it=14336865
+and 2 0
+and 9 9
+or 1 11
+or 0 11
+and 6 12
+or 7 14
+or 0 15
+or 5 14
+or 6 17
+or 18 3
+or 15 1
+and 12 13
+or 13 3
+and 8 19
+and 20 16
+and 21 24
+and 4 22
+or 3 20
+or 2 25
+and 17 16
+and 27 28
+or 30 29
+or 31 26
+or 32 23
+restart 48 found 15 best 0 best_ever 0 total_iters 848892245 time 192
+FOUND S=24 seed=4124 restart=49 it=16698085
+and 2 0
+and 7 7
+or 11 3
+or 6 11
+or 0 11
+or 13 4
+or 14 8
+and 16 5
+and 2 12
+and 12 3
+or 0 19
+and 8 19
+or 6 21
+and 22 8
+or 22 0
+and 4 20
+or 23 1
+or 26 18
+and 9 15
+or 24 2
+and 29 27
+or 17 30
+or 28 31
+or 32 25
+restart 49 found 16 best 0 best_ever 0 total_iters 865590330 time 196
+FOUND S=24 seed=4124 restart=50 it=14080811
+and 2 0
+and 9 9
+or 10 2
+or 11 3
+or 0 12
+and 1 14
+or 12 8
+or 13 0
+or 2 11
+and 3 16
+or 7 19
+or 19 6
+or 1 11
+or 8 20
+or 22 8
+and 17 4
+and 20 18
+or 0 23
+and 21 24
+and 5 27
+or 15 25
+or 29 26
+or 28 31
+or 32 30
+restart 50 found 17 best 0 best_ever 0 total_iters 879671141 time 199
+restart 51 found 17 best 1 best_ever 0 total_iters 899671141 time 204
+restart 52 found 17 best 3 best_ever 0 total_iters 919671141 time 208
+restart 53 found 17 best 3 best_ever 0 total_iters 939671141 time 212
+restart 54 found 17 best 8 best_ever 0 total_iters 959671141 time 217
+restart 55 found 17 best 2 best_ever 0 total_iters 979671141 time 221
+restart 56 found 17 best 3 best_ever 0 total_iters 999671141 time 225
+restart 57 found 17 best 2 best_ever 0 total_iters 1019671141 time 229
+restart 58 found 17 best 5 best_ever 0 total_iters 1039671141 time 234
+restart 59 found 17 best 1 best_ever 0 total_iters 1059671141 time 238
+restart 60 found 17 best 2 best_ever 0 total_iters 1079671141 time 243
+FOUND S=24 seed=4124 restart=61 it=13563010
+and 0 2
+or 10 2
+or 11 6
+and 11 3
+or 5 13
+or 14 3
+or 13 4
+or 16 1
+or 6 16
+or 15 6
+or 11 5
+and 7 20
+or 7 18
+and 16 3
+or 5 17
+and 1 12
+or 25 0
+and 26 24
+or 23 21
+and 19 8
+or 28 9
+and 22 30
+or 31 27
+or 32 29
+restart 61 found 18 best 0 best_ever 0 total_iters 1093234151 time 246
+restart 62 found 18 best 3 best_ever 0 total_iters 1113234151 time 250
+restart 63 found 18 best 3 best_ever 0 total_iters 1133234151 time 254
+FOUND S=24 seed=4124 restart=64 it=10231900
+and 2 0
+and 2 2
+or 11 0
+or 11 8
+and 0 0
+or 14 8
+and 9 9
+or 4 13
+or 5 11
+and 5 15
+or 0 16
+or 6 12
+or 16 8
+and 21 1
+or 19 7
+and 4 20
+or 18 9
+and 6 22
+and 3 17
+or 27 23
+or 25 29
+and 26 24
+or 30 28
+or 32 31
+restart 64 found 19 best 0 best_ever 0 total_iters 1143466051 time 256
+restart 65 found 19 best 2 best_ever 0 total_iters 1163466051 time 261
+FOUND S=24 seed=4124 restart=66 it=13095023
+and 2 0
+and 8 8
+or 11 2
+and 3 12
+or 0 13
+or 3 14
+or 5 13
+or 16 1
+or 2 16
+or 11 1
+and 19 12
+and 20 18
+or 9 19
+or 9 18
+or 21 14
+and 7 23
+and 22 6
+or 25 26
+or 9 15
+and 28 4
+or 27 29
+and 17 24
+and 31 11
+or 31 30
+restart 66 found 20 best 0 best_ever 0 total_iters 1176561074 time 263
+FOUND S=24 seed=4124 restart=67 it=9344366
+and 0 2
+and 6 6
+or 11 2
+or 5 11
+or 11 7
+or 0 12
+or 14 4
+and 0 13
+and 1 15
+or 13 3
+and 3 3
+or 0 20
+or 7 17
+and 9 16
+or 20 7
+and 24 2
+and 22 5
+and 19 8
+or 23 18
+and 4 21
+or 26 25
+or 27 29
+or 31 28
+or 32 30
+restart 67 found 21 best 0 best_ever 0 total_iters 1185905440 time 265
+FOUND S=24 seed=4124 restart=68 it=15427103
+and 2 0
+and 7 7
+and 11 2
+or 12 6
+or 12 8
+or 14 0
+or 14 4
+or 13 4
+or 0 13
+or 7 15
+and 16 17
+or 7 17
+or 2 16
+and 18 20
+and 15 23
+or 24 5
+or 2 18
+and 22 3
+and 21 9
+and 25 19
+and 26 1
+or 30 28
+or 27 31
+or 32 29
+restart 68 found 22 best 0 best_ever 0 total_iters 1201332543 time 268
+restart 69 found 22 best 1 best_ever 0 total_iters 1221332543 time 273
+FOUND S=24 seed=4124 restart=70 it=9405847
+and 2 0
+and 1 1
+or 3 11
+and 9 9
+or 13 3
+or 5 13
+or 15 2
+or 11 4
+and 15 5
+or 13 1
+and 7 16
+or 19 8
+and 14 4
+or 3 18
+and 2 12
+or 5 17
+and 8 23
+and 25 0
+or 20 27
+or 26 22
+or 29 28
+and 6 21
+or 30 31
+or 24 32
+restart 70 found 23 best 0 best_ever 0 total_iters 1230738390 time 274
+FOUND S=24 seed=4124 restart=71 it=16260066
+and 0 2
+or 2 10
+or 5 11
+and 3 11
+or 13 4
+or 6 11
+or 5 14
+and 12 7
+and 3 14
+or 0 15
+or 14 6
+or 20 7
+or 18 0
+or 3 17
+and 1 19
+or 23 6
+or 25 5
+or 17 24
+and 8 26
+and 16 22
+and 21 9
+or 27 28
+or 31 29
+or 32 30
+restart 71 found 24 best 0 best_ever 0 total_iters 1246998456 time 278
+restart 72 found 24 best 3 best_ever 0 total_iters 1266998456 time 282
+restart 73 found 24 best 1 best_ever 0 total_iters 1286998456 time 286
+restart 74 found 24 best 1 best_ever 0 total_iters 1306998456 time 290
+restart 75 found 24 best 1 best_ever 0 total_iters 1326998456 time 294
+restart 76 found 24 best 4 best_ever 0 total_iters 1346998456 time 299
+FOUND S=24 seed=4124 restart=77 it=15277440
+and 2 0
+and 7 7
+or 11 3
+and 4 4
+and 9 9
+or 8 14
+or 3 14
+and 15 16
+or 5 13
+and 12 17
+or 12 1
+or 15 1
+or 11 8
+or 1 18
+or 5 19
+and 0 23
+and 20 2
+and 22 24
+and 16 13
+and 6 21
+or 29 26
+or 28 30
+or 25 31
+or 32 27
+restart 77 found 25 best 0 best_ever 0 total_iters 1362275896 time 302

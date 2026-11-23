@@ -1,0 +1,255 @@
+restart 1 found 0 best 2 best_ever 2 total_iters 40000000 time 12
+FOUND S=20 seed=2020 restart=2 it=6900658
+u2 3 0 9
+u2 7 2 8
+u2 5 3 10
+u2 3 7 0
+u2 7 2 6
+u2 3 7 6
+u2 0 11 14
+u2 6 9 15
+u2 0 4 12
+u2 2 16 15
+u2 7 14 0
+u2 7 5 19
+u2 1 8 13
+u2 4 1 20
+u2 5 18 17
+u2 4 3 11
+u2 5 24 23
+u2 5 22 21
+u2 6 25 26
+u2 6 27 28
+restart 2 found 1 best 0 best_ever 0 total_iters 46900658 time 14
+FOUND S=20 seed=2020 restart=3 it=12573556
+u2 7 8 0
+u2 3 0 6
+u2 3 4 8
+u2 3 6 4
+u2 7 10 7
+u2 6 3 12
+u2 3 7 3
+u2 6 13 7
+u2 4 5 14
+u2 7 12 13
+u2 4 17 9
+u2 2 16 1
+u2 1 19 10
+u2 6 2 21
+u2 0 15 18
+u2 7 22 1
+u2 5 11 25
+u2 4 20 26
+u2 4 24 23
+u2 7 28 27
+restart 3 found 2 best 0 best_ever 0 total_iters 59474214 time 18
+restart 4 found 2 best 2 best_ever 0 total_iters 99474214 time 29
+restart 5 found 2 best 3 best_ever 0 total_iters 139474214 time 41
+restart 6 found 2 best 1 best_ever 0 total_iters 179474214 time 53
+restart 7 found 2 best 3 best_ever 0 total_iters 219474214 time 65
+restart 8 found 2 best 9 best_ever 0 total_iters 259474214 time 77
+FOUND S=20 seed=2020 restart=9 it=10011233
+u2 7 2 0
+u2 3 2 4
+u2 5 11 10
+u2 3 6 10
+u2 3 3 6
+u2 3 7 6
+u2 6 1 13
+u2 2 3 11
+u2 3 0 7
+u2 6 12 5
+u2 5 4 15
+u2 4 20 9
+u2 4 16 21
+u2 1 21 22
+u2 2 14 5
+u2 6 19 18
+u2 7 8 17
+u2 6 25 22
+u2 6 26 24
+u2 5 27 28
+restart 9 found 3 best 0 best_ever 0 total_iters 269485447 time 80
+FOUND S=20 seed=2020 restart=10 it=18298918
+u2 3 1 8
+u2 7 3 5
+u2 7 9 5
+u2 3 3 9
+u2 3 3 1
+u2 2 4 13
+u2 2 10 9
+u2 7 2 12
+u2 4 8 11
+u2 6 2 14
+u2 3 15 0
+u2 7 4 1
+u2 2 6 16
+u2 7 21 5
+u2 0 7 17
+u2 5 20 23
+u2 5 24 18
+u2 1 26 25
+u2 6 19 22
+u2 5 28 27
+restart 10 found 4 best 0 best_ever 0 total_iters 287784365 time 85
+restart 11 found 4 best 1 best_ever 0 total_iters 327784365 time 97
+restart 12 found 4 best 3 best_ever 0 total_iters 367784365 time 109
+FOUND S=20 seed=2020 restart=13 it=25497358
+u2 7 0 3
+u2 7 0 2
+u2 4 9 7
+u2 6 12 2
+u2 0 11 10
+u2 3 6 3
+u2 7 13 5
+u2 2 15 5
+u2 5 17 8
+u2 0 6 9
+u2 7 19 1
+u2 7 11 6
+u2 3 14 7
+u2 6 16 22
+u2 4 18 23
+u2 3 9 10
+u2 6 4 25
+u2 4 20 21
+u2 0 26 27
+u2 6 28 24
+restart 13 found 5 best 0 best_ever 0 total_iters 393281723 time 116
+FOUND S=20 seed=2020 restart=14 it=19666576
+u2 3 3 0
+u2 3 3 5
+u2 3 9 1
+u2 5 9 10
+u2 3 0 2
+u2 1 14 1
+u2 3 14 10
+u2 0 4 13
+u2 7 2 5
+u2 7 6 15
+u2 5 19 11
+u2 0 18 16
+u2 2 19 12
+u2 3 18 9
+u2 7 17 22
+u2 4 20 8
+u2 7 7 21
+u2 5 24 25
+u2 2 26 23
+u2 7 28 27
+restart 14 found 6 best 0 best_ever 0 total_iters 412948299 time 122
+restart 15 found 6 best 3 best_ever 0 total_iters 452948299 time 134
+FOUND S=20 seed=2020 restart=16 it=26947363
+u2 3 7 0
+u2 3 4 7
+u2 6 11 6
+u2 4 12 9
+u2 3 2 0
+u2 3 2 4
+u2 1 8 10
+u2 1 8 15
+u2 0 8 6
+u2 5 17 3
+u2 7 14 10
+u2 7 15 20
+u2 6 5 16
+u2 2 14 6
+u2 3 18 1
+u2 4 24 21
+u2 2 25 23
+u2 2 19 26
+u2 4 27 22
+u2 6 13 28
+restart 16 found 7 best 0 best_ever 0 total_iters 479895662 time 142
+restart 17 found 7 best 2 best_ever 0 total_iters 519895662 time 154
+FOUND S=20 seed=2020 restart=18 it=8889625
+u2 7 0 2
+u2 7 5 2
+u2 7 7 6
+u2 7 12 4
+u2 7 0 7
+u2 3 0 3
+u2 3 2 4
+u2 4 13 9
+u2 3 10 6
+u2 2 15 16
+u2 0 11 14
+u2 3 16 19
+u2 3 3 6
+u2 6 17 20
+u2 5 5 22
+u2 4 8 24
+u2 5 18 1
+u2 5 23 25
+u2 3 27 21
+u2 4 26 28
+restart 18 found 8 best 0 best_ever 0 total_iters 528785287 time 157
+FOUND S=20 seed=2020 restart=19 it=12099585
+u2 7 2 5
+u2 3 6 0
+u2 3 10 9
+u2 4 0 10
+u2 7 3 0
+u2 7 4 6
+u2 3 2 4
+u2 4 9 15
+u2 5 16 14
+u2 7 6 5
+u2 0 18 17
+u2 7 3 19
+u2 0 21 8
+u2 2 13 1
+u2 6 7 12
+u2 2 11 2
+u2 7 25 23
+u2 0 26 20
+u2 6 27 22
+u2 5 28 24
+restart 19 found 9 best 0 best_ever 0 total_iters 540884872 time 160
+restart 20 found 9 best 1 best_ever 0 total_iters 580884872 time 172
+FOUND S=20 seed=2020 restart=21 it=9985652
+u2 7 3 6
+u2 3 6 4
+u2 2 11 7
+u2 3 0 7
+u2 6 13 8
+u2 3 2 0
+u2 4 10 8
+u2 7 15 13
+u2 5 3 17
+u2 7 4 2
+u2 4 18 19
+u2 0 14 5
+u2 6 9 12
+u2 5 11 10
+u2 6 20 1
+u2 4 23 15
+u2 5 21 22
+u2 1 26 16
+u2 0 24 25
+u2 5 28 27
+restart 21 found 10 best 0 best_ever 0 total_iters 590870524 time 175
+FOUND S=20 seed=2020 restart=22 it=8920312
+u2 7 8 0
+u2 3 4 6
+u2 2 11 7
+u2 6 9 12
+u2 2 10 11
+u2 7 4 8
+u2 4 14 15
+u2 3 1 3
+u2 3 7 10
+u2 5 1 16
+u2 6 5 18
+u2 3 6 0
+u2 6 17 7
+u2 6 19 21
+u2 0 23 20
+u2 4 2 22
+u2 0 15 3
+u2 5 26 13
+u2 0 25 24
+u2 6 28 27
+restart 22 found 11 best 0 best_ever 0 total_iters 599790836 time 178
+restart 23 found 11 best 2 best_ever 0 total_iters 639790836 time 189
+restart 24 found 11 best 2 best_ever 0 total_iters 679790836 time 201

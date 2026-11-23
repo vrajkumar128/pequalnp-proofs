@@ -1,0 +1,17 @@
+{
+ "id": "L-meta-651",
+ "title": "Petersen graph: no circuit of AND, OR (fan-in two) and NOT gates with at most 19 gates computes its edge function",
+ "statement": "¬ PEqualNP.MetaComplexity.HasCircuitSize 10 (fun x : Fin 10 → Bool => (x 0 && x 1) || (x 1 && x 2) || (x 2 && x 3) || (x 3 && x 4) || (x 4 && x 0) || (x 0 && x 5) || (x 1 && x 6) || (x 2 && x 7) || (x 3 && x 8) || (x 4 && x 9) || (x 5 && x 7) || (x 7 && x 9) || (x 9 && x 6) || (x 6 && x 8) || (x 8 && x 5)) 19",
+ "file": "lean/PEqualNP/Outside/L_meta_651.lean",
+ "module": "PEqualNP.Outside.L_meta_651",
+ "imports": [
+  "PEqualNP.Defs"
+ ],
+ "unlocks": "The exact size on the smallest cubic graph of girth 5; on paper the answer, either way, decides three open statements of the exact-size line at once",
+ "context": "Hard and open; a conjecture, it may be false. A circuit with 19 gates refutes it and is as welcome as a proof. Known: a circuit with 20 gates exists. In-house reach (computed, not checked): split by the first gate up to the automorphisms of the graph into five cases; each case was run for ten minutes and none was decided; no circuit with 19 gates was found. With NOT allowed, the AND of two non-adjacent inputs is a real first-gate case. 10 inputs, 15 edges, cover number 6. No sorry, no new axiom. Put every declaration of your file inside its own namespace.",
+ "dead": [],
+ "weight": 99,
+ "parallel": 10,
+ "shards": 5,
+ "shard_spec": "0: first gate an AND of the two ends of an edge: exclude 19 gates or find a circuit\n1: first gate an OR of the two ends of an edge\n2: first gate an OR of two non-adjacent inputs\n3: first gate a NOT of an input\n4: first gate an AND of two non-adjacent inputs"
+}
