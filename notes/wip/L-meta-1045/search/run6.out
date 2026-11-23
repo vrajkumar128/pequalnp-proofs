@@ -1,0 +1,23 @@
+n=6 E=5 tau=1 target=5 budget=4 nodes=1 oldsol=0 newsol=0 bestNew=1000
+t=1
+n=6 E=4 tau=2 target=6 budget=5 nodes=10948 oldsol=0 newsol=0 bestNew=1000
+t=0
+n=6 E=4 tau=2 target=6 budget=5 nodes=10948 oldsol=0 newsol=0 bestNew=1000
+t=0
+n=6 E=5 tau=2 target=7 budget=6 nodes=333547 oldsol=0 newsol=0 bestNew=1000
+t=0
+n=6 E=5 tau=2 target=7 budget=6 nodes=333547 oldsol=0 newsol=0 bestNew=1000
+t=0
+n=6 E=5 tau=2 target=7 budget=6 nodes=333547 oldsol=0 newsol=0 bestNew=1000
+t=1
+n=6 E=3 tau=3 target=7 budget=6 nodes=333547 oldsol=0 newsol=0 bestNew=1000
+t=0
+n=6 E=6 tau=2 target=8 budget=7 nodes=7784661 oldsol=0 newsol=0 bestNew=1000
+t=8
+n=6 E=6 tau=2 target=8 budget=7 nodes=7784661 oldsol=0 newsol=0 bestNew=1000
+t=7
+n=6 E=4 tau=3 target=8 budget=7 nodes=7784661 oldsol=0 newsol=0 bestNew=1000
+t=8
+n=6 E=5 tau=3 target=9 budget=8 nodes=169755663 oldsol=0 newsol=0 bestNew=1000
+t=208
+t=30
