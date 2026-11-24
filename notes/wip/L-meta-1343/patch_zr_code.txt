@@ -1,0 +1,99 @@
+def atmost_seq(cnf, xs, k):
+    """Sinz sequential counter: at most k of the literals xs are true."""
+    m = len(xs)
+    if k >= m:
+        return
+    if k <= 0:
+        for x in xs:
+            cnf.add([-x])
+        return
+    r = [[cnf.new() for _ in range(k)] for _ in range(m)]
+    for i in range(m):
+        x = xs[i]
+        cnf.add([-x, r[i][0]])
+        if i > 0:
+            for c in range(k):
+                cnf.add([-r[i - 1][c], r[i][c]])
+            for c in range(1, k):
+                cnf.add([-x, -r[i - 1][c - 1], r[i][c]])
+            cnf.add([-x, -r[i - 1][k - 1]])
+
+
+def add_zero_restrictions(cnf, n, s, op, A, B, restr):
+    """Gate elimination by the restriction x_v = 0 (v in S). A wire is Z (constant 0 under the
+    restriction) if it is x_v with v in S, an AND gate with a Z input, or an OR gate with two
+    Z inputs. A gate with a Z input is eliminated (it is Z, or an OR gate that copies its other
+    input). The remaining gates, with copies redirected, form a Monotone2 circuit computing
+    f restricted, i.e. f_{G-S}; so at most s - L(G-S) gates are eliminated, where L(H) is the
+    least size of a Monotone2 circuit for f_H (computed by least_size below)."""
+    T = 1
+    for (Sset, bound) in restr:
+        Z = [(T if w in Sset else -T) for w in range(n)]
+        elims = []
+        for j in range(s):
+            za, zb = cnf.new(), cnf.new()
+            for w in range(n + j):
+                cnf.add([-A[j][w], -Z[w], za])
+                cnf.add([-A[j][w], Z[w], -za])
+                cnf.add([-B[j][w], -Z[w], zb])
+                cnf.add([-B[j][w], Z[w], -zb])
+            o = op[j]
+            zj = cnf.new()
+            cnf.add([-o, -za, zj])
+            cnf.add([-o, -zb, zj])
+            cnf.add([o, -za, -zb, zj])
+            cnf.add([-zj, za, zb])
+            cnf.add([o, -zj, za])
+            cnf.add([o, -zj, zb])
+            Z.append(zj)
+            e = cnf.new()
+            cnf.add([-za, e])
+            cnf.add([-zb, e])
+            cnf.add([-e, za, zb])
+            elims.append(e)
+        atmost_seq(cnf, elims, bound)
+
+
+_LCACHE = {}
+
+
+def canon_graph(edges):
+    vs = sorted(set(v for e in edges for v in e))
+    k = len(vs)
+    idx = {v: i for i, v in enumerate(vs)}
+    es = [(idx[u], idx[v]) for (u, v) in edges]
+    best = None
+    for p in itertools.permutations(range(k)):
+        c = tuple(sorted(tuple(sorted((p[u], p[v]))) for (u, v) in es))
+        if best is None or c < best:
+            best = c
+    return k, best
+
+
+def least_size(edges):
+    """Least size of a Monotone2 circuit for f_H (H = the given edges, isolated vertices
+    dropped): SAT at that size (circuit decoded and verified), UNSAT at every smaller size."""
+    if not edges:
+        return 0
+    k, c = canon_graph(edges)
+    if (k, c) in _LCACHE:
+        return _LCACHE[(k, c)]
+    saved = dict(OPTS)
+    OPTS.clear()
+    s, gates, res = min_size(k, list(c), None, smax=40, enc='B')
+    OPTS.update(saved)
+    assert s is not None and all(res[t] is False for t in range(1, s))
+    _LCACHE[(k, c)] = s
+    return s
+
+
+def zero_restrictions_for(n, edges, s, sizes):
+    out = []
+    for m in sizes:
+        for Sset in itertools.combinations(range(n), m):
+            sub = [(u, v) for (u, v) in edges if u not in Sset and v not in Sset]
+            L = least_size(sub)
+            out.append((set(Sset), s - L, L))
+    return out
+
+

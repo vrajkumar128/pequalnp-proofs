@@ -1,0 +1,10 @@
+wrote lad16.cnf: s=16 vars=15601 clauses=113538 rows=90 dirty_row=17
+s=16 rc=124 time=480.005374960
+wrote lad12.cnf: s=12 vars=8125 clauses=67904 rows=90 dirty_row=17
+s=12 rc=20 time=.010962526
+wrote lad13.cnf: s=13 vars=9699 clauses=78056 rows=90 dirty_row=17
+s=13 rc=20 time=.011608769
+wrote lad14.cnf: s=14 vars=11495 clauses=89089 rows=90 dirty_row=17
+s=14 rc=20 time=.013176644
+wrote lad15.cnf: s=15 vars=13471 clauses=100931 rows=90 dirty_row=17
+s=15 rc=20 time=8.038076881

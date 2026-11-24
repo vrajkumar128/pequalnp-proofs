@@ -1,0 +1,80 @@
+def restricted_least_size(n, edges, P, Q):
+    """Lower bound (in fact the exact value) for the least Monotone2 size of f restricted by
+    x_P = 1, x_Q = 0 (P independent). The restricted function is OR_{a in A} x_a OR f_H with
+    A = N(P) minus Q, H = G minus (P, Q, N(P)). L(OR_A x OR f_H) >= |A| + L(H) if H has an edge
+    (each x_a is read by some gate, and x_a = 0 eliminates it; induct on |A|), >= |A| - 1 if
+    H has no edge, and L(H) is computed by least_size."""
+    P, Q = set(P), set(Q)
+    nb = set()
+    for (u, v) in edges:
+        if u in P:
+            nb.add(v)
+        if v in P:
+            nb.add(u)
+    A = nb - Q - P
+    gone = P | Q | nb
+    H = [(u, v) for (u, v) in edges if u not in gone and v not in gone]
+    if H:
+        return len(A) + least_size(H)
+    return max(len(A) - 1, 0)
+
+
+def restriction_family(n, edges, fam):
+    """fam: set of tags. 'P1': x_v = 1; 'P2': x_u = x_v = 1 (u, v non-adjacent);
+    'P1Q1': x_v = 1, x_w = 0; 'MIS': x_M = 1 for each maximal independent set M."""
+    es = set(tuple(sorted(e)) for e in edges)
+    verts = sorted(set(v for e in edges for v in e))
+    out = []
+    if 'P1' in fam:
+        for v in verts:
+            out.append(((v,), ()))
+    if 'P2' in fam:
+        for u, v in itertools.combinations(verts, 2):
+            if (u, v) not in es:
+                out.append(((u, v), ()))
+    if 'P1Q1' in fam:
+        for v in verts:
+            for w in verts:
+                if w != v:
+                    out.append(((v,), (w,)))
+    if 'MIS' in fam:
+        for m in maximal_independent_sets(n, edges):
+            out.append((tuple(m), ()))
+    return out
+
+
+def add_restrictions(cnf, n, s, rows, va, vb, restr):
+    """restr: list of (P, Q, L). Under the restriction x_P = 1, x_Q = 0 a wire w is constant iff
+    w(P) = 1 (constant 1; row P has exactly P true) or w(V minus Q) = 0 (constant 0). A gate
+    with a constant input is constant or a copy of its other input, so it is eliminated; the
+    other gates form a Monotone2 circuit for f restricted. So at most s - L gates have a
+    constant input."""
+    idx = {}
+    for t, (st, _) in enumerate(rows):
+        idx[frozenset(st)] = t
+    for (P, Q, L) in restr:
+        bound = s - L
+        t0 = idx[frozenset(P)] if P else None
+        t1 = idx[frozenset(set(range(n)) - set(Q))] if Q else None
+        es = []
+        for j in range(s):
+            e = cnf.new()
+            for v in (va[j], vb[j]):
+                if t0 is not None:
+                    cnf.add([-v[t0], e])
+                if t1 is not None:
+                    cnf.add([v[t1], e])
+            es.append(e)
+        atmost_seq(cnf, es, bound)
+
+
+def restriction_rows(n, edges, restr):
+    sets = []
+    for (P, Q, L) in restr:
+        if P:
+            sets.append(tuple(sorted(P)))
+        if Q:
+            sets.append(tuple(sorted(set(range(n)) - set(Q))))
+    return sets
+
+
