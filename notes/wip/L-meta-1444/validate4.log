@@ -1,0 +1,7 @@
+  brute n=4 level 1: 16 states
+  brute n=4 level 2: 206 states
+  brute n=4 level 3: 2408 states
+  brute n=4 level 4: 27035 states
+  brute n=4 level 5: 300374 states
+n=4: 624 cases compared up to 5 gates; validate4 all ok = True, 91.7s
+EXIT 0

@@ -1,0 +1,79 @@
+  plain  T=0xfeeafcc0 maxnot=1 s=1 -> False 0.01s
+  plain  T=0xfeeafcc0 maxnot=1 s=2 -> False 0.01s
+  plain  T=0xfeeafcc0 maxnot=1 s=3 -> False 0.11s
+  plain  T=0xfeeafcc0 maxnot=1 s=4 -> False 0.17s
+  plain  T=0xfeeafcc0 maxnot=1 s=5 -> False 0.35s
+  cadical T=0xfeeafcc0 maxnot=1 s=5 -> False 0.06s
+CROSS T=0xfeeafcc0 a=6 done 0.9s ok=True
+  plain  T=0xeeeaeaea maxnot=1 s=1 -> False 0.01s
+  plain  T=0xeeeaeaea maxnot=1 s=2 -> False 0.01s
+  plain  T=0xeeeaeaea maxnot=1 s=3 -> False 0.10s
+  cadical T=0xeeeaeaea maxnot=1 s=3 -> False 0.02s
+CROSS T=0xeeeaeaea a=4 done 0.2s ok=True
+  plain  T=0xeeeaeee8 maxnot=1 s=1 -> False 0.01s
+  plain  T=0xeeeaeee8 maxnot=1 s=2 -> False 0.01s
+  plain  T=0xeeeaeee8 maxnot=1 s=3 -> False 0.11s
+  plain  T=0xeeeaeee8 maxnot=1 s=4 -> False 0.21s
+  plain  T=0xeeeaeee8 maxnot=1 s=5 -> False 0.28s
+  cadical T=0xeeeaeee8 maxnot=1 s=5 -> False 0.04s
+CROSS T=0xeeeaeee8 a=6 done 0.8s ok=True
+  plain  T=0xeeeeeee0 maxnot=1 s=1 -> False 0.00s
+  plain  T=0xeeeeeee0 maxnot=1 s=2 -> False 0.00s
+  plain  T=0xeeeeeee0 maxnot=1 s=3 -> False 0.03s
+  cadical T=0xeeeeeee0 maxnot=1 s=3 -> False 0.01s
+CROSS T=0xeeeeeee0 a=4 done 0.1s ok=True
+  plain  T=0xfee8eee8 maxnot=1 s=1 -> False 0.00s
+  plain  T=0xfee8eee8 maxnot=1 s=2 -> False 0.01s
+  plain  T=0xfee8eee8 maxnot=1 s=3 -> False 0.03s
+  plain  T=0xfee8eee8 maxnot=1 s=4 -> False 0.05s
+  plain  T=0xfee8eee8 maxnot=1 s=5 -> False 0.18s
+  plain  T=0xfee8eee8 maxnot=1 s=6 -> False 0.98s
+  plain  T=0xfee8eee8 maxnot=1 s=7 -> False 14.32s
+  cadical T=0xfee8eee8 maxnot=1 s=7 -> False 5.01s
+CROSS T=0xfee8eee8 a=8 done 20.8s ok=True
+  plain  T=0xfeeaeaaa maxnot=1 s=1 -> False 0.01s
+  plain  T=0xfeeaeaaa maxnot=1 s=2 -> False 0.01s
+  plain  T=0xfeeaeaaa maxnot=1 s=3 -> False 0.10s
+  plain  T=0xfeeaeaaa maxnot=1 s=4 -> False 0.18s
+  plain  T=0xfeeaeaaa maxnot=1 s=5 -> False 0.29s
+  plain  T=0xfeeaeaaa maxnot=1 s=6 -> False 1.30s
+  plain  T=0xfeeaeaaa maxnot=1 s=7 -> False 17.80s
+  cadical T=0xfeeaeaaa maxnot=1 s=7 -> False 5.75s
+CROSS T=0xfeeaeaaa a=8 done 25.7s ok=True
+  plain  T=0xfeeaece8 maxnot=1 s=1 -> False 0.00s
+  plain  T=0xfeeaece8 maxnot=1 s=2 -> False 0.00s
+  plain  T=0xfeeaece8 maxnot=1 s=3 -> False 0.03s
+  plain  T=0xfeeaece8 maxnot=1 s=4 -> False 0.06s
+  plain  T=0xfeeaece8 maxnot=1 s=5 -> False 0.15s
+  plain  T=0xfeeaece8 maxnot=1 s=6 -> False 1.36s
+  plain  T=0xfeeaece8 maxnot=1 s=7 -> False 18.67s
+  cadical T=0xfeeaece8 maxnot=1 s=7 -> False 4.42s
+CROSS T=0xfeeaece8 a=8 done 24.9s ok=True
+  plain  T=0xfeeaeee0 maxnot=1 s=1 -> False 0.01s
+  plain  T=0xfeeaeee0 maxnot=1 s=2 -> False 0.01s
+  plain  T=0xfeeaeee0 maxnot=1 s=3 -> False 0.12s
+  plain  T=0xfeeaeee0 maxnot=1 s=4 -> False 0.17s
+  plain  T=0xfeeaeee0 maxnot=1 s=5 -> False 0.31s
+  plain  T=0xfeeaeee0 maxnot=1 s=6 -> False 1.67s
+  cadical T=0xfeeaeee0 maxnot=1 s=6 -> False 0.63s
+CROSS T=0xfeeaeee0 a=7 done 3.1s ok=True
+  plain  T=0xfeeafcc8 maxnot=1 s=1 -> False 0.00s
+  plain  T=0xfeeafcc8 maxnot=1 s=2 -> False 0.00s
+  plain  T=0xfeeafcc8 maxnot=1 s=3 -> False 0.04s
+  plain  T=0xfeeafcc8 maxnot=1 s=4 -> False 0.06s
+  plain  T=0xfeeafcc8 maxnot=1 s=5 -> False 0.17s
+  plain  T=0xfeeafcc8 maxnot=1 s=6 -> False 1.78s
+  cadical T=0xfeeafcc8 maxnot=1 s=6 -> False 0.57s
+CROSS T=0xfeeafcc8 a=7 done 2.7s ok=True
+  plain  T=0xfeeaeae8 maxnot=1 s=1 -> False 0.00s
+  plain  T=0xfeeaeae8 maxnot=1 s=2 -> False 0.00s
+  plain  T=0xfeeaeae8 maxnot=1 s=3 -> False 0.03s
+  plain  T=0xfeeaeae8 maxnot=1 s=4 -> False 0.08s
+  plain  T=0xfeeaeae8 maxnot=1 s=5 -> False 0.33s
+  plain  T=0xfeeaeae8 maxnot=1 s=6 -> False 1.54s
+  plain  T=0xfeeaeae8 maxnot=1 s=7 -> False 11.88s
+  plain  T=0xfeeaeae8 maxnot=1 s=8 -> False 192.19s
+  cadical T=0xfeeaeae8 maxnot=1 s=8 -> False 48.33s
+CROSS T=0xfeeaeae8 a=9 done 254.8s ok=True
+crosscheck: all ok = True
+EXIT 0
