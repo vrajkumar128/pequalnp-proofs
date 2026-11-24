@@ -1,0 +1,13 @@
+V1: n=1 triangle outputs only, no bound on non-eligible gates: UNSAT 0.00s
+V1: n=2 triangle outputs only, no bound on non-eligible gates: UNSAT 0.01s
+V1: n=3 triangle outputs only, no bound on non-eligible gates: UNSAT 0.00s
+V1: n=4 triangle outputs only, no bound on non-eligible gates: UNSAT 0.02s
+V1: n=5 triangle outputs only, no bound on non-eligible gates: UNSAT 0.08s
+V1: n=6 triangle outputs only, no bound on non-eligible gates: UNSAT 0.38s
+V1: n=7 triangle outputs only, no bound on non-eligible gates: UNSAT 3.48s
+V1: n=8 triangle outputs only, no bound on non-eligible gates: UNSAT 120.35s
+V1: n=9 triangle outputs only, no bound on non-eligible gates: SAT 0.25s
+    decoded model re-evaluated with the exact wires semantics: ok; gates [('or', [7, 10]), ('or', [4, 13]), ('or', [14, 1]), ('or', [2, 3]), ('or', [0, 16]), ('or', [6, 4]), ('or', [18, 5]), ('or', [17, 1]), ('or', [0, 19])] non-eligible 9
+V2: n=12 outputs for triangle + line 2, non-eligible <= 9: SAT 0.31s decoded ok, non-eligible 9
+V3: n=39 outputs for all 13 lines, non-eligible <= 9: SAT 12.89s decoded ok, non-eligible 9
+exit 0

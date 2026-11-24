@@ -1,0 +1,42 @@
+triangle lines (0, 1, 4) [[1, 4, 7, 10], [0, 4, 5, 6], [0, 1, 2, 3]] triangle outputs only
+n=1 vars=112 clauses=724 nonelig<=4: UNSAT 0.00s
+n=2 vars=228 clauses=1503 nonelig<=4: UNSAT 0.00s
+n=3 vars=348 clauses=2340 nonelig<=4: UNSAT 0.01s
+n=4 vars=472 clauses=3235 nonelig<=4: UNSAT 0.03s
+n=5 vars=600 clauses=4189 nonelig<=4: UNSAT 0.10s
+n=6 vars=740 clauses=5213 nonelig<=4: UNSAT 0.20s
+n=7 vars=880 clauses=6291 nonelig<=4: UNSAT 0.26s
+n=8 vars=1024 clauses=7427 nonelig<=4: UNSAT 0.71s
+n=9 vars=1172 clauses=8621 nonelig<=4: UNSAT 0.79s
+n=10 vars=1324 clauses=9873 nonelig<=4: UNSAT 0.77s
+n=11 vars=1480 clauses=11183 nonelig<=4: UNSAT 1.61s
+n=12 vars=1640 clauses=12551 nonelig<=4: UNSAT 1.09s
+n=13 vars=1804 clauses=13977 nonelig<=4: UNSAT 1.78s
+n=14 vars=1972 clauses=15461 nonelig<=4: UNSAT 2.03s
+n=15 vars=2144 clauses=17003 nonelig<=4: UNSAT 2.50s
+n=16 vars=2320 clauses=18603 nonelig<=4: UNSAT 2.16s
+n=17 vars=2500 clauses=20261 nonelig<=4: UNSAT 2.85s
+n=18 vars=2684 clauses=21977 nonelig<=4: UNSAT 4.25s
+n=19 vars=2872 clauses=23751 nonelig<=4: UNSAT 5.87s
+n=20 vars=3064 clauses=25583 nonelig<=4: UNSAT 6.74s
+n=21 vars=3260 clauses=27473 nonelig<=4: UNSAT 8.46s
+n=22 vars=3460 clauses=29421 nonelig<=4: UNSAT 9.51s
+n=23 vars=3664 clauses=31427 nonelig<=4: UNSAT 19.23s
+n=24 vars=3872 clauses=33491 nonelig<=4: UNSAT 10.87s
+n=25 vars=4084 clauses=35613 nonelig<=4: UNSAT 15.74s
+n=26 vars=4300 clauses=37793 nonelig<=4: UNSAT 12.17s
+n=27 vars=4520 clauses=40031 nonelig<=4: UNSAT 16.01s
+n=28 vars=4744 clauses=42327 nonelig<=4: UNSAT 16.85s
+n=29 vars=4972 clauses=44681 nonelig<=4: UNSAT 18.60s
+n=30 vars=5204 clauses=47093 nonelig<=4: UNSAT 22.21s
+n=31 vars=5440 clauses=49563 nonelig<=4: UNSAT 18.68s
+n=32 vars=5680 clauses=52091 nonelig<=4: UNSAT 21.84s
+n=33 vars=5924 clauses=54677 nonelig<=4: UNSAT 28.58s
+n=34 vars=6172 clauses=57321 nonelig<=4: UNSAT 36.76s
+n=35 vars=6424 clauses=60023 nonelig<=4: UNSAT 40.12s
+n=36 vars=6680 clauses=62783 nonelig<=4: UNSAT 46.17s
+n=37 vars=6940 clauses=65601 nonelig<=4: UNSAT 52.97s
+n=38 vars=7204 clauses=68477 nonelig<=4: UNSAT 42.63s
+n=39 vars=7472 clauses=71411 nonelig<=4: UNSAT 67.32s
+all UNSAT up to n=39, solver time 538.4s
+exit 0
