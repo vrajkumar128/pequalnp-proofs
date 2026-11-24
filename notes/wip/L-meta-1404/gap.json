@@ -1,0 +1,18 @@
+{
+ "id": "L-meta-1404",
+ "title": "Probe: with each input of the 5-cycle replaced by a majority of three fresh inputs, monotone fan-in-two AND/OR formulas need depth at least 7",
+ "statement": "¬ (∀ T : ℕ → Set ((Fin 15 → Bool) → Bool), (∀ i : Fin 15, (fun x : Fin 15 → Bool => x i) ∈ T 0) → (∀ (k : ℕ) (f : (Fin 15 → Bool) → Bool), f ∈ T k → f ∈ T (k + 1)) → (∀ (k : ℕ) (f g : (Fin 15 → Bool) → Bool), f ∈ T k → g ∈ T k → (fun y : Fin 15 → Bool => f y && g y) ∈ T (k + 1) ∧ (fun y : Fin 15 → Bool => f y || g y) ∈ T (k + 1)) → (fun z : Fin 15 → Bool => (((z 0 && z 5) || (z 0 && z 10) || (z 5 && z 10)) && ((z 1 && z 6) || (z 1 && z 11) || (z 6 && z 11))) || (((z 1 && z 6) || (z 1 && z 11) || (z 6 && z 11)) && ((z 2 && z 7) || (z 2 && z 12) || (z 7 && z 12))) || (((z 2 && z 7) || (z 2 && z 12) || (z 7 && z 12)) && ((z 3 && z 8) || (z 3 && z 13) || (z 8 && z 13))) || (((z 3 && z 8) || (z 3 && z 13) || (z 8 && z 13)) && ((z 4 && z 9) || (z 4 && z 14) || (z 9 && z 14))) || (((z 4 && z 9) || (z 4 && z 14) || (z 9 && z 14)) && ((z 0 && z 5) || (z 0 && z 10) || (z 5 && z 10)))) ∈ T 6)",
+ "file": "lean/PEqualNP/Outside/L_meta_1404.lean",
+ "module": "PEqualNP.Outside.L_meta_1404",
+ "imports": [
+  "PEqualNP.Defs"
+ ],
+ "unlocks": "the scouts map: a majority gadget on the 5-cycle, monotone depth",
+ "context": "SKETCH: A breadth probe from the scouts' map (plan/README.md, the scouts' map table); its negated twin is on the desk too, and either answer is wanted; the scout's notes are routes/evasion/scout/PROBES.md, probe 5 (the signal line there). Size: 30 to 60 minutes; a finite case check. No sorry, no new axiom. Own namespace for every declaration.",
+ "dead": [],
+ "weight": 30,
+ "parallel": 3,
+ "lane": "main",
+ "pr_open": 0,
+ "pr_numbers": []
+}

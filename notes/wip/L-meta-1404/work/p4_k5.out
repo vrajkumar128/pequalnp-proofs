@@ -1,0 +1,17 @@
+iter 1 |A|=1 |B|=1 YES calls=1 memo=0 0.0s
+iter 2 |A|=2 |B|=2 YES calls=2 memo=1 0.0s
+iter 3 |A|=3 |B|=3 YES calls=6 memo=4 0.0s
+iter 4 |A|=4 |B|=4 YES calls=14 memo=11 0.0s
+iter 5 |A|=5 |B|=5 YES calls=117 memo=29 0.0s
+iter 6 |A|=6 |B|=6 YES calls=1850 memo=136 0.0s
+iter 7 |A|=7 |B|=7 YES calls=3807 memo=244 0.0s
+iter 8 |A|=8 |B|=8 YES calls=10349 memo=558 0.0s
+iter 9 |A|=9 |B|=9 YES calls=55777 memo=2556 0.0s
+iter 10 |A|=10 |B|=10 YES calls=363368 memo=14284 0.0s
+iter 11 |A|=11 |B|=11 YES calls=1521346 memo=55962 0.2s
+iter 12 |A|=12 |B|=12 YES calls=1965825 memo=71239 0.1s
+iter 13 |A|=13 |B|=13 YES calls=12932308 memo=398520 2.1s
+iter 14 |A|=14 |B|=14 YES calls=22845424 memo=684482 2.2s
+iter 15 |A|=15 |B|=15 YES calls=77121381 memo=2060775 11.7s
+iter 16 |A|=16 |B|=16 YES calls=435630093 memo=10493109 91.0s
+iter 17 |A|=17 |B|=17 YES calls=866091799 memo=19521168 116.6s

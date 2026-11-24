@@ -1,0 +1,6 @@
+iter 1 |A|=19 |B|=16 YES calls=333248 memo=12532 0.1s
+iter 2 |A|=20 |B|=17 YES calls=3362619 memo=120821 1.0s
+iter 3 |A|=21 |B|=18 YES calls=45907680 memo=1402206 14.9s
+iter 4 |A|=22 |B|=19 YES calls=53028275 memo=1590357 2.6s
+iter 5 |A|=23 |B|=20 YES calls=80321960 memo=2341202 9.6s
+iter 6 |A|=24 |B|=21 YES calls=84651263 memo=2443665 1.5s
