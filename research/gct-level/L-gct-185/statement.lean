@@ -1,0 +1,1 @@
+∃ L : Submodule ℂ (Fin 4 × Fin 4 → ℂ), (∀ t ∈ L, (∑ f : Fin 4 ↪ Fin 4, ∏ i, (1 + t (i, f i))) = 24) ∧ Module.finrank ℂ L = 6
