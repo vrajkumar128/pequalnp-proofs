@@ -1,0 +1,3 @@
+s3_rs2 kissat rc=143 time=110.545893833
+s3_rs3 kissat--unsat rc=124 time=6600.010815332
+s3_rs3 kissat rc=124 time=9000.009226810
