@@ -1,0 +1,3 @@
+search957.py sha256 df0e86d7f2caf7a1bb90a090b42fbccd70cf80bad2c72524cddea95dbd09337b
+K=(0, 1) |Stab(K)|=72 free gates 9 library 121 wires mode 0,0
+  enc: s=9 rows=118 vars=12935 clauses=393481 build 0.5s

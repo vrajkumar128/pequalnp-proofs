@@ -1,0 +1,5 @@
+search957.py sha256 df0e86d7f2caf7a1bb90a090b42fbccd70cf80bad2c72524cddea95dbd09337b
+K=(0, 1) |Stab(K)|=72 free gates 11 library 121 wires mode 0,0
+  enc: s=11 rows=118 vars=17167 clauses=495626 build 0.7s
+  iter 1: SAT 25.0s VERIFIED on all 8192 inputs; deficit flags [(0, 0), (0, 3)]
+RESULT K=(0, 1) mode=0,0 s=11 -> SAT circuit [('or', [0, 3]), ('or', [2, 4]), ('or', [1, 9]), ('or', [1, 10]), ('not', [60]), ('or', [66, 134]), ('and', [67, 134]), ('or', [135, 137]), ('or', [138, 140]), ('and', [139, 142]), ('or', [136, 143])] outs [144, 141]

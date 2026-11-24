@@ -1,0 +1,4 @@
+search957.py sha256 df0e86d7f2caf7a1bb90a090b42fbccd70cf80bad2c72524cddea95dbd09337b
+K=(0, 1, 2, 3, 7) |Stab(K)|=48 free gates 14 library 88 wires mode 0,0 notpos 6
+  enc: s=14 rows=118 vars=22816 clauses=534352 build 0.6s
+stopped by hand after ~5 min (no answer) to start the NOT-position sweep

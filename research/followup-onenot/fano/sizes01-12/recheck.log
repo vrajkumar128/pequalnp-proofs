@@ -1,0 +1,18 @@
+size 0: UNSAT (UNSAT: no gate for a non-trivial output)
+size 1: UNSAT, regenerated CNF sha256 matches, proof sha256 matches, drat-trim: s VERIFIED
+size 2: UNSAT, regenerated CNF sha256 matches, proof sha256 matches, drat-trim: s VERIFIED
+size 3: UNSAT, regenerated CNF sha256 matches, proof sha256 matches, drat-trim: s VERIFIED
+size 4: UNSAT, regenerated CNF sha256 matches, proof sha256 matches, drat-trim: s VERIFIED
+size 5: UNSAT, regenerated CNF sha256 matches, proof sha256 matches, drat-trim: s VERIFIED
+size 6: UNSAT, regenerated CNF sha256 matches, proof sha256 matches, drat-trim: s VERIFIED
+size 7: UNSAT, regenerated CNF sha256 matches, proof sha256 matches, drat-trim: s VERIFIED
+size 8: UNSAT, regenerated CNF sha256 matches, proof sha256 matches, drat-trim: s VERIFIED
+size 9: UNSAT, regenerated CNF sha256 matches, proof sha256 matches, drat-trim: s VERIFIED
+size 10: UNSAT, regenerated CNF sha256 matches, proof sha256 matches, drat-trim: s VERIFIED
+size 11: UNSAT, regenerated CNF sha256 matches, proof sha256 matches, drat-trim: s VERIFIED
+size 12: UNSAT, regenerated CNF sha256 matches, proof not stored (sha256 435c1cf978e43cb0...): re-run the solver to regenerate
+recheck /tmp/claude-0/-home-user-pequalnp-proofs/50ee7c56-5722-5f91-8050-499f68e2afc3/scratchpad/followup-onenot/fano/sizes01-12: OK except sizes [12] (proof not stored)
+
+real	1m40.583s
+user	1m38.564s
+sys	0m0.871s

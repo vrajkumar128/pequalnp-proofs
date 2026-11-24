@@ -1,0 +1,43 @@
+{
+ "name": "or_x0x1_nonot",
+ "cnf": "case_or_x0x1_nonot.cnf",
+ "cube": [
+  1,
+  9,
+  -27,
+  -28,
+  -444,
+  -864,
+  -1288,
+  -1716,
+  -2148,
+  -2584,
+  -3024,
+  -3468,
+  -3916,
+  -4368,
+  -4824,
+  -5284
+ ],
+ "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; no NOT gate (all isnot_j false)",
+ "cnf_sha256": "848a39b6c7a137b0887848ce11485c961b43b5e1c7048d1c9012357a29904ac6",
+ "kissat_seconds": 443.4,
+ "kissat_status": "UNSATISFIABLE",
+ "kissat_cmd": "kissat -q --no-binary case_or_x0x1_nonot.cnf case_or_x0x1_nonot.drat",
+ "proof_bytes": 854046182,
+ "proof_sha256": "7684b50ffe10ce8e3b73be238b056cafcfb57a46f451c0a8dcf3cc684d4377a2",
+ "drat_seconds": 572.4,
+ "drat_trim_cmd": "drat-trim case_or_x0x1_nonot.cnf case_or_x0x1_nonot.drat -t 100000",
+ "drat_trim_output": [
+  "c parsing input formula with 15912 variables and 113518 clauses",
+  "c finished parsing",
+  "c detected empty clause; start verification via backward checking",
+  "c 78224 of 113518 clauses in core                            ",
+  "c 1804305 of 3404245 lemmas in core using 134585064 resolution steps",
+  "c 17658 RAT lemmas in core; 1474407 redundant literals in core lemmas",
+  "s VERIFIED",
+  "c verification time: 572.337 seconds"
+ ],
+ "drat_trim": "s VERIFIED",
+ "proof_stored": false
+}

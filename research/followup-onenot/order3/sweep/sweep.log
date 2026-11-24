@@ -1,0 +1,5 @@
+08:02:31 0-1-2-3-7 flag 0,0 notpos none: RESULT K=(0, 1, 2, 3, 7) mode=0,0 notpos=none s=14 -> UNSAT (1 iterations, 118 rows, 146.7s) rc=0 148s
+08:02:52 0-1-2-3-7 flag 0,0 notpos 13: RESULT K=(0, 1, 2, 3, 7) mode=0,0 notpos=13 s=14 -> UNSAT (1 iterations, 118 rows, 19.3s) rc=0 21s
+08:07:52 0-1-2-3-7 flag 0,0 notpos 12:  rc=124 300s
+08:12:52 0-1-2-3-7 flag 0,0 notpos 11:  rc=124 300s
+08:13:13 sweep stopped by hand during notpos 10 (positions 10..7 not run)

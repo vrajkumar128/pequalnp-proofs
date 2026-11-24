@@ -1,0 +1,54 @@
+07:11:53 start not_x0
+07:11:53 start or_x0x1_nonot
+07:20:17 not_x0: UNSATISFIABLE kissat 226s drat s VERIFIED 277.9s proof 451830000 bytes
+07:20:19 start and_x0x1_nonot
+07:21:35 start or_x0x1_not01
+07:23:27 or_x0x1_not01: UNSATISFIABLE kissat 49s drat s VERIFIED 62.4s proof 104668187 bytes
+07:28:50 or_x0x1_nonot: UNSATISFIABLE kissat 443s drat s VERIFIED 572.4s proof 854046182 bytes
+07:28:52 start and_x0x1_not01
+07:31:13 and_x0x1_not01: UNSATISFIABLE kissat 60s drat s VERIFIED 81.4s proof 145106313 bytes
+07:31:14 start or_x0x1_not02
+07:33:00 or_x0x1_not02: UNSATISFIABLE kissat 45s drat s VERIFIED 61.3s proof 98304387 bytes
+07:33:02 start and_x0x1_not02
+07:33:56 and_x0x1_nonot: UNSATISFIABLE kissat 357s drat s VERIFIED 459.3s proof 712428589 bytes
+07:33:58 start or_x0x1_not03
+07:34:14 and_x0x1_not02: UNSATISFIABLE kissat 30s drat s VERIFIED 42.5s proof 63591149 bytes
+07:34:16 start and_x0x1_not03
+07:35:34 or_x0x1_not03: UNSATISFIABLE kissat 41s drat s VERIFIED 55.9s proof 91345499 bytes
+07:35:36 start or_x0x1_not04
+07:35:40 and_x0x1_not03: UNSATISFIABLE kissat 38s drat s VERIFIED 46.9s proof 88333449 bytes
+07:35:42 start and_x0x1_not04
+07:36:42 and_x0x1_not04: UNSATISFIABLE kissat 25s drat s VERIFIED 35.0s proof 50594532 bytes
+07:36:44 start or_x0x1_not05
+07:37:09 or_x0x1_not04: UNSATISFIABLE kissat 42s drat s VERIFIED 51.6s proof 102515992 bytes
+07:37:10 start and_x0x1_not05
+07:37:48 and_x0x1_not05: UNSATISFIABLE kissat 15s drat s VERIFIED 23.3s proof 34306493 bytes
+07:37:50 start or_x0x1_not06
+07:38:21 or_x0x1_not05: UNSATISFIABLE kissat 40s drat s VERIFIED 57.3s proof 89059558 bytes
+07:38:22 start and_x0x1_not06
+07:38:49 or_x0x1_not06: UNSATISFIABLE kissat 25s drat s VERIFIED 34.7s proof 59096632 bytes
+07:38:50 start or_x0x1_not07
+07:39:09 and_x0x1_not06: UNSATISFIABLE kissat 18s drat s VERIFIED 28.3s proof 46613640 bytes
+07:39:10 start and_x0x1_not07
+07:39:27 or_x0x1_not07: UNSATISFIABLE kissat 13s drat s VERIFIED 23.9s proof 33025612 bytes
+07:39:28 start or_x0x1_not08
+07:39:37 and_x0x1_not07: UNSATISFIABLE kissat 9s drat s VERIFIED 18.2s proof 23291692 bytes
+07:39:38 start and_x0x1_not08
+07:40:03 and_x0x1_not08: UNSATISFIABLE kissat 8s drat s VERIFIED 17.0s proof 23994436 bytes
+07:40:04 start or_x0x1_not09
+07:40:20 or_x0x1_not08: UNSATISFIABLE kissat 20s drat s VERIFIED 32.3s proof 47461071 bytes
+07:40:22 start and_x0x1_not09
+07:40:50 and_x0x1_not09: UNSATISFIABLE kissat 9s drat s VERIFIED 19.8s proof 21979046 bytes
+07:40:52 start or_x0x1_not10
+07:40:58 or_x0x1_not09: UNSATISFIABLE kissat 20s drat s VERIFIED 33.7s proof 50989148 bytes
+07:40:58 start and_x0x1_not10
+07:41:20 and_x0x1_not10: UNSATISFIABLE kissat 7s drat s VERIFIED 15.9s proof 18425657 bytes
+07:41:22 start or_x0x1_not11
+07:41:23 or_x0x1_not11: UNSATISFIABLE kissat 1s drat s VERIFIED 0.9s proof 4150656 bytes
+07:41:24 start and_x0x1_not11
+07:41:29 and_x0x1_not11: UNSATISFIABLE kissat 2s drat s VERIFIED 3.3s proof 11768807 bytes
+07:41:30 start or_x0x1_not12
+07:41:32 or_x0x1_not12: UNSATISFIABLE kissat 1s drat s VERIFIED 1.1s proof 3957955 bytes
+07:41:32 start and_x0x1_not12
+07:41:33 and_x0x1_not12: UNSATISFIABLE kissat 1s drat s VERIFIED 0.9s proof 4079530 bytes
+07:41:34 or_x0x1_not10: UNSATISFIABLE kissat 15s drat s VERIFIED 26.7s proof 38728612 bytes

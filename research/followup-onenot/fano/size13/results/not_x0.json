@@ -1,0 +1,29 @@
+{
+ "name": "not_x0",
+ "cnf": "case_not_x0.cnf",
+ "cube": [
+  1,
+  8
+ ],
+ "desc": "gate0 = NOT(x0)  [A0=0, B0=0; isnot0 follows]",
+ "cnf_sha256": "85df4ce02dc0826f0ccdad5fe06513057772dffcd3b426ee0876710f396f4157",
+ "kissat_seconds": 225.7,
+ "kissat_status": "UNSATISFIABLE",
+ "kissat_cmd": "kissat -q --no-binary case_not_x0.cnf case_not_x0.drat",
+ "proof_bytes": 451830000,
+ "proof_sha256": "332734c1996a4160dfc4867119c5dd8f5e359c312ff59192038ed6f2479cc756",
+ "drat_seconds": 277.9,
+ "drat_trim_cmd": "drat-trim case_not_x0.cnf case_not_x0.drat -t 100000",
+ "drat_trim_output": [
+  "c parsing input formula with 15912 variables and 113504 clauses",
+  "c finished parsing",
+  "c detected empty clause; start verification via backward checking",
+  "c 72367 of 113504 clauses in core                            ",
+  "c 1000762 of 1967054 lemmas in core using 66872997 resolution steps",
+  "c 14346 RAT lemmas in core; 639280 redundant literals in core lemmas",
+  "s VERIFIED",
+  "c verification time: 277.909 seconds"
+ ],
+ "drat_trim": "s VERIFIED",
+ "proof_stored": false
+}

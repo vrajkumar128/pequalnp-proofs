@@ -1,0 +1,31 @@
+{
+ "name": "and_x0x1_not09",
+ "cnf": "case_and_x0x1_not09.cnf",
+ "cube": [
+  1,
+  9,
+  27,
+  3916
+ ],
+ "desc": "gate0 = AND(x0,x1)  [A0=0, B0=1, op0=AND]; NOT gate at position 9 (isnot_9)",
+ "cnf_sha256": "dd8d74302194432e8414084904a947bc73443e9ae46cc7722b40846aa7882982",
+ "kissat_seconds": 8.7,
+ "kissat_status": "UNSATISFIABLE",
+ "kissat_cmd": "kissat -q --no-binary case_and_x0x1_not09.cnf case_and_x0x1_not09.drat",
+ "proof_bytes": 21979046,
+ "proof_sha256": "0f723202f9a50ae7d6b95808f45b0a319aab31452f4f06555ebfa45070f6a2f1",
+ "drat_seconds": 19.8,
+ "drat_trim_cmd": "drat-trim case_and_x0x1_not09.cnf case_and_x0x1_not09.drat -t 100000",
+ "drat_trim_output": [
+  "c parsing input formula with 15912 variables and 113506 clauses",
+  "c finished parsing",
+  "c detected empty clause; start verification via backward checking",
+  "c 44631 of 113506 clauses in core                            ",
+  "c 87527 of 188279 lemmas in core using 3440249 resolution steps",
+  "c 10655 RAT lemmas in core; 23076 redundant literals in core lemmas",
+  "s VERIFIED",
+  "c verification time: 19.767 seconds"
+ ],
+ "drat_trim": "s VERIFIED",
+ "proof_stored": true
+}

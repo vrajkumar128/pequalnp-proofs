@@ -1,0 +1,31 @@
+{
+ "name": "or_x0x1_not08",
+ "cnf": "case_or_x0x1_not08.cnf",
+ "cube": [
+  1,
+  9,
+  -27,
+  3468
+ ],
+ "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; NOT gate at position 8 (isnot_8)",
+ "cnf_sha256": "23b1ab5d26e033e2ca1d419b9d95aba94767e6c39ab8410cfa2a37aa479ec3c0",
+ "kissat_seconds": 19.7,
+ "kissat_status": "UNSATISFIABLE",
+ "kissat_cmd": "kissat -q --no-binary case_or_x0x1_not08.cnf case_or_x0x1_not08.drat",
+ "proof_bytes": 47461071,
+ "proof_sha256": "7400fcebba3a56bd8af36cbac50254be8192b89165925cf34f5c4b183460172d",
+ "drat_seconds": 32.3,
+ "drat_trim_cmd": "drat-trim case_or_x0x1_not08.cnf case_or_x0x1_not08.drat -t 100000",
+ "drat_trim_output": [
+  "c parsing input formula with 15912 variables and 113506 clauses",
+  "c finished parsing",
+  "c detected empty clause; start verification via backward checking",
+  "c 52714 of 113506 clauses in core                            ",
+  "c 164244 of 312826 lemmas in core using 7864556 resolution steps",
+  "c 11811 RAT lemmas in core; 68444 redundant literals in core lemmas",
+  "s VERIFIED",
+  "c verification time: 32.248 seconds"
+ ],
+ "drat_trim": "s VERIFIED",
+ "proof_stored": true
+}

@@ -1,0 +1,5 @@
+search957.py sha256 df0e86d7f2caf7a1bb90a090b42fbccd70cf80bad2c72524cddea95dbd09337b
+K=(0, 1) |Stab(K)|=72 free gates 8 library 121 wires mode 0,0
+  enc: s=8 rows=118 vars=11005 clauses=344431 build 0.4s
+  iter 1: UNSAT 16.5s (rows 118) total 16.9s
+RESULT K=(0, 1) mode=0,0 s=8 -> UNSAT (1 iterations, 118 rows, 16.9s)

@@ -1,0 +1,465 @@
+{
+ "tool": "circuit_synth 1.0",
+ "cli_equivalent": "circuit_synth_cli none --sums '0,1,3;1,2,4;2,3,5;3,4,6;0,4,5;1,5,6;0,2,6' --basis knot=1 --size 13",
+ "fano_lines": [
+  [
+   0,
+   1,
+   3
+  ],
+  [
+   1,
+   2,
+   4
+  ],
+  [
+   2,
+   3,
+   5
+  ],
+  [
+   3,
+   4,
+   6
+  ],
+  [
+   0,
+   4,
+   5
+  ],
+  [
+   1,
+   5,
+   6
+  ],
+  [
+   0,
+   2,
+   6
+  ]
+ ],
+ "size": 13,
+ "spec": {
+  "n": 7,
+  "tables": [
+   "0xffeeffeeffeeffeeffeeffeeffeeffee",
+   "0xfffffcfcfffffcfcfffffcfcfffffcfc",
+   "0xfffffffffff0fff0fffffffffff0fff0",
+   "0xffffffffffffffffffffff00ffffff00",
+   "0xffffffffffffaaaaffffffffffffaaaa",
+   "0xffffffffffffffffffffffffcccccccc",
+   "0xfffffffffffffffffafafafafafafafa"
+  ],
+  "row_mode": "full",
+  "basis": "knot=1",
+  "mode": "nf",
+  "sb": "used,distinct,order,relevant",
+  "prefix": [],
+  "exists": [],
+  "forbid": [],
+  "restrictions": []
+ },
+ "vars": 15912,
+ "clauses": 113502,
+ "base_cnf": "base_size13.cnf",
+ "base_cnf_sha256": "ee9e1e53ca0c0a024b23449f1b0d5ef5a76eb5ae9bb1ada01128a27884ee3b3b",
+ "variables": {
+  "A[0][0]": 1,
+  "A[0][1]": 2,
+  "B[0][0]": 8,
+  "B[0][1]": 9,
+  "op[0] (true=AND)": 27,
+  "isnot[j]": [
+   28,
+   444,
+   864,
+   1288,
+   1716,
+   2148,
+   2584,
+   3024,
+   3468,
+   3916,
+   4368,
+   4824,
+   5284
+  ],
+  "n_inputs": 7,
+  "wires_of_gate0": 7
+ },
+ "cases": [
+  {
+   "name": "not_x0",
+   "cnf": "case_not_x0.cnf",
+   "cube": [
+    1,
+    8
+   ],
+   "first_gate": "not_x0",
+   "desc": "gate0 = NOT(x0)  [A0=0, B0=0; isnot0 follows]",
+   "cnf_sha256": "85df4ce02dc0826f0ccdad5fe06513057772dffcd3b426ee0876710f396f4157"
+  },
+  {
+   "name": "or_x0x1_nonot",
+   "cnf": "case_or_x0x1_nonot.cnf",
+   "cube": [
+    1,
+    9,
+    -27,
+    -28,
+    -444,
+    -864,
+    -1288,
+    -1716,
+    -2148,
+    -2584,
+    -3024,
+    -3468,
+    -3916,
+    -4368,
+    -4824,
+    -5284
+   ],
+   "first_gate": "or_x0x1",
+   "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; no NOT gate (all isnot_j false)",
+   "cnf_sha256": "848a39b6c7a137b0887848ce11485c961b43b5e1c7048d1c9012357a29904ac6"
+  },
+  {
+   "name": "or_x0x1_not01",
+   "cnf": "case_or_x0x1_not01.cnf",
+   "cube": [
+    1,
+    9,
+    -27,
+    444
+   ],
+   "first_gate": "or_x0x1",
+   "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; NOT gate at position 1 (isnot_1)",
+   "cnf_sha256": "dbb286df18fcfc23a9a8e4dcd7f37f8068bc3b99fc8bb4be6cd964defe035c31"
+  },
+  {
+   "name": "or_x0x1_not02",
+   "cnf": "case_or_x0x1_not02.cnf",
+   "cube": [
+    1,
+    9,
+    -27,
+    864
+   ],
+   "first_gate": "or_x0x1",
+   "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; NOT gate at position 2 (isnot_2)",
+   "cnf_sha256": "046ebf8e8ceeb5e7a04e128b849f1cdfe2b1efa6c3a49980e479b167e0fba8b1"
+  },
+  {
+   "name": "or_x0x1_not03",
+   "cnf": "case_or_x0x1_not03.cnf",
+   "cube": [
+    1,
+    9,
+    -27,
+    1288
+   ],
+   "first_gate": "or_x0x1",
+   "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; NOT gate at position 3 (isnot_3)",
+   "cnf_sha256": "fdb36657783e74343a418c314377c77ea1cacc35d5f94f09642c16e3c23dd9c5"
+  },
+  {
+   "name": "or_x0x1_not04",
+   "cnf": "case_or_x0x1_not04.cnf",
+   "cube": [
+    1,
+    9,
+    -27,
+    1716
+   ],
+   "first_gate": "or_x0x1",
+   "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; NOT gate at position 4 (isnot_4)",
+   "cnf_sha256": "73a39db9a5723dacb99f6ccb5f37c4938a84149d41267a16c5509cdfa7c2e940"
+  },
+  {
+   "name": "or_x0x1_not05",
+   "cnf": "case_or_x0x1_not05.cnf",
+   "cube": [
+    1,
+    9,
+    -27,
+    2148
+   ],
+   "first_gate": "or_x0x1",
+   "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; NOT gate at position 5 (isnot_5)",
+   "cnf_sha256": "80f6cea9d2817271a498956d34f1ff49494e5f8780fa4216e135f41c60f2dd64"
+  },
+  {
+   "name": "or_x0x1_not06",
+   "cnf": "case_or_x0x1_not06.cnf",
+   "cube": [
+    1,
+    9,
+    -27,
+    2584
+   ],
+   "first_gate": "or_x0x1",
+   "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; NOT gate at position 6 (isnot_6)",
+   "cnf_sha256": "650525169653ae3e9efe846cde9e4cb673a9674831c9142927f786454b6cc508"
+  },
+  {
+   "name": "or_x0x1_not07",
+   "cnf": "case_or_x0x1_not07.cnf",
+   "cube": [
+    1,
+    9,
+    -27,
+    3024
+   ],
+   "first_gate": "or_x0x1",
+   "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; NOT gate at position 7 (isnot_7)",
+   "cnf_sha256": "fd26f688cc62e1a6eccb8bea8b30e196fbcc8ef0eeaeaee07b4555d61e1fc9fa"
+  },
+  {
+   "name": "or_x0x1_not08",
+   "cnf": "case_or_x0x1_not08.cnf",
+   "cube": [
+    1,
+    9,
+    -27,
+    3468
+   ],
+   "first_gate": "or_x0x1",
+   "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; NOT gate at position 8 (isnot_8)",
+   "cnf_sha256": "23b1ab5d26e033e2ca1d419b9d95aba94767e6c39ab8410cfa2a37aa479ec3c0"
+  },
+  {
+   "name": "or_x0x1_not09",
+   "cnf": "case_or_x0x1_not09.cnf",
+   "cube": [
+    1,
+    9,
+    -27,
+    3916
+   ],
+   "first_gate": "or_x0x1",
+   "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; NOT gate at position 9 (isnot_9)",
+   "cnf_sha256": "5b373d77f9bf58c60484cea08e295c20292e9c87c1ea88a2b27d9eefb1288fc9"
+  },
+  {
+   "name": "or_x0x1_not10",
+   "cnf": "case_or_x0x1_not10.cnf",
+   "cube": [
+    1,
+    9,
+    -27,
+    4368
+   ],
+   "first_gate": "or_x0x1",
+   "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; NOT gate at position 10 (isnot_10)",
+   "cnf_sha256": "1916059ac1d828c44d2fb84f76b4b39397d1a14eba14300987d6b4063a903a07"
+  },
+  {
+   "name": "or_x0x1_not11",
+   "cnf": "case_or_x0x1_not11.cnf",
+   "cube": [
+    1,
+    9,
+    -27,
+    4824
+   ],
+   "first_gate": "or_x0x1",
+   "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; NOT gate at position 11 (isnot_11)",
+   "cnf_sha256": "851363c113d4d229624040f37d8ff21cd203ab03c13e893e004a59195e2e8add"
+  },
+  {
+   "name": "or_x0x1_not12",
+   "cnf": "case_or_x0x1_not12.cnf",
+   "cube": [
+    1,
+    9,
+    -27,
+    5284
+   ],
+   "first_gate": "or_x0x1",
+   "desc": "gate0 = OR(x0,x1)  [A0=0, B0=1, op0=OR]; NOT gate at position 12 (isnot_12)",
+   "cnf_sha256": "11f1b779981345bcb04998d80244ec6d962cc87a217d41afdadb79a26e589697"
+  },
+  {
+   "name": "and_x0x1_nonot",
+   "cnf": "case_and_x0x1_nonot.cnf",
+   "cube": [
+    1,
+    9,
+    27,
+    -28,
+    -444,
+    -864,
+    -1288,
+    -1716,
+    -2148,
+    -2584,
+    -3024,
+    -3468,
+    -3916,
+    -4368,
+    -4824,
+    -5284
+   ],
+   "first_gate": "and_x0x1",
+   "desc": "gate0 = AND(x0,x1)  [A0=0, B0=1, op0=AND]; no NOT gate (all isnot_j false)",
+   "cnf_sha256": "90068cb4943712b6365113cc587fe378674696dda882cd5c55bd5505a8471312"
+  },
+  {
+   "name": "and_x0x1_not01",
+   "cnf": "case_and_x0x1_not01.cnf",
+   "cube": [
+    1,
+    9,
+    27,
+    444
+   ],
+   "first_gate": "and_x0x1",
+   "desc": "gate0 = AND(x0,x1)  [A0=0, B0=1, op0=AND]; NOT gate at position 1 (isnot_1)",
+   "cnf_sha256": "bb869af07999dd11815de97e3889a59bf04bc1ca0cfb4c11ab341958834a1ef0"
+  },
+  {
+   "name": "and_x0x1_not02",
+   "cnf": "case_and_x0x1_not02.cnf",
+   "cube": [
+    1,
+    9,
+    27,
+    864
+   ],
+   "first_gate": "and_x0x1",
+   "desc": "gate0 = AND(x0,x1)  [A0=0, B0=1, op0=AND]; NOT gate at position 2 (isnot_2)",
+   "cnf_sha256": "5b491c989fc8a891096b1c25ff0543143a53775ea9fd90709d0254ab23982cef"
+  },
+  {
+   "name": "and_x0x1_not03",
+   "cnf": "case_and_x0x1_not03.cnf",
+   "cube": [
+    1,
+    9,
+    27,
+    1288
+   ],
+   "first_gate": "and_x0x1",
+   "desc": "gate0 = AND(x0,x1)  [A0=0, B0=1, op0=AND]; NOT gate at position 3 (isnot_3)",
+   "cnf_sha256": "d7ed20578743b7d21e856d47d9eb580fcf47e490208fdbc6f356470c6decf60e"
+  },
+  {
+   "name": "and_x0x1_not04",
+   "cnf": "case_and_x0x1_not04.cnf",
+   "cube": [
+    1,
+    9,
+    27,
+    1716
+   ],
+   "first_gate": "and_x0x1",
+   "desc": "gate0 = AND(x0,x1)  [A0=0, B0=1, op0=AND]; NOT gate at position 4 (isnot_4)",
+   "cnf_sha256": "0714667550c8b1ab9aebf75bb18ae8a93bbd274ebe9971b31c2024c08f488702"
+  },
+  {
+   "name": "and_x0x1_not05",
+   "cnf": "case_and_x0x1_not05.cnf",
+   "cube": [
+    1,
+    9,
+    27,
+    2148
+   ],
+   "first_gate": "and_x0x1",
+   "desc": "gate0 = AND(x0,x1)  [A0=0, B0=1, op0=AND]; NOT gate at position 5 (isnot_5)",
+   "cnf_sha256": "05bf76c623aabf7737958c8527d52abe9b9bb585203a373d009014ba798c7843"
+  },
+  {
+   "name": "and_x0x1_not06",
+   "cnf": "case_and_x0x1_not06.cnf",
+   "cube": [
+    1,
+    9,
+    27,
+    2584
+   ],
+   "first_gate": "and_x0x1",
+   "desc": "gate0 = AND(x0,x1)  [A0=0, B0=1, op0=AND]; NOT gate at position 6 (isnot_6)",
+   "cnf_sha256": "04525c17ff3ccd053dd483a9b8ea774604ac9fa59577d433df23e3248d29fede"
+  },
+  {
+   "name": "and_x0x1_not07",
+   "cnf": "case_and_x0x1_not07.cnf",
+   "cube": [
+    1,
+    9,
+    27,
+    3024
+   ],
+   "first_gate": "and_x0x1",
+   "desc": "gate0 = AND(x0,x1)  [A0=0, B0=1, op0=AND]; NOT gate at position 7 (isnot_7)",
+   "cnf_sha256": "060026150f50d04d8dbe9a130fcd3d18f4bcf4cd4b86c4adc9c0b3b6e396ecf3"
+  },
+  {
+   "name": "and_x0x1_not08",
+   "cnf": "case_and_x0x1_not08.cnf",
+   "cube": [
+    1,
+    9,
+    27,
+    3468
+   ],
+   "first_gate": "and_x0x1",
+   "desc": "gate0 = AND(x0,x1)  [A0=0, B0=1, op0=AND]; NOT gate at position 8 (isnot_8)",
+   "cnf_sha256": "5d2508a11bc18d8e8f8dfcbdd4ed5a9fb58e81bb0edf03877cc328f9ba85d40c"
+  },
+  {
+   "name": "and_x0x1_not09",
+   "cnf": "case_and_x0x1_not09.cnf",
+   "cube": [
+    1,
+    9,
+    27,
+    3916
+   ],
+   "first_gate": "and_x0x1",
+   "desc": "gate0 = AND(x0,x1)  [A0=0, B0=1, op0=AND]; NOT gate at position 9 (isnot_9)",
+   "cnf_sha256": "dd8d74302194432e8414084904a947bc73443e9ae46cc7722b40846aa7882982"
+  },
+  {
+   "name": "and_x0x1_not10",
+   "cnf": "case_and_x0x1_not10.cnf",
+   "cube": [
+    1,
+    9,
+    27,
+    4368
+   ],
+   "first_gate": "and_x0x1",
+   "desc": "gate0 = AND(x0,x1)  [A0=0, B0=1, op0=AND]; NOT gate at position 10 (isnot_10)",
+   "cnf_sha256": "2cda5a56ae6463a8dd2291786bc5b4afe48292e777255bd8ace34cac61ea7b4e"
+  },
+  {
+   "name": "and_x0x1_not11",
+   "cnf": "case_and_x0x1_not11.cnf",
+   "cube": [
+    1,
+    9,
+    27,
+    4824
+   ],
+   "first_gate": "and_x0x1",
+   "desc": "gate0 = AND(x0,x1)  [A0=0, B0=1, op0=AND]; NOT gate at position 11 (isnot_11)",
+   "cnf_sha256": "45137c4146fc573ac0d05ee629c45e01c1666fe4435032f08bb2e042012c5ffb"
+  },
+  {
+   "name": "and_x0x1_not12",
+   "cnf": "case_and_x0x1_not12.cnf",
+   "cube": [
+    1,
+    9,
+    27,
+    5284
+   ],
+   "first_gate": "and_x0x1",
+   "desc": "gate0 = AND(x0,x1)  [A0=0, B0=1, op0=AND]; NOT gate at position 12 (isnot_12)",
+   "cnf_sha256": "033f9a1a1d0dbf3ca40dae849f16d290e9010cf61bea9ec12507984310acd82e"
+  }
+ ]
+}
