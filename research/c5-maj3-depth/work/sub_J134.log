@@ -1,0 +1,3 @@
+stabilizer block perms [[0, 1, 2, 3, 4], [4, 3, 2, 1, 0]]
+rows 45 81 vars 9667 clauses 63090
+UNSATISFIABLE 180.2s

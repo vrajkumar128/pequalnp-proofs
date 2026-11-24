@@ -1,0 +1,20 @@
+{
+ "name": "E4a_k10",
+ "cnf": "cert/E4a_k10.cnf",
+ "cnf_sha256": "c948ab24b99403fc4df76c78c0c593d10bc2f350ffbc4ae345949b398b415a82",
+ "proof": "cert/E4a_k10.drat",
+ "proof_bytes": 312381877,
+ "proof_sha256": "0e94efd224973c13745d5ef7dc7afe4998b0f898d5a096954b9969f380e14e19",
+ "drat_seconds": 218.0,
+ "drat_trim_tail": [
+  "c WARNING: detected and deleted duplicate literal 253 at position 2 of proof line 54556",
+  "c finished parsing, read 312381877 bytes from proof file",
+  "c detected empty clause; start verification via backward checking",
+  "c 33413 of 50405 clauses in core                            ",
+  "c 1358514 of 2549554 lemmas in core using 137624290 resolution steps",
+  "c 17004 RAT lemmas in core; 1862327 redundant literals in core lemmas",
+  "s VERIFIED",
+  "c verification time: 217.936 seconds"
+ ],
+ "verdict": "s VERIFIED"
+}

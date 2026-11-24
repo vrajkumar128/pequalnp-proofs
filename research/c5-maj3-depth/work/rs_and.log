@@ -1,0 +1,21 @@
+group 77760 split side b 135
+depth-5 selector solver built: 13249 vars 84477 clauses
+   cegar 5 rows 0.0s sat
+   cegar 7 rows 0.0s sat
+   cegar 9 rows 0.0s sat
+   cegar 11 rows 0.0s sat
+   cegar 13 rows 0.0s sat
+   cegar 15 rows 0.0s sat
+   cegar 8 rows 0.0s sat
+   cegar 12 rows 0.0s sat
+   cegar 16 rows 0.0s sat
+   cegar 20 rows 1.0s sat
+   cegar 24 rows 80.6s sat
+   cegar 28 rows 38.3s UNSAT
+iter 1 |S1|=1 |S2|=134 sat(0.0s) UNSAT(119.9s) | hard 14+14 (min 0.0s) +77760 edges total 77760 edges 121s
+   cegar 8 rows 0.0s sat
+   cegar 12 rows 0.1s sat
+   cegar 16 rows 0.5s sat
+   cegar 20 rows 0.7s sat
+   cegar 24 rows 1.2s sat
+   cegar 28 rows 3.3s sat

@@ -1,0 +1,2 @@
+0000000 rc=124 iter 26 rows 26+26 SAT 4.0s bad 15+0 iter 27 rows 27+26 SAT 22.2s bad 16+0 
+0001000 rc=124 iter 25 rows 25+24 SAT 4.6s bad 19+6 iter 26 rows 26+25 SAT 23.9s bad 12+0 

@@ -1,0 +1,4 @@
+vars 19379 clauses 101621
+SATISFIABLE 33.2s
+depth 5 accepted minterms 24 rejected bob rows 135
+(((((z0 && z5) || (z10 || z10)) && ((z1 && z5) || (z0 || z5))) && (((z4 || z4) && (z9 || z14)) || ((z1 && z6) || (z1 && z11)))) || ((((z1 && z1) && (z6 || z11)) || ((z3 && z3) && (z8 || z13))) && (((z2 && z7) || (z2 && z12)) || ((z2 && z7) || (z7 && z12)))))

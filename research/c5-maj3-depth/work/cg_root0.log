@@ -1,0 +1,11 @@
+iter 1 rows 1+1 SAT 0.0s bad 33+81
+iter 2 rows 3+3 SAT 0.0s bad 35+99
+iter 3 rows 5+5 SAT 0.0s bad 32+101
+iter 4 rows 7+7 SAT 0.0s bad 33+75
+iter 5 rows 9+9 SAT 0.1s bad 32+67
+iter 6 rows 11+11 SAT 0.8s bad 30+103
+iter 7 rows 13+13 SAT 1.8s bad 25+79
+iter 8 rows 15+15 SAT 0.7s bad 27+57
+iter 9 rows 17+17 SAT 3.3s bad 18+52
+iter 10 rows 19+19 SAT 72.6s bad 20+39
+iter 11 rows 21+21 SAT 16.6s bad 17+0

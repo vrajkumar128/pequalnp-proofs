@@ -1,0 +1,20 @@
+{
+ "name": "ORAND_4",
+ "cnf": "cert/ORAND_4.cnf",
+ "cnf_sha256": "617b5bc72f9cfb6831f031371d4d3294f2c15f252639e8899aaed3c1cd968e8e",
+ "proof": "cert/ORAND_4.drat",
+ "proof_bytes": 200262783,
+ "proof_sha256": "a46eabc803c64d679bb38a6ab88aa0325f43574f28a29af4b463109974d688bc",
+ "drat_seconds": 149.5,
+ "drat_trim_tail": [
+  "c parsing input formula with 12037 variables and 78610 clauses",
+  "c finished parsing, read 200262783 bytes from proof file",
+  "c detected empty clause; start verification via backward checking",
+  "c 59291 of 78610 clauses in core                            ",
+  "c 783559 of 2181071 lemmas in core using 59162191 resolution steps",
+  "c 30400 RAT lemmas in core; 617763 redundant literals in core lemmas",
+  "s VERIFIED",
+  "c verification time: 149.424 seconds"
+ ],
+ "verdict": "s VERIFIED"
+}

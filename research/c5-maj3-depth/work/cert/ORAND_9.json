@@ -1,0 +1,20 @@
+{
+ "name": "ORAND_9",
+ "cnf": "cert/ORAND_9.cnf",
+ "cnf_sha256": "5eeeb7b8d57fa0bdfa6d83437b4d18c3efd2156827c981b495e594443c7c52c4",
+ "proof": "cert/ORAND_9.drat",
+ "proof_bytes": 173141397,
+ "proof_sha256": "ad43bcd3c8260be20a1a7e9f4fe381b8b6274662471b949cc727bf2481314f5a",
+ "drat_seconds": 131.1,
+ "drat_trim_tail": [
+  "c WARNING: detected and deleted duplicate literal 508 at position 2 of proof line 79948",
+  "c finished parsing, read 173141397 bytes from proof file",
+  "c detected empty clause; start verification via backward checking",
+  "c 59957 of 78334 clauses in core                            ",
+  "c 732204 of 1869553 lemmas in core using 50845664 resolution steps",
+  "c 28124 RAT lemmas in core; 559746 redundant literals in core lemmas",
+  "s VERIFIED",
+  "c verification time: 131.079 seconds"
+ ],
+ "verdict": "s VERIFIED"
+}

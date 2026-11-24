@@ -1,0 +1,4 @@
+sets 1 images 135 vars 19379 clauses 101756
+iter 1: SATISFIABLE 139.5s
+   new set size 24: (((((z0 && z2) || (z0 || z5)) && ((z0 && z5) || (z10 || z10))) && (((z4 && z4) && (z9 || z14)) || ((z1 && z6) || (z6 && z11)))) || ((((z1 && z1) && (z6 || z11)) || ((z3 || z3) && (z8 || z13))) && (((z7 || z7) && (z12 || z12)) || ((z2 && z7) || (z2 && z12)))))
+sets 2 images 405 vars 19379 clauses 102026

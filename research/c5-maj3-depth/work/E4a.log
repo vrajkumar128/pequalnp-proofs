@@ -1,0 +1,8 @@
+set 1 size 12 (1.8s) +45 blocked images, total 45
+set 2 size 12 (0.6s) +30 blocked images, total 75
+k=12 exhausted (190.6s); 2 sets so far, 193s
+k=11 exhausted (161.6s); 2 sets so far, 355s
+k=10 exhausted (232.4s); 2 sets so far, 587s
+set 3 size 9 (14.6s) +1620 blocked images, total 1695
+set 4 size 9 (46.2s) +270 blocked images, total 1965
+set 5 size 9 (18.2s) +810 blocked images, total 2775

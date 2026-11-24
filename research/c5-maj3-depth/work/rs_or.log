@@ -1,0 +1,18 @@
+group 77760 split side a 45
+depth-5 selector solver built: 13249 vars 84477 clauses
+   cegar 5 rows 0.0s sat
+   cegar 7 rows 0.0s sat
+   cegar 9 rows 0.0s sat
+   cegar 11 rows 0.0s sat
+   cegar 8 rows 0.0s sat
+   cegar 12 rows 0.0s sat
+   cegar 16 rows 0.2s sat
+   cegar 20 rows 0.4s sat
+   cegar 24 rows 2.9s sat
+   cegar 28 rows 141.9s UNSAT
+iter 1 |S1|=1 |S2|=44 sat(0.1s) UNSAT(145.5s) | hard 14+14 (min 0.0s) +38880 edges total 38880 edges 146s
+   cegar 8 rows 0.0s sat
+   cegar 12 rows 0.2s sat
+   cegar 16 rows 0.2s sat
+   cegar 20 rows 0.5s sat
+   cegar 24 rows 5.4s sat
