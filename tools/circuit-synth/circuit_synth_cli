@@ -1,0 +1,5 @@
+#!/bin/sh
+# Wrapper: runs the package with the bundled venv (python-sat) when present.
+D="$(cd "$(dirname "$0")" && pwd)"
+PY="$D/venv/bin/python"; [ -x "$PY" ] || PY=python3
+PYTHONPATH="$D${PYTHONPATH:+:$PYTHONPATH}" exec "$PY" -m circuit_synth "$@"

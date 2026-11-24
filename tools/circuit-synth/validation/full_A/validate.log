@@ -1,0 +1,14 @@
+circuit_synth validate (full) 2026-11-24 03:26:46 UTC
+== section known
+  xor3: min with <= 1 NOT = 9, full basis = 8
+== known: 60 checks, 0 failures, 4.7s
+== section brute3
+  brute3: 7800 (function, basis, config) comparisons, cap 7
+== brute3: 7800 checks, 0 failures, 252.0s
+== section brute4
+  brute4: 166 monotone functions, 3320 comparisons, cap 7
+== brute4: 3320 checks, 0 failures, 28.9s
+== section graphs
+  graphs: 795 comparisons
+== graphs: 795 checks, 0 failures, 46.4s
+VALIDATION PASSED: 11975 checks, 0 failures, 332.0s

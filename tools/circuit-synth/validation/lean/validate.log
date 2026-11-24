@@ -1,0 +1,13 @@
+circuit_synth validate (full) 2026-11-24 03:32:27 UTC
+== section lean
+MISMATCH [lean] maj3_mono no native_decide 
+MISMATCH [lean] P4_graph no native_decide 
+MISMATCH [lean] xor2_onenot no native_decide 
+MISMATCH [lean] sums4 no native_decide 
+MISMATCH [lean] maj5_table_find10 no native_decide 
+== lean: 10 checks, 5 failures, 59.0s
+VALIDATION FAILED: 10 checks, 5 failures, 59.0s
+circuit_synth validate (full) 2026-11-24 03:33:32 UTC
+== section lean
+== lean: 10 checks, 0 failures, 60.0s
+VALIDATION PASSED: 10 checks, 0 failures, 60.0s

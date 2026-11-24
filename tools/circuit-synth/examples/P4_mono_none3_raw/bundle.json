@@ -1,0 +1,44 @@
+{
+ "tool": "circuit_synth 1.0",
+ "date": "2026-11-24T03:36:46Z",
+ "query": "none<=3",
+ "target": {
+  "n": 4,
+  "tables": [
+   "0xf8c8"
+  ],
+  "names": [
+   "f"
+  ],
+  "desc": "graph edge function, edges [(0, 1), (1, 2), (2, 3)]",
+  "row_mode": "monotone",
+  "nrows": 6
+ },
+ "basis": "mono",
+ "mode": "raw",
+ "sb": "none (raw)",
+ "prefix": [],
+ "exists": [],
+ "forbid": [],
+ "restrictions": [],
+ "sizes": [
+  {
+   "size": 3,
+   "status": "UNSAT",
+   "vars": 156,
+   "clauses": 619,
+   "seconds": 0.083,
+   "solver": "kissat",
+   "cnf_sha256": "45b1177f9960908e06f1599de499a7037b01356ecbb77c182dd7bd7bec80992f",
+   "proof_sha256": "c1743b93f946c6a6795d5dfcc63d4937484c2106e55b304132f3e66d30b1db29",
+   "proof_bytes": 12801,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.072,
+   "cnf": "size03.cnf",
+   "proof": "size03.drat"
+  }
+ ],
+ "proved_none": true,
+ "proved_none_certified": true,
+ "all_unsat_certified": true
+}

@@ -1,0 +1,167 @@
+{
+ "tool": "circuit_synth 1.0",
+ "date": "2026-11-24T03:36:37Z",
+ "query": "minimum",
+ "target": {
+  "n": 3,
+  "tables": [
+   "0xe8"
+  ],
+  "names": [
+   "maj3"
+  ],
+  "desc": "truth table 0xe8",
+  "row_mode": "full",
+  "nrows": 8
+ },
+ "basis": "mono",
+ "mode": "nf",
+ "sb": "used,distinct,order,relevant",
+ "prefix": [],
+ "exists": [],
+ "forbid": [],
+ "restrictions": [],
+ "sizes": [
+  {
+   "size": 0,
+   "status": "UNSAT",
+   "reason": "UNSAT: no gate for a non-trivial output"
+  },
+  {
+   "size": 1,
+   "status": "UNSAT",
+   "vars": 35,
+   "clauses": 131,
+   "seconds": 0.099,
+   "solver": "kissat",
+   "cnf_sha256": "9e7bd059f5efbf4c94298d0e2688f467bdefc58c4a500f9eef7122e6d7d07a01",
+   "proof_sha256": "982f4bc24ca65c9b0818391e2656b043769b60f0e318c72299ebbe69879c840c",
+   "proof_bytes": 320,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.092,
+   "cnf": "size01.cnf",
+   "proof": "size01.drat"
+  },
+  {
+   "size": 2,
+   "status": "UNSAT",
+   "vars": 84,
+   "clauses": 322,
+   "seconds": 0.07,
+   "solver": "kissat",
+   "cnf_sha256": "1ae34b2607782f632acc1499e7c78e6eb7a13f3a2e9eb324bf602c7090f497db",
+   "proof_sha256": "06d5861bdb2f34623b93e095b7ee7b331e06bfdbfe4d50372067c87714caae04",
+   "proof_bytes": 1229,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.067,
+   "cnf": "size02.cnf",
+   "proof": "size02.drat"
+  },
+  {
+   "size": 3,
+   "status": "UNSAT",
+   "vars": 147,
+   "clauses": 587,
+   "seconds": 0.073,
+   "solver": "kissat",
+   "cnf_sha256": "4bd1cc6ff51f405e71644301c1e8de003b162b0d80c3b9977f54f49d88d4cb15",
+   "proof_sha256": "77c37e0d70d9382085aa41a9be6f5b2216bb37204cab6d4f1ce99c4e7a47c389",
+   "proof_bytes": 22079,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.068,
+   "cnf": "size03.cnf",
+   "proof": "size03.drat"
+  },
+  {
+   "size": 4,
+   "status": "SAT",
+   "vars": 224,
+   "clauses": 930,
+   "seconds": 0.012,
+   "solver": "kissat",
+   "cnf_sha256": "12b45e9ee6cbabc35c3572dae77e1379feb83c88ff9fa222f5bab9bb999b3b96",
+   "cnf": "size04.cnf",
+   "circuit": {
+    "n": 3,
+    "gates": [
+     [
+      "or",
+      [
+       0,
+       1
+      ]
+     ],
+     [
+      "and",
+      [
+       0,
+       1
+      ]
+     ],
+     [
+      "and",
+      [
+       2,
+       3
+      ]
+     ],
+     [
+      "or",
+      [
+       4,
+       5
+      ]
+     ]
+    ],
+    "outputs": [
+     6
+    ]
+   },
+   "verification": {
+    "outputs_correct_on_all_8_inputs": true,
+    "basis_mono_fanin2": true,
+    "size_le_4": true,
+    "all_ok": true
+   }
+  }
+ ],
+ "min_size": 4,
+ "searched_from": 0,
+ "circuit": {
+  "n": 3,
+  "gates": [
+   [
+    "or",
+    [
+     0,
+     1
+    ]
+   ],
+   [
+    "and",
+    [
+     0,
+     1
+    ]
+   ],
+   [
+    "and",
+    [
+     2,
+     3
+    ]
+   ],
+   [
+    "or",
+    [
+     4,
+     5
+    ]
+   ]
+  ],
+  "outputs": [
+   6
+  ]
+ },
+ "all_unsat_certified": true
+}

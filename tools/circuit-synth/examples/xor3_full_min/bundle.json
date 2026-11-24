@@ -1,0 +1,279 @@
+{
+ "tool": "circuit_synth 1.0",
+ "date": "2026-11-24T03:36:41Z",
+ "query": "minimum",
+ "target": {
+  "n": 3,
+  "tables": [
+   "0x96"
+  ],
+  "names": [
+   "xor3_full"
+  ],
+  "desc": "truth table 0x96",
+  "row_mode": "full",
+  "nrows": 8
+ },
+ "basis": "full",
+ "mode": "nf",
+ "sb": "used,distinct,order,relevant",
+ "prefix": [],
+ "exists": [],
+ "forbid": [],
+ "restrictions": [],
+ "sizes": [
+  {
+   "size": 0,
+   "status": "UNSAT",
+   "reason": "UNSAT: no gate for a non-trivial output"
+  },
+  {
+   "size": 1,
+   "status": "UNSAT",
+   "vars": 36,
+   "clauses": 153,
+   "seconds": 0.078,
+   "solver": "kissat",
+   "cnf_sha256": "09d16f23b5ba95a9747c69fc65f81f2e7258fea4a7d7b9b3fd088886bc7edc56",
+   "proof_sha256": "568295030e07a05b7e92d54d1a2c37eac122cea75756469f46d45fe903e420d4",
+   "proof_bytes": 246,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.075,
+   "cnf": "size01.cnf",
+   "proof": "size01.drat"
+  },
+  {
+   "size": 2,
+   "status": "UNSAT",
+   "vars": 86,
+   "clauses": 368,
+   "seconds": 0.068,
+   "solver": "kissat",
+   "cnf_sha256": "c50a5d67e482dbd45a5f9d5952fadc0099f133e2f2acca3d0d04f9782c1cc22d",
+   "proof_sha256": "e1da8727b7bdb1856d1e66b82c78c8cc3c016bcf5ef749084a353fafc9b7050e",
+   "proof_bytes": 7528,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.064,
+   "cnf": "size02.cnf",
+   "proof": "size02.drat"
+  },
+  {
+   "size": 3,
+   "status": "UNSAT",
+   "vars": 150,
+   "clauses": 659,
+   "seconds": 0.076,
+   "solver": "kissat",
+   "cnf_sha256": "63609e17a769a6ffb96f0aa62a24008dcc97aee3c50ba6e123de58381ed28fc1",
+   "proof_sha256": "7f6e58cc2e6dc6530ec387c90ad44c34959279c31f4d913ad14cdd92cc7c99d1",
+   "proof_bytes": 44373,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.068,
+   "cnf": "size03.cnf",
+   "proof": "size03.drat"
+  },
+  {
+   "size": 4,
+   "status": "UNSAT",
+   "vars": 228,
+   "clauses": 1030,
+   "seconds": 0.098,
+   "solver": "kissat",
+   "cnf_sha256": "765478f24cf3478fa0a8aaa1cf5ef3bb71ff5afb03a174b1efb551c21262ac6d",
+   "proof_sha256": "cc43a6fecff910055aa458ab2e47aab6217e6dc88c304abf511f372805d7a23b",
+   "proof_bytes": 35925,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.077,
+   "cnf": "size04.cnf",
+   "proof": "size04.drat"
+  },
+  {
+   "size": 5,
+   "status": "UNSAT",
+   "vars": 320,
+   "clauses": 1485,
+   "seconds": 0.13,
+   "solver": "kissat",
+   "cnf_sha256": "f930cfa1fc222e08a5de167936dc6e3e07eca80de7412b34449bee3140d47165",
+   "proof_sha256": "e7dba336e350963595b1948b46f77b24e01197131265bdda1e9a0cad96190320",
+   "proof_bytes": 71129,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.087,
+   "cnf": "size05.cnf",
+   "proof": "size05.drat"
+  },
+  {
+   "size": 6,
+   "status": "UNSAT",
+   "vars": 426,
+   "clauses": 2028,
+   "seconds": 0.199,
+   "solver": "kissat",
+   "cnf_sha256": "9bc88b226323adfd289146d72e2f67899cf313d0fd2914acf0f8f270310c94b6",
+   "proof_sha256": "9563a2018d362ecea9562e1f29a61b74dcc946020065ddf8e48ab28cf6ec73ff",
+   "proof_bytes": 216837,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.113,
+   "cnf": "size06.cnf",
+   "proof": "size06.drat"
+  },
+  {
+   "size": 7,
+   "status": "UNSAT",
+   "vars": 546,
+   "clauses": 2663,
+   "seconds": 0.838,
+   "solver": "kissat",
+   "cnf_sha256": "e69b6f17852b7ebc1b7d58a12f52405b0f27b383cdfc7e5b2e7135317779c84f",
+   "proof_sha256": "37d487aff23fabccfa34c8a6802e783b3fec9418121563e23010d92f1e86cb42",
+   "proof_bytes": 1503294,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.361,
+   "cnf": "size07.cnf",
+   "proof": "size07.drat"
+  },
+  {
+   "size": 8,
+   "status": "SAT",
+   "vars": 680,
+   "clauses": 3394,
+   "seconds": 0.314,
+   "solver": "kissat",
+   "cnf_sha256": "bd0c15c06fb2fd3e65f63355e19e86ecb080161ec27284c57c7224266caf5560",
+   "cnf": "size08.cnf",
+   "circuit": {
+    "n": 3,
+    "gates": [
+     [
+      "or",
+      [
+       0,
+       1
+      ]
+     ],
+     [
+      "and",
+      [
+       0,
+       1
+      ]
+     ],
+     [
+      "not",
+      [
+       3
+      ]
+     ],
+     [
+      "or",
+      [
+       4,
+       5
+      ]
+     ],
+     [
+      "or",
+      [
+       2,
+       6
+      ]
+     ],
+     [
+      "and",
+      [
+       2,
+       6
+      ]
+     ],
+     [
+      "not",
+      [
+       7
+      ]
+     ],
+     [
+      "or",
+      [
+       8,
+       9
+      ]
+     ]
+    ],
+    "outputs": [
+     10
+    ]
+   },
+   "verification": {
+    "outputs_correct_on_all_8_inputs": true,
+    "basis_full_fanin2": true,
+    "size_le_8": true,
+    "all_ok": true
+   }
+  }
+ ],
+ "min_size": 8,
+ "searched_from": 0,
+ "circuit": {
+  "n": 3,
+  "gates": [
+   [
+    "or",
+    [
+     0,
+     1
+    ]
+   ],
+   [
+    "and",
+    [
+     0,
+     1
+    ]
+   ],
+   [
+    "not",
+    [
+     3
+    ]
+   ],
+   [
+    "or",
+    [
+     4,
+     5
+    ]
+   ],
+   [
+    "or",
+    [
+     2,
+     6
+    ]
+   ],
+   [
+    "and",
+    [
+     2,
+     6
+    ]
+   ],
+   [
+    "not",
+    [
+     7
+    ]
+   ],
+   [
+    "or",
+    [
+     8,
+     9
+    ]
+   ]
+  ],
+  "outputs": [
+   10
+  ]
+ },
+ "all_unsat_certified": true
+}

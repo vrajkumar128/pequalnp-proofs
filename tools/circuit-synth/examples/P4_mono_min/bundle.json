@@ -1,0 +1,167 @@
+{
+ "tool": "circuit_synth 1.0",
+ "date": "2026-11-24T03:36:36Z",
+ "query": "minimum",
+ "target": {
+  "n": 4,
+  "tables": [
+   "0xf8c8"
+  ],
+  "names": [
+   "P4"
+  ],
+  "desc": "graph edge function, edges [(0, 1), (1, 2), (2, 3)]",
+  "row_mode": "monotone",
+  "nrows": 6
+ },
+ "basis": "mono",
+ "mode": "nf",
+ "sb": "used,distinct,order,relevant",
+ "prefix": [],
+ "exists": [],
+ "forbid": [],
+ "restrictions": [],
+ "sizes": [
+  {
+   "size": 0,
+   "status": "UNSAT",
+   "reason": "UNSAT: no gate for a non-trivial output"
+  },
+  {
+   "size": 1,
+   "status": "UNSAT",
+   "vars": 33,
+   "clauses": 128,
+   "seconds": 0.068,
+   "solver": "kissat",
+   "cnf_sha256": "47c390520b0b8892e94ceaa0fdaede18b8130590c5651f1e65d2c373e002b906",
+   "proof_sha256": "1c5548ddaf9adb2b3401b4b677be15f28d46652c0572bd95d6db787013fe669e",
+   "proof_bytes": 285,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.065,
+   "cnf": "size01.cnf",
+   "proof": "size01.drat"
+  },
+  {
+   "size": 2,
+   "status": "UNSAT",
+   "vars": 78,
+   "clauses": 309,
+   "seconds": 0.069,
+   "solver": "kissat",
+   "cnf_sha256": "f29de78db5e7f22214308d63a6a7d301aafab2698d179f8c1d6ba758a542f276",
+   "proof_sha256": "ee1da4eca8a8b1a80bba21abf783f07fcee02894c77075c226ebf377070f700d",
+   "proof_bytes": 1047,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.066,
+   "cnf": "size02.cnf",
+   "proof": "size02.drat"
+  },
+  {
+   "size": 3,
+   "status": "UNSAT",
+   "vars": 135,
+   "clauses": 556,
+   "seconds": 0.073,
+   "solver": "kissat",
+   "cnf_sha256": "dda84d391148ced3635d30089b0f8cc7e018eb03e07c1aa8a654612455ce98f0",
+   "proof_sha256": "cf039e90a500f53d3acc023a88158c0eb1064bd2781410dbd3a3df92b3c47ac3",
+   "proof_bytes": 21909,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.067,
+   "cnf": "size03.cnf",
+   "proof": "size03.drat"
+  },
+  {
+   "size": 4,
+   "status": "SAT",
+   "vars": 204,
+   "clauses": 873,
+   "seconds": 0.014,
+   "solver": "kissat",
+   "cnf_sha256": "9099967e9e98b68e4f54eb8a3c651ed6379c1476a7459ea1ec6027b278c2aca3",
+   "cnf": "size04.cnf",
+   "circuit": {
+    "n": 4,
+    "gates": [
+     [
+      "and",
+      [
+       0,
+       1
+      ]
+     ],
+     [
+      "or",
+      [
+       1,
+       3
+      ]
+     ],
+     [
+      "or",
+      [
+       2,
+       4
+      ]
+     ],
+     [
+      "and",
+      [
+       5,
+       6
+      ]
+     ]
+    ],
+    "outputs": [
+     7
+    ]
+   },
+   "verification": {
+    "outputs_correct_on_all_16_inputs": true,
+    "basis_mono_fanin2": true,
+    "size_le_4": true,
+    "all_ok": true
+   }
+  }
+ ],
+ "min_size": 4,
+ "searched_from": 0,
+ "circuit": {
+  "n": 4,
+  "gates": [
+   [
+    "and",
+    [
+     0,
+     1
+    ]
+   ],
+   [
+    "or",
+    [
+     1,
+     3
+    ]
+   ],
+   [
+    "or",
+    [
+     2,
+     4
+    ]
+   ],
+   [
+    "and",
+    [
+     5,
+     6
+    ]
+   ]
+  ],
+  "outputs": [
+   7
+  ]
+ },
+ "all_unsat_certified": true
+}

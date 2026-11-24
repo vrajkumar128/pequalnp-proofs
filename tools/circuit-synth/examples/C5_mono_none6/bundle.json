@@ -1,0 +1,124 @@
+{
+ "tool": "circuit_synth 1.0",
+ "date": "2026-11-24T03:36:43Z",
+ "query": "none<=6",
+ "target": {
+  "n": 5,
+  "tables": [
+   "0xffeaf8c8"
+  ],
+  "names": [
+   "f"
+  ],
+  "desc": "graph edge function, edges [(0, 1), (1, 2), (2, 3), (3, 4), (4, 0)]",
+  "row_mode": "monotone",
+  "nrows": 10
+ },
+ "basis": "mono",
+ "mode": "nf",
+ "sb": "used,distinct,order,relevant",
+ "prefix": [],
+ "exists": [],
+ "forbid": [],
+ "restrictions": [],
+ "sizes": [
+  {
+   "size": 0,
+   "status": "UNSAT",
+   "reason": "UNSAT: no gate for a non-trivial output"
+  },
+  {
+   "size": 1,
+   "status": "UNSAT",
+   "vars": 49,
+   "clauses": 219,
+   "seconds": 0.071,
+   "solver": "kissat",
+   "cnf_sha256": "7a90c592f3158ee0ead5ef8fe4165f2b156771d10e737c64f4fdb5372fc8609b",
+   "proof_sha256": "0958cf220365148dc4ff47cb16128bec7869bc63952a984e79ff1f1b0da42ced",
+   "proof_bytes": 474,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.068,
+   "cnf": "size01.cnf",
+   "proof": "size01.drat"
+  },
+  {
+   "size": 2,
+   "status": "UNSAT",
+   "vars": 114,
+   "clauses": 514,
+   "seconds": 0.071,
+   "solver": "kissat",
+   "cnf_sha256": "e1af6ca8e96419b5b6b5fc4fd3da58215cd21ebf1f79115403fc9c5ddbbbdc34",
+   "proof_sha256": "b666fc99fdd8a5ea6587a5ab185d93be637ae00d5f9a9abe8c40369c7d0c308f",
+   "proof_bytes": 1655,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.067,
+   "cnf": "size02.cnf",
+   "proof": "size02.drat"
+  },
+  {
+   "size": 3,
+   "status": "UNSAT",
+   "vars": 195,
+   "clauses": 903,
+   "seconds": 0.075,
+   "solver": "kissat",
+   "cnf_sha256": "56e7bea47736bedfdc89f9b6d258ca3e6f32f824211dc7319d9d158e90dda3ab",
+   "proof_sha256": "705a9ab7cb0750fb36d7062c267c80aa97e850eb6c868b9bf47f6ca583491702",
+   "proof_bytes": 31093,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.066,
+   "cnf": "size03.cnf",
+   "proof": "size03.drat"
+  },
+  {
+   "size": 4,
+   "status": "UNSAT",
+   "vars": 292,
+   "clauses": 1390,
+   "seconds": 0.093,
+   "solver": "kissat",
+   "cnf_sha256": "b3988fc1d69ff57c1fce4a6636ca7f1f00e5226029622656c7da803a333a5054",
+   "proof_sha256": "09cf47ae03d31a21903850a2b6a121496e467f8bad5369ce73f5b42dae4f9789",
+   "proof_bytes": 37155,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.069,
+   "cnf": "size04.cnf",
+   "proof": "size04.drat"
+  },
+  {
+   "size": 5,
+   "status": "UNSAT",
+   "vars": 405,
+   "clauses": 1979,
+   "seconds": 0.133,
+   "solver": "kissat",
+   "cnf_sha256": "62445e66bdd64b7a7f490715e596d512593a5d550baffb3c54de4678d4256fdd",
+   "proof_sha256": "a34bd6788d771477773f4e36a5e291afa30e540f47d3c3d7f7fa89e5c29d7986",
+   "proof_bytes": 68178,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.085,
+   "cnf": "size05.cnf",
+   "proof": "size05.drat"
+  },
+  {
+   "size": 6,
+   "status": "UNSAT",
+   "vars": 534,
+   "clauses": 2674,
+   "seconds": 0.971,
+   "solver": "kissat",
+   "cnf_sha256": "4728cf02a7d2e2fe489c62895e00be53063eddeeb515aa643a4b2e309237c957",
+   "proof_sha256": "ffb93576065071159391a48d703385883df0ca9d3a6ffeafd4741f3cd3026799",
+   "proof_bytes": 16201179,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.625,
+   "cnf": "size06.cnf",
+   "proof": "size06.drat"
+  }
+ ],
+ "proved_none": true,
+ "proved_none_certified": true,
+ "all_unsat_certified": true
+}

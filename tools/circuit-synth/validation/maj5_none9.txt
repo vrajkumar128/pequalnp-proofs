@@ -1,0 +1,18 @@
+  size  0: UNSAT (UNSAT: no gate for a non-trivial output)
+  size  1: UNSAT (79 vars 389 clauses, 0.09s, drat-trim: s VERIFIED)
+  size  2: UNSAT (184 vars 904 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  3: UNSAT (315 vars 1573 clauses, 0.08s, drat-trim: s VERIFIED)
+  size  4: UNSAT (472 vars 2400 clauses, 0.12s, drat-trim: s VERIFIED)
+  size  5: UNSAT (655 vars 3389 clauses, 0.15s, drat-trim: s VERIFIED)
+  size  6: UNSAT (864 vars 4544 clauses, 0.40s, drat-trim: s VERIFIED)
+  size  7: UNSAT (1099 vars 5869 clauses, 1.36s, drat-trim: s VERIFIED)
+  size  8: UNSAT (1360 vars 7368 clauses, 10.34s, drat-trim: s VERIFIED)
+  size  9: UNSAT (1647 vars 9045 clauses, 171.46s, drat-trim: s VERIFIED)
+query: none<=9
+proved_none: True
+proved_none_certified: True
+all_unsat_certified: True
+
+real	3m4.123s
+user	3m1.774s
+sys	0m0.692s

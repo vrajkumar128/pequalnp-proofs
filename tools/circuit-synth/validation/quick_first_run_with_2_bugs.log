@@ -1,0 +1,43 @@
+circuit_synth validate (quick) 2026-11-24 03:17:17 UTC
+== section known
+  xor3: min with <= 1 NOT = 9, full basis = 8
+== known: 48 checks, 0 failures, 3.7s
+== section brute3
+  brute3: 1560 (function, basis, config) comparisons, cap 6
+== brute3: 1560 checks, 0 failures, 25.5s
+== section brute4
+  brute4: 166 monotone functions, 498 comparisons, cap 7
+== brute4: 498 checks, 0 failures, 63.1s
+== section graphs
+  graphs: 156 comparisons
+== graphs: 156 checks, 0 failures, 9.0s
+== section raw
+  raw: 84 comparisons (cap 4)
+== raw: 84 checks, 0 failures, 24.0s
+== section sums
+== sums: 22 checks, 0 failures, 142.9s
+== section reference
+  reference: 314 comparisons
+== reference: 314 checks, 0 failures, 10.6s
+== section restrict
+MISMATCH [restrict] tt=0xbf knot=1 plain 3 nf+restr 4 raw+restr 3
+MISMATCH [restrict] tt=0xbf full plain 3 nf+restr 4 raw+restr 3
+MISMATCH [restrict] tt=0xf5 knot=1 plain 2 nf+restr 4 raw+restr 2
+MISMATCH [restrict] tt=0xf5 full plain 2 nf+restr 4 raw+restr 2
+  restrict: 52 comparisons
+== restrict: 52 checks, 4 failures, 6.0s
+== section exists
+MISMATCH [exists] n=3 tt=0xc4 s=4 row=0 sb=order,relevant sat False enumeration True
+MISMATCH [exists] n=4 tt=0xfff0 s=3 row=1 sb=order,relevant sat False enumeration True
+MISMATCH [exists] n=4 tt=0xffaa s=3 row=4 sb=order,relevant sat False enumeration True
+MISMATCH [exists] n=4 tt=0xfafa s=2 row=10 sb=order,relevant sat False enumeration True
+MISMATCH [exists] n=4 tt=0xfafa s=2 row=6 sb=order,relevant sat False enumeration True
+  exists: 480 comparisons
+== exists: 480 checks, 5 failures, 0.6s
+== section prefix
+  prefix: 30 comparisons
+== prefix: 30 checks, 0 failures, 0.4s
+== section certs
+== certs: 9 checks, 0 failures, 1.4s
+VALIDATION FAILED: 3253 checks, 9 failures, 287.3s
+done

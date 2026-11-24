@@ -1,0 +1,175 @@
+{
+ "tool": "circuit_synth 1.0",
+ "date": "2026-11-24T03:36:41Z",
+ "query": "minimum",
+ "target": {
+  "n": 4,
+  "tables": [
+   "0xfefe",
+   "0xfffc",
+   "0xffaa"
+  ],
+  "names": [
+   "y0",
+   "y1",
+   "y2"
+  ],
+  "desc": "Boolean sums [[0, 1, 2], [1, 2, 3], [0, 3]]",
+  "row_mode": "monotone",
+  "nrows": 5
+ },
+ "basis": "mono",
+ "mode": "nf",
+ "sb": "used,distinct,order,relevant",
+ "prefix": [],
+ "exists": [],
+ "forbid": [],
+ "restrictions": [],
+ "sizes": [
+  {
+   "size": 0,
+   "status": "UNSAT",
+   "reason": "UNSAT: no gate for a non-trivial output"
+  },
+  {
+   "size": 1,
+   "status": "UNSAT",
+   "vars": 33,
+   "clauses": 127,
+   "seconds": 0.068,
+   "solver": "kissat",
+   "cnf_sha256": "4127d9ec48b364f04d9e47c4bb22b4df151187cd93b878aea9ce094d4cf733ba",
+   "proof_sha256": "7256028b18036131f2ffc56ffd747ad3e6b8e28b1841d31f5236fccacd29b92b",
+   "proof_bytes": 299,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.065,
+   "cnf": "size01.cnf",
+   "proof": "size01.drat"
+  },
+  {
+   "size": 2,
+   "status": "UNSAT",
+   "vars": 77,
+   "clauses": 303,
+   "seconds": 0.069,
+   "solver": "kissat",
+   "cnf_sha256": "d948f4df99b91220be8b6d4d2fb183facbc871624b72ff6d4968c686e0f351f9",
+   "proof_sha256": "3c2d0ded32e2e4e89c05a8d669ae898b496b5414fcb717a2045b210a62c53b7d",
+   "proof_bytes": 825,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.065,
+   "cnf": "size02.cnf",
+   "proof": "size02.drat"
+  },
+  {
+   "size": 3,
+   "status": "UNSAT",
+   "vars": 132,
+   "clauses": 539,
+   "seconds": 0.077,
+   "solver": "kissat",
+   "cnf_sha256": "6d99a8fd1d845b9d1e308c6a541b951d4db09d5bd056a62a81b3dff7c167cddf",
+   "proof_sha256": "4f111bea648a5422bb9f8213c6a3aabbebdbeb391567291d91e408b7ee1f9a4d",
+   "proof_bytes": 17197,
+   "drat_trim": "s VERIFIED",
+   "drat_seconds": 0.071,
+   "cnf": "size03.cnf",
+   "proof": "size03.drat"
+  },
+  {
+   "size": 4,
+   "status": "SAT",
+   "vars": 198,
+   "clauses": 839,
+   "seconds": 0.019,
+   "solver": "kissat",
+   "cnf_sha256": "6bb205453bf22c26e5a61145588169a2dd8fd163a6138d782cdd7350d5a5e8d1",
+   "cnf": "size04.cnf",
+   "circuit": {
+    "n": 4,
+    "gates": [
+     [
+      "or",
+      [
+       1,
+       2
+      ]
+     ],
+     [
+      "or",
+      [
+       0,
+       3
+      ]
+     ],
+     [
+      "or",
+      [
+       0,
+       4
+      ]
+     ],
+     [
+      "or",
+      [
+       3,
+       4
+      ]
+     ]
+    ],
+    "outputs": [
+     6,
+     7,
+     5
+    ]
+   },
+   "verification": {
+    "outputs_correct_on_all_16_inputs": true,
+    "basis_mono_fanin2": true,
+    "size_le_4": true,
+    "all_ok": true
+   }
+  }
+ ],
+ "min_size": 4,
+ "searched_from": 0,
+ "circuit": {
+  "n": 4,
+  "gates": [
+   [
+    "or",
+    [
+     1,
+     2
+    ]
+   ],
+   [
+    "or",
+    [
+     0,
+     3
+    ]
+   ],
+   [
+    "or",
+    [
+     0,
+     4
+    ]
+   ],
+   [
+    "or",
+    [
+     3,
+     4
+    ]
+   ]
+  ],
+  "outputs": [
+   6,
+   7,
+   5
+  ]
+ },
+ "all_unsat_certified": true
+}

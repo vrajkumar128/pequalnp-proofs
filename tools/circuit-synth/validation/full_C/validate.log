@@ -1,0 +1,16 @@
+circuit_synth validate (full) 2026-11-24 03:53:14 UTC
+== section restrict
+  restrict: 166 comparisons
+== restrict: 166 checks, 0 failures, 205.3s
+== section exists
+  exists: 3600 comparisons
+== exists: 3600 checks, 0 failures, 5.4s
+== section forbid
+  forbid: 3520 comparisons
+== forbid: 3520 checks, 0 failures, 12.2s
+== section prefix
+  prefix: 100 comparisons
+== prefix: 100 checks, 0 failures, 5.7s
+== section certs
+== certs: 11 checks, 0 failures, 3.4s
+VALIDATION PASSED: 7397 checks, 0 failures, 232.1s

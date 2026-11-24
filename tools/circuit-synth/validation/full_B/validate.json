@@ -1,0 +1,19 @@
+{
+ "checks": 8713,
+ "failures": [],
+ "by_section": {
+  "known": 0,
+  "brute3": 0,
+  "brute4": 0,
+  "graphs": 0,
+  "raw": 532,
+  "sums": 68,
+  "reference": 716,
+  "restrict": 166,
+  "exists": 3600,
+  "forbid": 3520,
+  "prefix": 100,
+  "certs": 11,
+  "lean": 0
+ }
+}

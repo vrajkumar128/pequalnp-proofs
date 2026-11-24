@@ -1,0 +1,177 @@
+  size  0: UNSAT (UNSAT: no gate for a non-trivial output)
+  size  1: UNSAT (33 vars 128 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  2: UNSAT (78 vars 309 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  3: UNSAT (135 vars 556 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  4: SAT (204 vars 873 clauses, 0.01s)
+query: minimum
+min_size: 4
+all_unsat_certified: True
+circuit (4 gates):
+  w4   = AND[0, 1]
+  w5   = OR[1, 3]
+  w6   = OR[2, 4]
+  w7   = AND[5, 6]
+  outputs: [7]
+verification (Lean semantics, all 16 inputs): {'outputs_correct_on_all_16_inputs': True, 'basis_mono_fanin2': True, 'size_le_4': True, 'all_ok': True}
+Lean file written: examples/P4_mono_min/P4.lean
+TIME .272408894 :: circuit_synth_cli min --graph 0-1,1-2,2-3 --basis mono --certify --out examples/P4_mono_min --lean examples/P4_mono_min/P4.lean --name P4
+  size  0: UNSAT (UNSAT: no gate for a non-trivial output)
+  size  1: UNSAT (35 vars 131 clauses, 0.10s, drat-trim: s VERIFIED)
+  size  2: UNSAT (84 vars 322 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  3: UNSAT (147 vars 587 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  4: SAT (224 vars 930 clauses, 0.01s)
+query: minimum
+min_size: 4
+all_unsat_certified: True
+circuit (4 gates):
+  w3   = OR[0, 1]
+  w4   = AND[0, 1]
+  w5   = AND[2, 3]
+  w6   = OR[4, 5]
+  outputs: [6]
+verification (Lean semantics, all 8 inputs): {'outputs_correct_on_all_8_inputs': True, 'basis_mono_fanin2': True, 'size_le_4': True, 'all_ok': True}
+Lean file written: examples/maj3_mono_min/maj3.lean
+TIME .307275542 :: circuit_synth_cli min --n 3 --tt 0xe8 --basis mono --certify --out examples/maj3_mono_min --lean examples/maj3_mono_min/maj3.lean --name maj3
+  size  0: UNSAT (UNSAT: no gate for a non-trivial output)
+  size  1: UNSAT (20 vars 72 clauses, 0.06s, drat-trim: s VERIFIED)
+  size  2: UNSAT (52 vars 187 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  3: UNSAT (93 vars 349 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  4: SAT (144 vars 563 clauses, 0.01s)
+query: minimum
+min_size: 4
+all_unsat_certified: True
+circuit (4 gates):
+  w2   = OR[0, 1]
+  w3   = AND[0, 1]
+  w4   = NOT[3]
+  w5   = AND[2, 4]
+  outputs: [5]
+verification (Lean semantics, all 4 inputs): {'outputs_correct_on_all_4_inputs': True, 'basis_knot=1_fanin2': True, 'size_le_4': True, 'all_ok': True}
+Lean file written: examples/xor2_onenot_min/xor2.lean
+TIME .254508348 :: circuit_synth_cli min --n 2 --tt 0b0110 --basis knot=1 --certify --out examples/xor2_onenot_min --lean examples/xor2_onenot_min/xor2.lean --name xor2
+  size  0: UNSAT (UNSAT: no gate for a non-trivial output)
+  size  1: UNSAT (36 vars 153 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  2: UNSAT (88 vars 372 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  3: UNSAT (153 vars 666 clauses, 0.08s, drat-trim: s VERIFIED)
+  size  4: UNSAT (232 vars 1040 clauses, 0.09s, drat-trim: s VERIFIED)
+  size  5: UNSAT (325 vars 1498 clauses, 0.12s, drat-trim: s VERIFIED)
+  size  6: UNSAT (432 vars 2044 clauses, 0.18s, drat-trim: s VERIFIED)
+  size  7: UNSAT (553 vars 2682 clauses, 0.37s, drat-trim: s VERIFIED)
+  size  8: UNSAT (688 vars 3416 clauses, 0.99s, drat-trim: s VERIFIED)
+  size  9: SAT (837 vars 4250 clauses, 0.34s)
+query: minimum
+min_size: 9
+all_unsat_certified: True
+circuit (9 gates):
+  w3   = OR[1, 2]
+  w4   = AND[1, 2]
+  w5   = AND[0, 3]
+  w6   = OR[4, 5]
+  w7   = NOT[6]
+  w8   = AND[3, 7]
+  w9   = OR[4, 7]
+  w10  = OR[0, 8]
+  w11  = AND[9, 10]
+  outputs: [11]
+verification (Lean semantics, all 8 inputs): {'outputs_correct_on_all_8_inputs': True, 'basis_knot=1_fanin2': True, 'size_le_9': True, 'all_ok': True}
+Lean file written: examples/xor3_onenot_min/xor3.lean
+TIME 2.349134873 :: circuit_synth_cli min --n 3 --tt 0x96 --basis knot=1 --certify --out examples/xor3_onenot_min --lean examples/xor3_onenot_min/xor3.lean --name xor3_onenot
+  size  0: UNSAT (UNSAT: no gate for a non-trivial output)
+  size  1: UNSAT (36 vars 153 clauses, 0.08s, drat-trim: s VERIFIED)
+  size  2: UNSAT (86 vars 368 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  3: UNSAT (150 vars 659 clauses, 0.08s, drat-trim: s VERIFIED)
+  size  4: UNSAT (228 vars 1030 clauses, 0.10s, drat-trim: s VERIFIED)
+  size  5: UNSAT (320 vars 1485 clauses, 0.13s, drat-trim: s VERIFIED)
+  size  6: UNSAT (426 vars 2028 clauses, 0.20s, drat-trim: s VERIFIED)
+  size  7: UNSAT (546 vars 2663 clauses, 0.84s, drat-trim: s VERIFIED)
+  size  8: SAT (680 vars 3394 clauses, 0.31s)
+query: minimum
+min_size: 8
+all_unsat_certified: True
+circuit (8 gates):
+  w3   = OR[0, 1]
+  w4   = AND[0, 1]
+  w5   = NOT[3]
+  w6   = OR[4, 5]
+  w7   = OR[2, 6]
+  w8   = AND[2, 6]
+  w9   = NOT[7]
+  w10  = OR[8, 9]
+  outputs: [10]
+verification (Lean semantics, all 8 inputs): {'outputs_correct_on_all_8_inputs': True, 'basis_full_fanin2': True, 'size_le_8': True, 'all_ok': True}
+Lean file written: examples/xor3_full_min/xor3.lean
+TIME 1.850789155 :: circuit_synth_cli min --n 3 --tt 0x96 --basis full --certify --out examples/xor3_full_min --lean examples/xor3_full_min/xor3.lean --name xor3_full
+  size  0: UNSAT (UNSAT: no gate for a non-trivial output)
+  size  1: UNSAT (33 vars 127 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  2: UNSAT (77 vars 303 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  3: UNSAT (132 vars 539 clauses, 0.08s, drat-trim: s VERIFIED)
+  size  4: SAT (198 vars 839 clauses, 0.02s)
+query: minimum
+min_size: 4
+all_unsat_certified: True
+circuit (4 gates):
+  w4   = OR[1, 2]
+  w5   = OR[0, 3]
+  w6   = OR[0, 4]
+  w7   = OR[3, 4]
+  outputs: [6, 7, 5]
+verification (Lean semantics, all 16 inputs): {'outputs_correct_on_all_16_inputs': True, 'basis_mono_fanin2': True, 'size_le_4': True, 'all_ok': True}
+Lean file written: examples/sums_min/sums.lean
+TIME .279333211 :: circuit_synth_cli min --sums 0,1,2;1,2,3;0,3 --basis mono --certify --out examples/sums_min --lean examples/sums_min/sums.lean --name sums
+  size  0: UNSAT (UNSAT: no gate for a non-trivial output)
+  size  1: UNSAT (49 vars 219 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  2: UNSAT (114 vars 514 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  3: UNSAT (195 vars 903 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  4: UNSAT (292 vars 1390 clauses, 0.09s, drat-trim: s VERIFIED)
+  size  5: UNSAT (405 vars 1979 clauses, 0.13s, drat-trim: s VERIFIED)
+  size  6: UNSAT (534 vars 2674 clauses, 0.97s, drat-trim: s VERIFIED)
+query: none<=6
+proved_none: True
+proved_none_certified: True
+all_unsat_certified: True
+TIME 1.460014141 :: circuit_synth_cli none --graph 0-1,1-2,2-3,3-4,4-0 --basis mono --size 6 --out examples/C5_mono_none6
+  size  6: UNSAT (437 vars 2378 clauses, 2.82s, drat-trim: s VERIFIED)
+query: none<=6
+proved_none: True
+proved_none_certified: True
+all_unsat_certified: True
+TIME 2.874034788 :: circuit_synth_cli none --graph 0-1,1-2,2-3,3-4,4-0 --basis mono --size 6 --out examples/C5_mono_none6_raw --mode raw --rows minterm
+  size  3: UNSAT (156 vars 619 clauses, 0.08s, drat-trim: s VERIFIED)
+query: none<=3
+proved_none: True
+proved_none_certified: True
+all_unsat_certified: True
+TIME .136120380 :: circuit_synth_cli none --graph 0-1,1-2,2-3 --basis mono --size 3 --out examples/P4_mono_none3_raw --mode raw
+  size  0: UNSAT (UNSAT: no gate for a non-trivial output)
+  size  1: UNSAT (49 vars 219 clauses, 0.08s, drat-trim: s VERIFIED)
+  size  2: UNSAT (114 vars 514 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  3: UNSAT (195 vars 903 clauses, 0.07s, drat-trim: s VERIFIED)
+  size  4: UNSAT (292 vars 1390 clauses, 0.10s, drat-trim: s VERIFIED)
+  size  5: UNSAT (405 vars 1979 clauses, 0.13s, drat-trim: s VERIFIED)
+  size  6: UNSAT (534 vars 2674 clauses, 0.97s, drat-trim: s VERIFIED)
+  size  7: SAT (679 vars 3479 clauses, 0.25s)
+query: minimum
+min_size: 7
+all_unsat_certified: True
+circuit (7 gates):
+  w5   = AND[1, 2]
+  w6   = OR[1, 4]
+  w7   = OR[2, 4]
+  w8   = OR[0, 5]
+  w9   = AND[3, 7]
+  w10  = AND[6, 8]
+  w11  = OR[9, 10]
+  outputs: [11]
+verification (Lean semantics, all 32 inputs): {'outputs_correct_on_all_32_inputs': True, 'basis_mono_fanin2': True, 'size_le_7': True, 'all_ok': True}
+Lean file written: examples/C5_mono_min/C5.lean
+TIME 1.721939205 :: circuit_synth_cli min --graph 0-1,1-2,2-3,3-4,4-0 --basis mono --certify --out examples/C5_mono_min --lean examples/C5_mono_min/C5.lean --name C5
+recheck: OK
+recheck: OK
+recheck: OK
+recheck: OK
+recheck: OK
+recheck: OK
+recheck: OK
+recheck: OK
+recheck: OK
+recheck: OK
