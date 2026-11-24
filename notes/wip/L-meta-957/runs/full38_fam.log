@@ -1,0 +1,2 @@
+  enc: s=38 maxnot=1 rows=137 vars=133054 clauses=1147609 build 1.4s
+stopped by hand at 05:37 after 38 min CPU in CEGIS iteration 1 (no answer)

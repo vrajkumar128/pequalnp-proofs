@@ -1,0 +1,20 @@
+  size  0: UNSAT (UNSAT: no gate for a non-trivial output)
+  size  1: UNSAT (419 vars 3805 clauses, 0.01s)
+  size  2: UNSAT (974 vars 8408 clauses, 0.02s)
+  size  3: UNSAT (1662 vars 13822 clauses, 0.06s)
+  size  4: UNSAT (2484 vars 20052 clauses, 0.08s)
+  size  5: UNSAT (3440 vars 27102 clauses, 0.09s)
+  size  6: UNSAT (4530 vars 34976 clauses, 0.11s)
+  size  7: UNSAT (5754 vars 43678 clauses, 0.37s)
+  size  8: UNSAT (7112 vars 53212 clauses, 0.72s)
+  size  9: UNSAT (8604 vars 63582 clauses, 1.45s)
+  size 10: UNSAT (10230 vars 74792 clauses, 8.06s)
+  size 11: UNSAT (11990 vars 86846 clauses, 54.27s)
+  size 12: UNSAT (13884 vars 99748 clauses, 249.59s)
+  size 13: UNSAT (15912 vars 113502 clauses, 2034.48s)
+query: none<=13
+proved_none: True
+
+real	39m9.407s
+user	38m48.608s
+sys	0m0.619s

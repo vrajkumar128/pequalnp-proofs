@@ -1,0 +1,9 @@
+famdef n=5 sets=[[0, 1, 2], [2, 3, 4]] flag (0,0): least s with a realized deficit, without/with bound: 9/9 ok
+famdef n=5 sets=[[0, 1, 2], [2, 3, 4]] flag (0,1): least s with a realized deficit, without/with bound: 9/9 ok
+famdef n=6 sets=[[0, 1, 2], [2, 3, 4], [4, 5, 0]] flag (0,0): least s with a realized deficit, without/with bound: 10/10 ok
+famdef n=6 sets=[[0, 1, 2], [2, 3, 4], [4, 5, 0]] flag (0,1): least s with a realized deficit, without/with bound: 11/11 ok
+famdef n=6 sets=[[0, 1, 2], [0, 3], [1, 4], [2, 5]] flag (0,0): least s with a realized deficit, without/with bound: 9/9 ok
+famdef n=6 sets=[[0, 1, 2], [0, 3], [1, 4], [2, 5]] flag (0,1): least s with a realized deficit, without/with bound: 9/9 ok
+famdef n=6 sets=[[0, 1, 2, 3], [3, 4, 5]] flag (0,0): least s with a realized deficit, without/with bound: 10/10 ok
+famdef n=6 sets=[[0, 1, 2, 3], [3, 4, 5]] flag (0,1): least s with a realized deficit, without/with bound: 10/10 ok
+VALIDATION famdef: all ok = True (350.7s)

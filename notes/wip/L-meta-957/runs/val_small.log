@@ -1,0 +1,16 @@
+eval: plain 39-gate list correct, bit-parallel = Lean-style evaluation: True
+xor2 one-NOT min 4: s=3 UNSAT, s=4 SAT ok
+xor3 one-NOT min 9: s=8 UNSAT, s=9 SAT ok
+maj3 one-NOT min 4: s=3 UNSAT, s=4 SAT ok
+5-input 0xfeeafcc0 one-NOT min 6 (L-meta-1444): s=5 UNSAT, s=6 SAT ok
+5-input 0xeeeaeaea one-NOT min 4 (L-meta-1444): s=3 UNSAT, s=4 SAT ok
+5-input 0xeeeaeee8 one-NOT min 6 (L-meta-1444): s=5 UNSAT, s=6 SAT ok
+5-input 0xeeeeeee0 one-NOT min 4 (L-meta-1444): s=3 UNSAT, s=4 SAT ok
+5-input 0xfee8eee8 one-NOT min 8 (L-meta-1444): s=7 UNSAT, s=8 SAT ok
+5-input 0xfeeaeaaa one-NOT min 8 (L-meta-1444): s=7 UNSAT, s=8 SAT ok
+5-input 0xfeeaeae8 one-NOT min 9 (L-meta-1444): s=8 UNSAT, s=9 SAT ok
+5-input 0xfeeaece8 one-NOT min 8 (L-meta-1444): s=7 UNSAT, s=8 SAT ok
+5-input 0xfeeaeee0 one-NOT min 7 (L-meta-1444): s=6 UNSAT, s=7 SAT ok
+5-input 0xfeeafcc8 one-NOT min 7 (L-meta-1444): s=6 UNSAT, s=7 SAT ok
+K-local with 3k gates (plain trees possible) SAT for k = 2, 3: ['SAT', 'SAT', 'SAT'] ok
+VALIDATION eval,small,klocsat: all ok = True (142.1s)

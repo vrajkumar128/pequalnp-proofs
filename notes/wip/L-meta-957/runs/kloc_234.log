@@ -1,0 +1,18 @@
+K=(0, 1) (orbit 78) free gates 5, library 121 wires
+  enc: s=5 maxnot=1 rows=115 vars=5629 clauses=179603 build 0.2s
+  iter 1: UNSAT 0.3s (rows 115) total 0.5s
+RESULT k=2 K=(0, 1) s=5 -> UNSAT (1 iterations, 0.5s)
+K=(0, 1, 2) (orbit 234) free gates 8, library 110 wires
+  enc: s=8 maxnot=1 rows=117 vars=10219 clauses=285299 build 0.3s
+  iter 1: UNSAT 11.1s (rows 117) total 11.5s
+RESULT k=3 K=(0, 1, 2) s=8 -> UNSAT (1 iterations, 11.5s)
+K=(0, 1, 5) (orbit 52) free gates 8, library 110 wires
+  enc: s=8 maxnot=1 rows=117 vars=10219 clauses=285299 build 0.3s
+  iter 1: UNSAT 9.2s (rows 117) total 9.5s
+RESULT k=3 K=(0, 1, 5) s=8 -> UNSAT (1 iterations, 9.5s)
+K=(0, 1, 2, 3) (orbit 468) free gates 11, library 99 wires
+  enc: s=11 maxnot=1 rows=119 vars=15784 clauses=387596 build 0.4s
+  iter 1: UNSAT 733.0s (rows 119) total 733.5s
+RESULT k=4 K=(0, 1, 2, 3) s=11 -> UNSAT (1 iterations, 733.5s)
+K=(0, 1, 2, 4) (orbit 234) free gates 11, library 99 wires
+  enc: s=11 maxnot=1 rows=119 vars=15784 clauses=387596 build 0.4s

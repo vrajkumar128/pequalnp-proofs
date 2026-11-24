@@ -1,0 +1,2 @@
+K=(0, 1, 2, 3) (orbit size 468) free gates 11, library 99 wires, deficit constraints fam
+  enc: s=11 maxnot=1 rows=119 vars=17737 clauses=532457 build 0.6s

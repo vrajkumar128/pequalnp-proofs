@@ -1,0 +1,4 @@
+K=(0, 1, 2, 3) (orbit size 468) free gates 11, library 99 wires, deficit constraints False
+  enc: s=11 maxnot=1 rows=119 vars=15784 clauses=387596 build 0.4s
+  iter 1: UNSAT 702.3s (rows 119) total 702.7s
+RESULT k=4 K=(0, 1, 2, 3) s=11 deficit=False -> UNSAT (1 iterations, 119 rows, 702.7s)
